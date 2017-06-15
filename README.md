@@ -11,5 +11,5 @@
 - ความรู้ความเข้าใจ boxmodel, layout, dom, animation for web
 งานที่ต้องการ **ตัดpsd to web statistic,psd to app**
 ## ผลงานที่เคยตัดhtml css
-http://github.com - automatic!
+http://github.com 
 
