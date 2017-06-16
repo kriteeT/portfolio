@@ -9,7 +9,9 @@
 - cross browser
 - rsponsive design 
 - ความรู้ความเข้าใจ boxmodel, layout, dom, animation for web
-งานที่ต้องการ **ตัดpsd to web statistic,psd to app**
+## งานที่ต้องการ 
+- psd to web statistic
+- psd to app
 ## ผลงานที่เคยตัดhtml css
 http://github.com 
 
