@@ -16,6 +16,6 @@
 ## งานที่ต้องการ 
 - psd to web statistic
 - psd to app statistic
-## ผลงานที่เคยตัดhtml css
+## ผลงานที่เคยcover
 http://github.com 
 
