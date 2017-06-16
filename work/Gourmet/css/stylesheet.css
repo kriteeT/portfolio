@@ -1,0 +1,217 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+input,button {
+    font-family: inherit;
+}
+.img-responsive {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body {
+    padding: 0 22px;
+}
+nav.main {
+    position: relative;
+    padding: 16px 22px;
+    margin: 0 -22px;
+    font-size: 14px;
+    -webkit-box-shadow: 0 2px 3px #979797;
+            box-shadow: 0 2px 3px #979797;
+}
+nav.main .menu:not(:nth-of-type(1)) {
+    display: none;
+}
+nav.main .menu:nth-of-type(1) {
+    letter-spacing: 3px;
+}
+header.welcome {
+    margin: 0 -22px;
+    display: block;
+    position: relative;
+}
+header.welcome h2 {
+    position: absolute;
+    bottom: 15px;;
+    left: 22px;
+    padding: 5px 8px;
+    font-size: 33px;
+    letter-spacing: 4px;
+    color: white;
+    background: rgba(87,88,92,.6);
+}
+header.welcome figure img {
+    -webkit-filter: blur(0.5px);
+            filter: blur(0.5px);
+}
+section.about figure {
+    display: none;
+}
+section.about,
+section.ourmenu{
+    text-align: center;
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 54px;
+}
+section.about h2,
+section.ourmenu h2,
+section.contact h3{
+    text-align: center;
+    font-size: 33px;
+    line-height: 2;
+    padding: 49px 40px 20px;
+}
+section.about p:nth-of-type(1) {
+    padding: 15px 0;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+section.about p+p {
+    text-align: left;
+    line-height: 1.5;
+    font-size: 18px;
+}
+section.about p:nth-last-of-type(1) {
+    color: #777777;
+    padding: 14px 0;
+    line-height: 1.4;
+    font-size: 16px;
+}
+section.about p span {
+    background: #eeeeee;
+    padding: 2px 6px;
+}
+section.ourmenu {
+    text-align: left;
+}
+section.ourmenu h4 {
+    font-size: 19px;
+    padding: 22px 0;
+}
+section.ourmenu p {
+    color: #777777;
+    line-height: 1.6;
+}
+section.ourmenu figure {
+    padding: 35px 0;
+}
+section.ourmenu figure img {
+    -webkit-filter: opacity(80%);
+            filter: opacity(80%);
+}
+
+section.contact h3 {
+    text-align: left;
+    padding-left: 0;
+    padding-bottom: 30px;
+}
+section.contact p {
+    line-height: 1.4;
+}
+.text-blue {
+   margin: 22px 0;
+    color: #607d8b;
+    font-weight: bold;   
+}
+form.contact {
+    padding: 22px 0;
+}
+input[type="text"],
+input[type="date"] {
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    padding: 18px 5px;
+    font-size: 17px;
+    margin-bottom: 16px;
+    width: 90%;
+}
+input:focus {
+    outline-color: darkgoldenrod;
+}
+button[type="submit"] {
+    border: none;
+    text-transform: uppercase;
+    padding: 11px 27px;
+    background: #f1f1f1;
+    display: block;
+    cursor: pointer;
+}
+footer.main {
+    text-align: center;
+    background: #f1f1f1;
+  padding: 44px 22px;
+   margin: 0 -22px;
+}
+footer.main a {
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    nav.main ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .logo {
+        margin-right: auto;
+    }
+    nav.main .menu {
+        display: inline-block;
+        letter-spacing: 2px;
+        
+    }
+    nav.main .menu:not(:nth-of-type(1)) {
+        display: inline-block;
+        margin-left: 11px;
+    }
+    section.about figure {
+        display: block;
+        padding: 22px 0;
+    }
+    section.about figure img {
+        -webkit-filter: opacity(80%);
+                filter: opacity(80%);
+    }
+    section.about {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding: 67px 0;
+    }
+    section.about >* {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+    }
+    section.about .contant {
+        padding-left: 42px;
+    }
+    section.about p:nth-last-of-type(1) {
+       display: none;
+    }
+}
+@media screen and (min-width: 1024px) {
+    body {
+        padding: 0 160px;
+    }
+    section.ourmenu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    section.ourmenu > * {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+    }
+    section.ourmenu h4 {
+        font-size: 22px;
+       
+    }
+    section.ourmenu p {
+        padding-bottom: 22px;
+    }
+}
