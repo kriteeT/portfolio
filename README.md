@@ -22,7 +22,7 @@
  [3](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/Gourmet/index.html),
  [4](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/PHOTOLIO/index.html),
  [5](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/Wedding/index.html),
- [6](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/admin/index.html),
+ [6](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/admin/index.html),
  [7](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/blog/index.html),
  [8](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/doe/index.html),
  [9](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/hotel/index.html),
