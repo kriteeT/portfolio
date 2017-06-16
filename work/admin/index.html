@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <title>
+        Admin Page
+    </title>
+</head>
+
+<body>
+   <div class="overlay" id="overlay">
+       
+   </div>
+    <div class="header">
+        <p  class="menu-bars" onclick="sidebar();" >
+        <i class="fa fa-bars" aria-hidden="true"></i>Menu</p>
+        <a class="logo" href="">Logo</a>
+    </div>
+    <div class="flex-md">
+
+        <nav id="nav" class="nav fix">
+           
+            <div class="nav__header">
+                <div class="column">
+                    <img src="img/avatar2.png" alt="">
+                </div>
+                <div class="column nav__header__text">
+                    <h5 class="nav__header__title">
+                        Welcome, <strong>Mike</strong>
+                    </h5>
+                    <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-user" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-cog" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="nav__body">
+                <h6 class="nav__body__title">
+                    Dashboard
+                </h6>
+                <ul class="nav__body__ul">
+                    <li class="nav__body__li close" onclick="close();"><a href=""><i class="fa fa-times" aria-hidden="true"></i>Close Menu</a></li>
+                    <li class="nav__body__li active"><a href=""><i class="fa fa-users" aria-hidden="true"></i>Overview</a></li>
+                    <li class="nav__body__li"><a href=""><i class="fa fa-eye" aria-hidden="true"></i>View</a></li>
+
+                    <li class="nav__body__li"><a href=""><i class="fa fa-users" aria-hidden="true"></i>Traffic</a></li>
+                    <li class="nav__body__li"><a href=""><i class="fa fa-bullseye" aria-hidden="true"></i>Geo</a></li>
+                    <li class="nav__body__li"><a href=""><i class="fa fa-diamond" aria-hidden="true"></i>Orders</a></li>
+                    <li class="nav__body__li"><a href=""><i class="fa fa-bell" aria-hidden="true"></i>News</a></li>
+                    <li class="nav__body__li"><a href=""><i class="fa fa-university" aria-hidden="true"></i>General</a></li>
+                    <li class="nav__body__li"><a href=""><i class="fa fa-history" aria-hidden="true"></i>History</a></li>
+                    <li class="nav__body__li"><a href=""><i class="fa fa-cog" aria-hidden="true"></i>Settings</a></li>
+
+                </ul>
+            </div>
+           
+        </nav>
+
+        <div class="main-column">
+            <div class="dashboard">
+                <h6 class="dashboard__title">
+                    <i class="fa fa-tachometer" aria-hidden="true"></i> My Dashboard
+                </h6>
+                <ul class="dashboard__ul">
+                    <li class="dashboard__li bg--red">
+                        <i class="fa fa-comment" aria-hidden="true"></i>
+                        <p class="dashboard__li__number">52</p>
+                        <p class="dashboard__li__p">Messages</p>
+                    </li>
+                    <li class="dashboard__li bg--blue">
+                        <i class="fa fa-eye" aria-hidden="true"></i>
+                        <p class="dashboard__li__number">99</p>
+                        <p class="dashboard__li__p">Views</p>
+                    </li>
+                    <li class="dashboard__li bg--green">
+                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                        <p class="dashboard__li__number">23</p>
+                        <p class="dashboard__li__p">Shares</p>
+                    </li>
+                    <li class="dashboard__li bg--yellow">
+                        <i class="fa fa-users" aria-hidden="true"></i>
+                        <p class="dashboard__li__number">50</p>
+                        <p class="dashboard__li__p">Users</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="flex-feed">
+                <div class="regions">
+                    <h5 class="regions__title">
+                        Regions
+                    </h5>
+                    <img src="img/region.jpg" alt="">
+                </div>
+                <div class="feeds">
+                    <h5 class="feeds__title">
+                        Feeds
+                    </h5>
+                    <ul class="feeds__ul">
+                        <li class="feeds__li">
+                            <i class="fa fa-user color--blue" aria-hidden="true"></i>
+                            <p class="feeds__li__text">
+                                New record, over 90 views.
+                            </p>
+                            <p class="feeds__li__time">
+                                10 mins
+                            </p>
+                        </li>
+                        <li class="feeds__li"><i class="fa fa-bell color--red" aria-hidden="true"></i>
+                            <p class="feeds__li__text">
+                                Database error.
+                            </p>
+                            <p class="feeds__li__time">
+                                15 mins
+                            </p>
+                        </li>
+                        <li class="feeds__li"><i class="fa fa-users color--yellow" aria-hidden="true"></i>
+                            <p class="feeds__li__text">
+                                New record, over 40 users.
+                            </p>
+                            <p class="feeds__li__time">
+                                17 mins
+                            </p>
+                        </li>
+                        <li class="feeds__li"><i class="fa fa-comment color--red" aria-hidden="true"></i>
+                            <p class="feeds__li__text">
+                                New comments.
+                            </p>
+                            <p class="feeds__li__time">
+                                25 mins
+                            </p>
+                        </li>
+                        <li class="feeds__li"><i class="fa fa-bookmark color--blue" aria-hidden="true"></i>
+                            <p class="feeds__li__text">
+                                Check transactions
+                            </p>
+                            <p class="feeds__li__time">
+                                28 mins
+                            </p>
+                        </li>
+                        <li class="feeds__li"><i class="fa fa-desktop color--red" aria-hidden="true"></i>
+                            <p class="feeds__li__text">
+                                CPU overload.
+                            </p>
+                            <p class="feeds__li__time">
+                                35 mins
+                            </p>
+                        </li>
+                        <li class="feeds__li"><i class="fa fa-share-alt color--green" aria-hidden="true"></i>
+                            <p class="feeds__li__text">
+                                New shares.
+                            </p>
+                            <p class="feeds__li__time">
+                                39 mins
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="general">
+                <h3 class="general__title">
+                    General Stats
+                </h3>
+                <h5 class="general__name">
+                    New Visitors
+                </h5>
+                <div class="progressbar">
+                    <div class="progressbar-width width--25">
+                   &nbsp;
+                    </div>
+                </div>
+                <h5 class="general__name">
+                    New Users
+                </h5>
+                <div class="progressbar">
+                    <div class="progressbar-width width--50">
+                        &nbsp;
+                    </div>
+                </div>
+                <h5 class="general__name">
+                    Bounce Rate
+                </h5>
+                <div class="progressbar">
+                    <div class="progressbar-width width--75">
+                        &nbsp;
+                    </div>
+                </div>
+            </div>
+
+            <div class="countries">
+                <h3 class="countries__title">
+                    Countries
+                </h3>
+                <ul class="countries__ul">
+                    <li class="countries__list">
+                        <p class="countries__name">United States</p>
+                        <p class="countries__percent">65%</p>
+                    </li>
+                    <li class="countries__list">
+                        <p class="countries__name">UK</p>
+                        <p class="countries__percent">157%</p>
+                    </li>
+                    <li class="countries__list">
+                        <p class="countries__name">Russia</p>
+                        <p class="countries__percent">5.6%</p>
+                    </li>
+                    <li class="countries__list">
+                        <p class="countries__name">Spain</p>
+                        <p class="countries__percent">2.1%</p>
+                    </li>
+                    <li class="countries__list">
+                        <p class="countries__name">India</p>
+                        <p class="countries__percent">1.9%</p>
+                    </li>
+                    <li class="countries__list">
+                        <p class="countries__name">France</p>
+                        <p class="countries__percent">1.5%</p>
+                    </li>
+                </ul>
+                <button class="btn btn-countries">
+                        More Countries  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+            </div>
+
+
+            <div class="recent-users">
+                <h5 class="recent-users__title">
+                    Recent Users
+                </h5>
+                <ul class="recent__ul">
+                    <li class="recent__list">
+                        <figure class="recent__list__img">
+                            <img src="img/avatar2.png" alt="">
+                        </figure>
+
+                        <p class="recent__list__name">Mike</p>
+                    </li>
+                    <li class="recent__list">
+                        <figure class="recent__list__img">
+                            <img src="img/avatar5.png" alt="">
+                        </figure>
+                        <p class="recent__list__name">Jill</p>
+                    </li>
+                    <li class="recent__list">
+                        <figure class="recent__list__img">
+                            <img src="img/avatar6.png" alt="">
+                        </figure>
+                        <p class="recent__list__name">Jane</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="recent-comments">
+                <h3 class="recent-comments__title">
+                    Recent Comments
+
+
+                </h3>
+                <div class="recent-comments__person">
+                    <figure class="recent-comments__img">
+                        <img src="img/avatar3.png" alt="">
+                    </figure>
+                    <div class="column">
+                        <p class="recent-comments__name">
+                            Jogn <span>Sep 29, 2014, 9:12PM</span>
+                        </p>
+                        <p class="recent-comments__des">
+                            Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+                        </p>
+                    </div>
+                </div>
+                <div class="recent-comments__person">
+                    <figure class="recent-comments__img">
+                        <img src="img/avatar1.png" alt="">
+                    </figure>
+                    <div class="column">
+                        <p class="recent-comments__name">
+                            Jogn <span>Sep 29, 2014, 9:12PM</span>
+                        </p>
+                        <p class="recent-comments__des">
+                            Keep up the GREAT work! I am cheering for you!! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="menu--footer">
+                <ul class="menu-footer">
+                    <li class="menu-footer__list menu-footer__list__title border--green">Demographic</li>
+                    <li class="menu-footer__list">Language</li>
+                    <li class="menu-footer__list">Country</li>
+                    <li class="menu-footer__list">City</li>
+                </ul>
+
+                <ul class="menu-footer">
+                    <li class="menu-footer__list menu-footer__list__title border--red ">System</li>
+                    <li class="menu-footer__list">Browser</li>
+                    <li class="menu-footer__list">OS</li>
+                    <li class="menu-footer__list">More</li>
+                </ul>
+
+                <ul class="menu-footer">
+                    <li class="menu-footer__list menu-footer__list__title border--gray">Target</li>
+                    <li class="menu-footer__list">Users</li>
+                    <li class="menu-footer__list">Active</li>
+                    <li class="menu-footer__list">Geo</li>
+                    <li class="menu-footer__list">Interests</li>
+                </ul>
+
+            </div>
+
+            <footer class="footer">
+                <h2 class="footer__title">
+                    footer
+                </h2>
+                <p class="powered">
+                    Powered by <a href="">w3.css</a>
+                </p>
+            </footer>
+        </div>
+
+    </div>
+    
+    <script>
+        var mySideBar = document.getElementById("nav");
+        var Overlay = document.getElementById("overlay");
+  
+      function sidebar() {
+          console.log('1');
+          if(mySideBar.style.display === 'block'){
+              mySideBar.style.display = 'none';
+              Overlay.style.display = 'none';
+          }else {
+              mySideBar.style.display = 'block';
+              Overlay.style.display = "block";
+          }
+      }
+        function close() {
+            mySideBar.style.display = 'none';
+            Overlay.style.display = 'none';
+        }
+    </script>
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+    
+    <script type="text/javascript">
+    	
+    	$(document).ready(function(){
+
+
+    		
+			
+
+    		setTimeout(function(){
+    			$('.dashboard__title').addClass("open");
+    		},100);
+			$(".dashboard__li").each(function(i){
+					setTimeout(function(){
+						$(".dashboard__li").eq(i).addClass("open");
+					},150*(i+1));
+				});
+    		$(window).scroll(function(){
+    			var wScroll = $(this).scrollTop();
+    			if(wScroll > $('.regions').offset().top-200){
+    				$('.regions').addClass('open');
+    			}
+    			if(wScroll > $('.feeds').offset().top-200){
+    				$('.feeds').addClass('open');
+    			}
+    			if(wScroll > $('.general').offset().top-200){
+
+    				var ProW = [25, 50, 75];
+    				for(let i =0; i<ProW.length;i++){
+    					if($.trim($(".width--"+ProW[i]).html())=='&nbsp;'){
+	    					for(let t=0;t<=ProW[i];t++){
+	    					setTimeout(function(){
+	    						$('.width--'+ProW[i]).text(t+'%');
+	    					},19*(t+1));
+	    						}
+	    						$(".width--"+ProW[i]).addClass("open");
+    					}
+    				}
+    			}
+    			if(wScroll > $('.countries').offset().top-200){
+    				$('.countries').addClass('open');
+    			}
+    			if(wScroll > $('.recent-users').offset().top-500){
+    				$('.recent-users').addClass('open');
+    			}
+    			if(wScroll > $('.recent-comments').offset().top-400){
+    				console.log('gi');
+    				$('.recent-comments__person').each(function(i){
+    					$('.recent-comments__person').eq(i).children('.recent-comments__img').addClass('open');
+    					$('.recent-comments__person').eq(i).find('.recent-comments__name').addClass('open');
+    					$('.recent-comments__person').eq(i).find('.recent-comments__des').addClass('open');
+    				});
+    			}
+    		});
+    	});
+    </script>
+</body>
+
+</html>
