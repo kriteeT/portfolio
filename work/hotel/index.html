@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+       <link rel="stylesheet" href="css/reset.css" type="text/css">
+       <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <title>Hotel</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <ul class="nav__menu">
+                <li class="nav__menu__list logo"><a href=""><i class="fa fa-bed" aria-hidden="true"></i>Logo</a></li>
+                <li class="nav__menu__list"><a href="#rooms">Rooms</a></li>
+                <li class="nav__menu__list"><a href="#about">About</a></li>
+                <li class="nav__menu__list"><a href="#contact">Contact</a></li>
+                <li class="nav__menu__list booknow"><a href="#header">Book Now</a></li>
+            </ul>
+        </nav>
+        <div id="header"class="header">
+            <figure class="header__img"><img src="img/hotel.jpg" alt=""></figure>
+            <div class="header__card">
+                <h2 class="header__card__title">
+                   <i class="fa fa-bed" aria-hidden="true"></i> Hotel Name
+                </h2>
+                <form action="index.html" class="header__card__form">
+                    <div class="column">
+                        <label for="checkIn"><i class="fa fa-calendar-o" aria-hidden="true"></i>Check In</label>
+                        <input id="checkIn" type="date">
+                    </div>
+                    <div class="column">
+                        <label for="checkOut"><i class="fa fa-calendar-o" aria-hidden="true"></i>Check OUt</label>
+                        <input id="checkOut" type="date">
+                    </div>
+                    <div class="column">
+                        <label for="adults"><i class="fa fa-male" aria-hidden="true"></i>Adults</label>
+                        <input id="adults" type="number" value="1">
+                    </div>
+                    <div class="column">
+                        <label for="kids"><i class="fa fa-smile-o" aria-hidden="true"></i>Kids</label>
+                        <input id="kids" type="number" value="0">
+                    </div>
+                    <button class="btn btn-form" type="submit"><i class="fa fa-search" aria-hidden="true"></i>Search availability</button>
+                </form>
+            </div>
+        </div>
+        
+        <div id="rooms" class="rooms">
+            <h2 class="rooms__title">
+                Rooms
+            </h2>
+            <p class="rooms__des">
+                Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.
+            </p>
+                <form action="index.html" class="rooms__card__form">
+                    <div class="column">
+                        <label for="checkIn"><i class="fa fa-calendar-o" aria-hidden="true"></i>Check In</label>
+                        <input id="checkIn" type="date">
+                    </div>
+                    <div class="column">
+                        <label for="checkOut"><i class="fa fa-calendar-o" aria-hidden="true"></i>Check OUt</label>
+                        <input id="checkOut" type="date">
+                    </div>
+                    <div class="column column-short">
+                        <label for="adults"><i class="fa fa-male" aria-hidden="true"></i>Adults</label>
+                        <input id="adults" type="number" value="1">
+                    </div>
+                    <div class="column column-short">
+                        <label for="kids"><i class="fa fa-smile-o" aria-hidden="true"></i>Kids</label>
+                        <input id="kids" type="number" value="0">
+                    </div>
+                    <button class="btn btn-rooms" type="submit">Search </button>
+                </form>
+                <div class="rooms__wrapper">
+                    <div class="rooms__card">
+                        <figure class="rooms__card__img"><img src="img/room_single.jpg" alt=""></figure>
+                        <div class="rooms__card__body">
+                            <h2 class="rooms__card__body__title">
+                                Single Room
+                            </h2>
+                            <p class="rooms__card__body__price">
+                                From $99
+                            </p>
+                            <p class="rooms__card__body__type">
+                                Single bed
+                            </p>
+                            <p class="rooms__card__body__size">
+                                15m <sup>2</sup>
+                            </p>
+                            <p class="rooms__card__body__service">
+                                <i class="fa fa-shower" aria-hidden="true"></i>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <i class="fa fa-wifi" aria-hidden="true"></i>
+                            </p>
+                            <button class="btn btn--cardrooms">
+                                Choose Room
+                            </button>
+                        </div>
+                    </div>
+                    <div class="rooms__card">
+                        <figure class="rooms__card__img"><img src="img/room_double.jpg" alt=""></figure>
+                        <div class="rooms__card__body">
+                            <h2 class="rooms__card__body__title">
+                                Double Room
+                            </h2>
+                            <p class="rooms__card__body__price">
+                                From $149
+                            </p>
+                            <p class="rooms__card__body__type">
+                                Single bed
+                            </p>
+                            <p class="rooms__card__body__size">
+                                25m <sup>2</sup>
+                            </p>
+                            <p class="rooms__card__body__service">
+                                <i class="fa fa-shower" aria-hidden="true"></i>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <i class="fa fa-wifi" aria-hidden="true"></i>
+                            </p>
+                            <button class="btn btn--cardrooms">
+                                Choose Room
+                            </button>
+                        </div>
+                    </div>
+                    <div class="rooms__card">
+                        <figure class="rooms__card__img"><img src="img/room_deluxe.jpg" alt=""></figure>
+                        <div class="rooms__card__body">
+                            <h2 class="rooms__card__body__title">
+                                Deluxe Room
+                            </h2>
+                            <p class="rooms__card__body__price">
+                                From $199
+                            </p>
+                            <p class="rooms__card__body__type">
+                                Single bed
+                            </p>
+                            <p class="rooms__card__body__size">
+                                40m <sup>2</sup>
+                            </p>
+                            <p class="rooms__card__body__service">
+                                <i class="fa fa-shower" aria-hidden="true"></i>
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <i class="fa fa-wifi" aria-hidden="true"></i>
+                            </p>
+                            <button class="btn btn--cardrooms">
+                                Choose Room
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div id="about" class="about">
+            <div class="column">
+                <h2 class="about__title">
+                    About
+                </h2>
+                <p class="about__des">
+                    Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                </p>
+                <p class="about__accept">
+                    We accept: 
+                    <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                    <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+                    <i class="fa fa-cc-amex" aria-hidden="true"></i>
+                    <i class="fa fa-cc-paypal" aria-hidden="true"></i>
+                </p>
+            </div>
+            <div class="column">
+                <div class="map">map</div>
+            </div>
+        </div>
+        <ul class="contact--red">
+            <li class="contact__list"><i class="fa fa-map-marker" aria-hidden="true"></i>423 Some adr, Chicago, US</li>
+            <li class="contact__list"><i class="fa fa-phone" aria-hidden="true"></i>Phone: +00151515</li>
+            <li class="contact__list"><i class="fa fa-envelope" aria-hidden="true"></i>Email: mail@mail.com</li>
+        </ul>
+        <div class="warn">
+            <i class="fa fa-exclamation" aria-hidden="true"></i>
+             On demand, we can offer playstation, babycall, children care, dog equipment, etc.
+        </div>
+        <div class="our-hotel">
+            <h2 class="our-hotel__title">
+                Our Hotels
+            </h2>
+            <p class="our-hotel__des">
+                You can find our hotels anywhere in the world:
+            </p>
+            <div class="wrapper-our-hotel">
+                
+            
+            <div class="column">
+                <figure class="our-hotel__img"><img src="img/cinqueterre.jpg" alt="">
+                    <figcaption class="our-hotel__des">
+                        Cinque Terre
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="column">
+                <figure class="our-hotel__img"><img src="img/newyork2.jpg" alt="">
+                    <figcaption class="our-hotel__des">
+                        New York
+                    </figcaption>
+                </figure>
+                <figure class="our-hotel__img"><img src="img/sanfran.jpg" alt="">
+                    <figcaption class="our-hotel__des">
+                        San Francisco
+                    </figcaption>
+                </figure>
+                <figure class="our-hotel__img"><img src="img/pisa.jpg" alt="">
+                    <figcaption class="our-hotel__des">
+                        Pisa
+                    </figcaption>
+                </figure>
+                <figure class="our-hotel__img"><img src="img/paris.jpg" alt="">
+                    <figcaption class="our-hotel__des">
+                        Paris
+                    </figcaption>
+                </figure>
+            </div>
+            </div>
+        </div>
+        <div class="sub-email">
+            <h2 class="sub-email__title">
+                Get the best offers first!
+            </h2>
+            <p class="sub-email__des">
+                Join our newsletter.
+            </p>
+            <form action="index.html" class="form-email">
+                <label for="email">E-mail</label>
+                <input type="email" placeholder="Your Email address">
+                <button class="btn btn--sub-email">
+                    Subscribe
+                </button>
+            </form>
+        </div>
+        <div id="contact" class="contact">
+            <h2 class="contact__title">
+                Contact
+            </h2>
+            <p class="contact__des">
+                If you have any questions.do not hesitate to ask them.
+            </p>
+            <ul class="contact__ul">
+                <li class="contact__li"><i class="fa fa-map-marker" aria-hidden="true"></i>Chicago, US</li>
+                <li class="contact__li"><i class="fa fa-phone" aria-hidden="true"></i>Phone: +00151515</li>
+                <li class="contact__li"><i class="fa fa-envelope" aria-hidden="true"></i>Email: mail@mail.com</li>
+            </ul>
+            <form action="index.html" class="form-contact">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Message">
+                <button class="btn btn-contact" value="submit">send message</button>
+            </form>
+        </div>
+        
+        <footer class="footer">
+            <h2 class="footer__title">
+                Find Us On
+            </h2>
+            <ul class="footer__social">
+                <li class="footer__social__list"><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
+                <li class="footer__social__list"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <li class="footer__social__list"><i class="fa fa-snapchat" aria-hidden="true"></i></li>
+                <li class="footer__social__list"><i class="fa fa-pinterest" aria-hidden="true"></i></li>
+                <li class="footer__social__list"><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li class="footer__social__list"><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+            </ul>
+            <p class="powered">
+                Powered by <a href="">w3.css</a>
+            </p>
+        </footer>
+    </body>
+</html>
