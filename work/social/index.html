@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF=8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <title>Social</title>
+</head>
+
+<body>
+    <!--Nav-->
+    <nav id="nav" class="nav">
+        <a href="#nav" class="logo"><i class="fa fa-home" aria-hidden="true"></i>Logo</a>
+        <a  class="bars" onclick="navside();"><i class="fa fa-bars" aria-hidden="true"></i></a>
+        <ul id="nav-side" class="nav__menu">
+            <li class="nav__menu__list"><a title="News" href=""><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+            <li class="nav__menu__list"><a title="Account Settings" href=""><i class="fa fa-user" aria-hidden="true"></i></a></li>
+            <li class="nav__menu__list"><a title="Messages" href=""><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+            <li class="nav__menu__list">
+                <a title="Notifications" href="">
+                    <i class="fa fa-bell" aria-hidden="true"></i>
+                    <span class="bell-num">4</span>
+                </a>
+            </li>
+            <li class="nav__menu__list">
+                <a href=""><img src="img/avatar2.png" alt=""></a>
+            </li>
+        </ul>
+        <ul id="hide-nav" class="nav__mobile">
+            <li class="nav__mobile__list"><a href="">Link 2</a></li>
+            <li class="nav__mobile__list"><a href="">Link 3</a></li>
+            <li class="nav__mobile__list"><a href="">My Profile</a></li>
+        </ul>
+    </nav>
+
+    <!--Main contect -->
+    <div class="flex-md">
+        <div class="column column-left">
+            <div class="card card--profile">
+                <h2 class="card--profile__title">
+                    My Profile
+                </h2>
+                <figure class="card--profile__img">
+                    <img src="img/avatar3.png" alt="">
+                </figure>
+                <ul class="card--profile__ul">
+                    <li class="card--profile__li"><i class="fa fa-pencil" aria-hidden="true"></i>Designer,UI</li>
+                    <li class="card--profile__li"><i class="fa fa-home" aria-hidden="true"></i>London, UK</li>
+                    <li class="card--profile__li"><i class="fa fa-birthday-cake" aria-hidden="true"></i>April 1,1988</li>
+                </ul>
+            </div>
+            <ul class="card card--userMunu">
+                <li class="card--userMunu__li"><a href=""><i class="fa fa-circle-o-notch" aria-hidden="true"></i> My Groups</a></li>
+                <li class="card--userMunu__li"><a href=""><i class="fa fa-calendar-check-o" aria-hidden="true"></i> My Events</a></li>
+                <li class="card--userMunu__li"><a href=""><i class="fa fa-users" aria-hidden="true"></i> MyPhotos</a></li>
+            </ul>
+            <div class="card card--tags">
+                <h5 class="card--tags__title">
+                    Interests
+                </h5>
+                <ul class="tags">
+                    <li class="tag">News</li>
+                    <li class="tag">W3Schools</li>
+                    <li class="tag">Labels</li>
+                    <li class="tag">Games</li>
+                    <li class="tag">Friends</li>
+                    <li class="tag">Games</li>
+                    <li class="tag">Friends</li>
+                    <li class="tag">Food</li>
+                    <li class="tag">Design</li>
+                    <li class="tag">Art</li>
+                    <li class="tag">Photos</li>
+                </ul>
+            </div>
+            <div class="card card--popUp">
+               <div class="card--popUp__header">
+                   <h3 class="card--popUp__title">
+                    Hey!
+                </h3>
+                <i class="fa fa-times" aria-hidden="true"></i>
+               </div>
+                
+                <p class="card--PopUp__p">
+                    People are looking at your profile.Find out who
+                </p>
+            </div>
+        </div>
+        <div class="column column-center">
+            <div class="card card--upStatus">
+                <h3 class="card--upStatus__title">
+                    Social Media template by w3.css
+                </h3>
+                <p contenteditable="true" class="card--upStatus__p">
+                    Status: Feeling Blue
+                </p>
+                <a href="" class="btn btn--post">
+                    <i class="fa fa-pencil" aria-hidden="true"></i>Post
+                </a>
+            </div>
+            <div class="card card--main">
+                <div class="card--main__header">
+                    <figure class="card--main__header__img">
+                        <img src="img/avatar2.png" alt="">
+                    </figure>
+                    <p class="card--main__header__time">
+                        1 min
+                    </p>
+                    <h2 class="card--main__header__name">
+                        Jogn Doe
+                    </h2>
+                </div>
+                <div class="card--main__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="flex-md flex-img">
+                        <figure class="card--main__body__img">
+                            <img src="img/lights.jpg" alt="">
+                        </figure>
+                        <figure class="card--main__body__img">
+                            <img src="img/nature.jpg" alt="">
+                        </figure>
+                    </div>
+
+                </div>
+                <div class="card--main__footer">
+                    <a href="" class="btn btn--like"><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</a>
+                    <a href="" class="btn btn--comment">Comment</a>
+                </div>
+            </div>
+            
+              <div class="card card--main">
+                <div class="card--main__header">
+                    <figure class="card--main__header__img">
+                        <img src="img/avatar5.png" alt="">
+                    </figure>
+                    <p class="card--main__header__time">
+                        1 min
+                    </p>
+                    <h2 class="card--main__header__name">
+                        Jogn Doe
+                    </h2>
+                </div>
+                <div class="card--main__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    
+
+                </div>
+                <div class="card--main__footer">
+                    <a href="" class="btn btn--like"><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</a>
+                    <a href="" class="btn btn--comment">Comment</a>
+                </div>
+            </div>
+            
+              <div class="card card--main">
+                <div class="card--main__header">
+                    <figure class="card--main__header__img">
+                        <img src="img/avatar5.png" alt="">
+                    </figure>
+                    <p class="card--main__header__time">
+                        1 min
+                    </p>
+                    <h2 class="card--main__header__name">
+                        Jogn Doe
+                    </h2>
+                </div>
+                <div class="card--main__body">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="flex-md flex-img flex-grow-1">
+                        <figure class="card--main__body__img">
+                            <img class="width-100" src="img/nature.jpg" alt="">
+                        </figure>
+                      
+                    </div>
+
+                </div>
+                <div class="card--main__footer">
+                    <a href="" class="btn btn--like"><i class="fa fa-thumbs-up" aria-hidden="true"></i>Like</a>
+                    <a href="" class="btn btn--comment">Comment</a>
+                </div>
+            </div>
+        </div>
+        <div class="column column-right">
+            <div class="card card--event">
+                <h5 class="card--event__title">
+                    Upcoming Events:
+                </h5>
+                <figure class="card--event__img">
+                    <img src="img/forest.jpg" alt="">
+                </figure>
+                <p class="card--event__name">
+                    Holiday
+                </p>
+                <p class="card--event__date">
+                    Friday 15:00
+                </p>
+                <a href="" class="btn--info">Info</a>
+            </div>
+            <div class="card card--friend">
+                <h5 class="card--friend__title">
+                    Friend Request
+                </h5>
+                <figure class="card--friend__img">
+                    <img src="img/avatar6.png" alt="">
+                </figure>
+                <p class="card--friend__name">
+                    Jane Doe
+                </p>
+                <div class="card--friend__choose">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="card card--ads">
+                ADS
+            </div>
+            <div class="card card--bug">
+                <i class="fa fa-bug" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="footer">
+        <p class="footer-text">
+            Footer
+        </p>
+
+        <p class="powered">
+            Powered by <a href="">w3.css</a>
+        </p>
+    </footer>
+    <script>
+        function navside() {
+            console.log('1');
+            var nav = document.getElementById('hide-nav');
+            if(nav.style.display === 'block') {
+                nav.style.display = 'none';
+            }else {
+                nav.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+
+</html>

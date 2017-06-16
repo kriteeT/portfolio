@@ -1,0 +1,424 @@
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+}
+.is-upper {
+    text-transform: uppercase;
+}
+.img-responsive {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.icon-social {
+    display: none;
+}
+.text-top {
+    text-align: center;
+    padding: 70px 0 50px;
+}
+.text-top h1 {
+    font-size: 46px;
+    padding-bottom: 20px;
+}
+.text-top h6 {
+    font-size: 16px;
+    display: block;
+    
+}
+.text-top h6 span {
+    background: black;
+    color: white;
+    padding: 2px 6px;
+    display: inline-block;
+}
+
+figure.top {
+    position: relative;
+    
+}
+.text-welcome {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    padding: 12px 24px;
+}
+.text-welcome h6 {
+    font-size: 37px;
+    margin-bottom: 20px;
+}
+.text-welcome h1 {
+    display: none;
+}
+.btn-sub {
+    font-family: inherit;
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    background: lightgray;
+    padding: 12px 24px;
+    border: none;
+    font-weight: 300;
+    opacity: .7;
+    cursor: pointer;
+}
+.btn-sub:hover {
+    opacity: 1;
+}
+.columns {
+    background: #eeeeee;
+    padding: 25px 25px;
+}
+.post {
+    background: white;
+    text-align: center;
+    padding: 25px 24px;
+    margin-bottom: 33px;
+}
+.post-title {
+    font-size: 24px;
+}
+.info {
+    font-size: 17px;
+    padding: 20px 0 25px;
+}
+.post .date {
+    color: #676767;
+}
+.post .content {
+    text-align: left;
+    line-height: 1.6;
+    font-family: sans-serif;
+    padding: 15px 0;
+}
+.post .content strong {
+    font-weight: 700;
+}
+.wrapper-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.btn-like {
+    border: 1px solid lightgray;
+    background: white;
+    padding: 11px 15px;
+    cursor: pointer;
+}
+.btn-like:hover {
+    background: darkgray;
+}
+.btn-replies {
+    border: none;
+    background: black;
+    color: white;
+    padding: 11px 15px;
+}
+.btn-replies span {
+    background: white;
+    color: black;
+    padding: 2px 7px;
+}
+.writer {
+    text-align: left;
+    border-top: 1px solid #eeeeee;
+    padding: 19px 0;
+}
+.writer img {
+    width: 40%;
+    height: 40%;
+}
+.writer-name {
+    padding: 15px 0;
+}
+.writer p {
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.writer-name strong {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card-me {
+     background: black;
+     color: white;
+     line-height: 1.6;
+    font-weight: 300;
+}
+.my-name {
+    font-weight: 400;
+    padding-bottom: 13px;
+}
+.card-me img {
+    -webkit-filter: grayscale(70%);
+            filter: grayscale(70%);
+}
+.about-me {
+    padding: 12px 22px;
+}
+.card-style {
+    margin: 33px 0;
+    background: white;
+}
+.card-style h4 {
+    color: white;
+    background: black;
+    padding: 22px 22px;
+    font-size: 20px;
+}
+.popular-post {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: start;
+        align-content: flex-start;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 12vh;
+    border-top: 1px solid #eeeeee;
+    padding: 17px 22px;
+    font-weight: 300;
+    font-size: 15px;
+}
+.name-popular {
+    font-size: 18px;
+    
+}
+.popular-post img {
+    max-width: 10%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-right: 15px;
+}
+@media screen and (max-width: 320px) {
+    .popular-post img {
+        max-width: 32%;
+    }
+}
+.card-ad {
+    background: white;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+.AD {
+    background: #f1f1f1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 200px;
+    margin: 20px 20px 0;
+}
+.wrapper-tags {
+    padding: 8px 0 18px 22px;
+}
+.tags {
+    font-weight: 300;
+    font-size: 14px;
+}
+.tag.active {
+    background: black;
+    color: white;
+}
+.tag {
+    display: inline-block;
+    background: #f1f1f1;
+    margin: 8px 3px;
+    padding: 2px 8px;
+}
+.wrapper-inspiration {
+    padding: 11px 22px;
+    
+}
+.img-inspiration {
+    display: inline-block;
+    width: 49%;
+    padding: 5px;
+}
+.img-inspiration img {
+    margin: 0 auto;
+}
+
+.follow-me li {
+    display: inline-block;
+    font-size: 25px;
+    margin: 15px 3px;
+}
+.follow-me li:nth-of-type(1) {
+    margin-left: 22px;
+}
+
+.subscribe {
+    font-weight: 300;
+    padding-bottom: 18px;
+}
+.subscribe p {
+    padding: 15px 22px;
+    line-height: 1.6;
+}
+form.email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0 22px;
+}
+input[type="email"] {
+    padding: 8px 4px;
+    margin-bottom: 14px;
+}
+.btn-submit {
+    cursor: pointer;
+    color: white;
+    background: #f44336;
+    border: none;
+    font-size: 17px;
+    padding: 9px 0;
+}
+footer.main {
+    padding: 30px 25px 33px;
+    background: #616161;
+}
+.to-top {
+    background: black;
+    color: white;
+    padding: 12px 22px;
+    border: none;
+    font-size: 15px;
+}
+.to-top i {
+    margin-right: 5px;
+}
+.powered {
+    padding: 33px 0;
+    color: white;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.powered a {
+    text-decoration: underline;
+}
+@media screen and (min-width: 768px) {
+    .icon-social {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background: black;
+        color: white;
+        padding: 24px;
+    }
+    .icon-social li {
+        margin-right: 25px;
+    }
+    .icon-social li:nth-last-of-type(1) {
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .text-welcome h1 {
+        display: block;
+        font-size: 60px;
+        padding: 12px 0 22px;
+    }
+    .text-top > h1 {
+        font-weight: bold;
+    }
+    .writer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -ms-flex-line-pack: start;
+            align-content: flex-start;
+        height: 21vh;
+    }
+    .writer img {
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+        max-width: 14%;
+        margin-right: 45px;
+    }
+    
+    .popular-post {
+        height: 16vh;
+    }
+    .popular-post img {
+        max-width: 9%;
+    }
+    
+}
+@media screen and (min-width: 1024px) {
+    .writer {
+        height: 17vh;
+    }
+    .columns {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .main-column {
+        -webkit-box-flex: 2;
+            -ms-flex: 2;
+                flex: 2;
+    }
+    .secound-column {
+        -webkit-box-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        padding-left: 55px;
+    }
+    .text-top {
+        padding: 82px 0 65px;
+    }
+    .post {
+        padding-bottom: 0px;
+    }
+    .popular-post img {
+        max-width: 25%;
+    }
+    input[type="email"] {
+        padding: 12px 22px;
+    }
+}
+
+input[type="email"] {
+    border: 1px solid #eeeeee;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>w3.css template</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav">
+        <i id="bars" class="fa fa-bars" aria-hidden="true"></i>
+        <ul class="nav__menu">
+            <li class="nav__menu__list"><a href="" class="nav__menu__link">About</a></li>
+            <li class="nav__menu__list"><a href="" class="nav__menu__link">Photos</a></li>
+            <li class="nav__menu__list"><a href="" class="nav__menu__link">Shop</a></li>
+            <li class="nav__menu__list"><a href="" class="nav__menu__link">Contact</a></li>
+            <li class="nav__menu__list"><a href="" class="nav__menu__link"><i id="close" class="fa fa-times" aria-hidden="true"></i></a></li>
+        </ul>
+    </nav>
+    <div class="title">
+        <h2 class="title__name">photolio</h2>
+        <p class="title__des">A template made by w3.css for photographers</p>
+        <button id="btn-padding" class="btn-primare">Toggle Grid Padding</button>
+    </div>
+    <div class="portfolio">
+        <div class="portfolio__column">
+            <figure class="profolio__list"><img src="img/rocks.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"><img src="img/sound.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"><img src="img/woods.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"><img src="img/rock.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"><img src="img/nature.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"> <img src="img/mist.jpg" alt="" class="protfolio__img"></figure>
+        </div>
+        <div class="portfolio__column">
+            <figure class="profolio__list"><img src="img/coffee.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"><img src="img/bridge.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"><img src="img/notebook.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"><img src="img/london.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"> <img src="img/rocks.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"><img src="img/avatar_g.jpg" alt="" class="protfolio__img"></figure>
+        </div>
+        <div class="portfolio__column">
+            <figure class="profolio__list .protfolio__list--small"><img src="img/mist.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"> <img src="img/workbench.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"><img src="img/gondol.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"><img src="img/skies.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"><img src="img/lights.jpg" alt="" class="protfolio__img"></figure>
+            <figure class="profolio__list"> <img src="img/workshop.jpg" alt="" class="protfolio__img"></figure>
+        </div>
+
+
+
+    </div>
+    <footer class="footer">
+        <ul class="social">
+            <li class="social__list"><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+            <li class="social__list"><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li class="social__list"><a href=""><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
+            <li class="social__list"><a href=""><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+            <li class="social__list"><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="social__list"><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        </ul>
+        <p class="powered">
+            Powered by <a href="">w3.css</a>
+        </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script>
+        $('#bars').click(function() {
+            $('.nav__menu').addClass('open');
+        });
+        $('#close').click(function() {
+            $('.nav__menu').removeClass('open');
+        });
+        $('#btn-padding').click(function(){
+            $('.profolio__list').toggleClass('padding');
+        });
+
+    </script>
+</body>
+
+</html>
