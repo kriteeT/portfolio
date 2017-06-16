@@ -7,7 +7,7 @@
 - [W3Schools](https://www.w3schools.com/) ตลอด
 - [CSS-Tricks](https://css-tricks.com/) ตลอด
 ##  ความสามารถ 
-- html5, css3
+- html5, css3(bootstrap and foundation)
 - jquery for animation
 - git
 - cross browser
