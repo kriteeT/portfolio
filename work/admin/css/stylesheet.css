@@ -106,7 +106,6 @@ i {
     display: none;
     -webkit-animation: side .3s ease;
             animation: side .3s ease;
-    height: 100vh;
     z-index: 99;
 }
 .menu-bars {
