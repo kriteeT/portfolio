@@ -101,6 +101,7 @@ i {
     overflow-y: auto;
     position: fixed;
     top: 42px;
+    bottom: 0;
     background: white;
     display: none;
     -webkit-animation: side .3s ease;
