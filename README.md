@@ -29,4 +29,5 @@
  [10](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/laptop/index.html),
  [11](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/lmpreaz/index.html),
  [12](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/shop/index.html)
+ [13](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/addfile/work/practice/index.html)
 
