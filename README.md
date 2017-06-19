@@ -17,17 +17,17 @@
 - psd to web statistic
 - psd to app statistic
 ## ผลงานที่เคยcover html, css, js
-[1](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/About-me/index.html), 
- [2](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/social/index.html),
- [3](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/Gourmet/index.html),
- [4](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/PHOTOLIO/index.html),
- [5](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/Wedding/index.html),
+[1](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/About-me/index.html), 
+ [2](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/social/index.html),
+ [3](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/Gourmet/index.html),
+ [4](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/PHOTOLIO/index.html),
+ [5](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/Wedding/index.html),
  [6](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/admin/index.html),
- [7](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/blog/index.html),
- [8](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/doe/index.html),
- [9](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/hotel/index.html),
- [10](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/laptop/index.html),
- [11](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/lmpreaz/index.html),
- [12](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile/work/shop/index.html)
- [13](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/addfile/work/practice/index.html)
+ [7](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/blog/index.html),
+ [8](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/doe/index.html),
+ [9](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/hotel/index.html),
+ [10](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/laptop/index.html),
+ [11](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/lmpreaz/index.html),
+ [12](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/shop/index.html)
+ [13](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/practice/index.html)
 
