@@ -734,9 +734,11 @@ strong {
 			.Checksw:checked {
 				outline: none;
 			}
-			.checksw:focus {
+			.Checksw:focus {
 				outline: none;
 			}
+			.Checksw:hover {
+				outline: none;
 			.switch {
 				position: absolute;
 				top: 0;
