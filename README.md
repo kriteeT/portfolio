@@ -28,7 +28,7 @@
  [9](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/hotel/index.html),
  [10](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/laptop/index.html),
  [11](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/lmpreaz/index.html),
- [12](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/shop/index.html)
- [13](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/practice/index.html)
- [15](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/mailbox/index.html)
+ [12](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/shop/index.html),
+ [13](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/practice/index.html),
+ [14](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/mailbox/index.html)
 
