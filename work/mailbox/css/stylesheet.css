@@ -731,6 +731,12 @@ strong {
 				z-index: 999;
 				display: none;
 			}
+			.Checksw:checked {
+				outline: none;
+			}
+			.checksw:focus {
+				outline: none;
+			}
 			.switch {
 				position: absolute;
 				top: 0;
