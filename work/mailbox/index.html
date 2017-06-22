@@ -870,7 +870,11 @@ crossorigin="anonymous"></script>
 			event.stopPropagation()
 			removeAllmenu(arrayMenu);
 			$('#SideMenu').toggleClass('open');
+			
 			$("#tab1").addClass('open');
+			
+			$('.sideMenu__tab li').removeClass('active');
+			$('.sideMenu__tab li').eq(0).addClass('active');
 		});
 
 		$('body').click(function(){
