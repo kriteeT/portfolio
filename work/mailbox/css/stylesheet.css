@@ -1244,7 +1244,7 @@ form.header-web__form {
 /*Media screen min 1024*/
 	@media screen and (min-width: 1024px) {
 		.list-list .dropdown  {
-			min-width: 940px;
+			min-width: 938px;
 		}
 		.header-web {
 			display: -webkit-box;
