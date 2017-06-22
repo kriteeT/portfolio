@@ -23,12 +23,12 @@
  [4](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/mailbox/index.html),
  [5](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/Wedding/index.html),
  [6](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/PHOTOLIO/index.html),
- [7](https://github.com/kriteeT/portfolio/blob/master/work/practice/index.html),
- [8](https://github.com/kriteeT/portfolio/blob/master/work/admin/index.html),
- [9](https://github.com/kriteeT/portfolio/blob/master/work/blog/index.html),
- [10](https://github.com/kriteeT/portfolio/blob/master/work/doe/index.html),
- [11](https://github.com/kriteeT/portfolio/blob/master/work/hotel/index.html),
- [12](https://github.com/kriteeT/portfolio/blob/master/work/laptop/index.html),
- [13](https://github.com/kriteeT/portfolio/blob/master/work/lmpreaz/index.html),
- [14](https://github.com/kriteeT/portfolio/blob/master/work/shop/index.html)
+ [7](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/admin/index.html),
+ [8](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/blog/index.html),
+ [9](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/doe/index.html),
+ [10](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/hotel/index.html),
+ [11](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/practice/index.html),
+ [12](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/lmpreaz/index.html),
+ [13](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/shop/index.html),
+ [14](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/PHOTOLIO/index.html)
 
