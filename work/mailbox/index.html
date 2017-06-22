@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/reset.css" type="text/css">
+		<link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+		<title>Practice html&css&js mailbox</title>
+	</head>
+	<body>
+<!-- Nav bar -->
+		<nav class="nav">
+			<ul class="nav__ul">
+<!-- Dropdown Bell-->
+				<li class="nav__ul__list bell-list">
+					<i id="bell" class="fa fa-bell" aria-hidden="true"></i>
+					<div id="bell--dropdown" class="dropdown">
+						<div class="dropdown__title color-main font-bold">You have 9 notifications
+						</div>
+						<ul class="dropdown--bell">
+							
+							<li class="dropdown--bell__menu">
+								<p class="color-gray">Database Repair</p><span>70%</span>
+								<div class="progress">
+									<div class="progress-width bg-blue width-70">
+										
+									</div>
+								</div>
+							</li>
+							<li class="dropdown--bell__menu">
+								<p class="color-gray">Upgrade Progress</p><span>10%</span>
+								<div class="progress">
+									<div class="progress-width bg-yellow width-10">
+										
+									</div>
+								</div>
+							</li>
+							<li class="dropdown--bell__menu">
+								<div class="dropdown--bell__menu__group">
+									<i class="fa fa-hdd-o color-gray" aria-hidden="true"></i>
+									<div class="wrap">
+										<p class="color-gray">HDD is full</p>
+										<p class="color-light-gray font-xs font-xs">50 minutes ago</p>
+									</div>
+									
+								</div>
+								<span class="bg-gree font-xs  padding2-6 font-border" >90%</span>
+								
+							</li>
+							<li class="dropdown--bell__menu">
+								<div class="dropdown--bell__menu__group">
+									<i class="fa fa-pencil-square-o color-gray" aria-hidden="true"></i>
+									<div class="wrap">
+										<p class="color-gray">Write a news article</p>
+										<p class="color-light-gray font-xs">Last Update 8 hours ago</p>
+									</div>
+								</div>
+							</li>
+							<li class="dropdown--bell__menu">
+								<div class="dropdown--bell__menu__group">
+									<i class="fa fa-comment-o color-gray"  aria-hidden="true"></i>
+									<div class="wrap">
+										<p class="color-gray">Comment Sorting</p>
+										<p class="color-light-gray font-xs">Last Update 8 hours ago</p>
+									</div>
+									
+								</div>
+								<span class="bg-red font-xs padding2-6   ">New</span>
+							</li>
+							<li class="dropdown--bell__menu">
+								<div class="dropdown--bell__menu__group">
+									<i class="fa fa-user-o color-gray" aria-hidden="true"></i>
+									<div class="wrap">
+										<p class="color-gray">New User Registered</p>
+										<p class="color-light-gray font-xs">4 minutes ago</p>
+									</div>
+								</div>
+							</li>
+							<li class="dropdown--bell__menu">
+								<div class="dropdown--bell__menu__group">
+								<figure><img src="img/1.png" alt=""></figure>
+								<div class="wrap">
+									<p class="color-gray">Jackson sent you a message</p>
+									<p class="color-light-gray font-xs">30 minutes ago</p>
+								</div>
+							</div>
+							</li>
+							<li class="dropdown--bell__menu">
+								<div class="dropdown--bell__menu__group">
+								<figure><img src="img/3.png" alt=""></figure>
+								<div class="wrap">
+									<p class="color-gray">Lucy sent you a message</p>
+									<p class="color-light-gray font-xs">50 minutes ago</p>
+								</div>
+								</div>
+							</li>
+					
+						</ul>
+						<div class="dropdown__footer color-main">Show All Notifications</div>
+					</div>
+			
+				</li>
+				<li class="nav__ul__list list-list">
+					<i id="list" class="fa fa-list" aria-hidden="true"></i>
+					<div id="list--dropdown" class="dropdown">
+						<div class="item">
+							<ul class="list-page">
+								<li class="list-page__header color-main"><i class="fa fa-file-o" aria-hidden="true"></i>Pages</li>
+								<li><a href="">Profile</a></li>
+								<li><a href="">Search Result</a></li>
+								<li><a href="">FAQ</a></li>
+								<li><a href="">Sreen Lock</a></li>
+								<li><a href="">Disabled</a></li>
+								<li><a href=""></a></li>
+							</ul>
+						</div>
+						<div class="item">
+							<ul class="list-page">
+								<li class="list-page__header color-main"><i class="fa fa-envelope-o" aria-hidden="true"></i>Mailbox</li>
+								<li><a href="">Indox <span class="bg-red padding2-6 ">Hot</span></a></li>
+								<li><a href="">Read Message</a></li>
+								<li><a href="">Compose</a></li>
+							</ul>
+							<p class="list-mailbox__p">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
+							</p>
+						</div>
+						<div class="item">
+							<ul class="list-service">
+								<li>
+									<a href="">
+										<div class="column">
+											<i class="fa fa-hdd-o" aria-hidden="true"></i>
+											<div class="wrap">
+												<p>Link One</p>
+												<p>This is the item description</p>
+											</div>
+										</div>
+										<span class="bg-gree padding2-6 font-border">90%</span>
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<div class="column">
+											<i class="fa fa-headphones" aria-hidden="true"></i>
+											<div class="wrap">
+												<p>Link Two</p>
+												<p>This is the item description</p>
+											</div>
+										</div>
+										
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<div class="column">
+											<i class="fa fa-television" aria-hidden="true"></i>
+											<div class="wrap">
+												<p>Link Three</p>
+												<p>This is the item description</p>
+											</div>
+										</div>
+										
+									</a>
+								</li>
+								<li>
+									<a href="">
+										<div class="column">
+											<i class="fa fa-map-o" aria-hidden="true"></i>
+											<div class="wrap">
+												<p>Link Four</p>
+												<p>This is the item description</p>
+											</div>
+										</div>
+										
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="item">
+							<p class="color-main advert"><i class="fa fa-file-archive-o" aria-hidden="true"></i>Advert</p>
+							<div class="img">240x240</div>
+							<a href="" class="btn btn-nav">
+								Advertise Here
+							</a>
+						</div>
+					</div>
+				</li>		
+			</ul>
+<!-- 'Dropdown User' -->
+			<ul class="nav__ul nav__ul--user">
+				<li class="nav__ul__list">
+					<p id="list--setting">John Deo <i class="fa fa-user-o" aria-hidden="true"></i></p>
+					
+					<ul id="list--setting--dropdown" class="nav__ul__list__dropdown">
+						<li class="nav__ul__list__dropdown__header">
+							<strong>
+							750GB
+							</strong>
+							of 1,000GB Used
+							<div class="progress">
+								<div class="progress-width width-70 bg-blue">
+									
+								</div>
+							</div>
+						</li>
+						<li class="nav__ul__list__dropdown__list"><a href=""><i class="fa fa-user-o" aria-hidden="true"></i>Profile</a></li>
+						<li class="nav__ul__list__dropdown__list"><a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i>Message</a> <span class="bg-red padding2-6 font-border-30">9</span></li>
+						<li class="nav__ul__list__dropdown__list"><a href=""><i class="fa fa-cog" aria-hidden="true"></i>Setting</a><span class="bg-gree padding2-6">New</span></li>
+						<li class="nav__ul__list__dropdown__list"><a href=""><i class="fa fa-info-circle" aria-hidden="true"></i>Help</a></li>
+						<li class="nav__ul__list__dropdown__list"><a href=""><i class="fa fa-desktop" aria-hidden="true"></i>Lock screen</a></li>
+					</ul>
+				</li>
+				<li class="nav__ul--menuside">
+					<i id="menuside" class="fa fa-ellipsis-v" aria-hidden="true"></i>
+				</li>
+			</ul>
+		</nav>
+<!-- Side Menu Hidden -->
+
+	<aside id="SideMenu" class="sideMenu">
+	<div class="shadown-wrap">
+		<ul class="sideMenu__tab">
+			<li value="1" class="active"><i class="fa fa-info-circle" aria-hidden="true"></i>
+			</li>
+			<li value="2"><i class="fa fa-cogs" aria-hidden="true"></i>Report
+			</li>
+			<li value="3"><i class="fa fa-comments-o" aria-hidden="true"></i>Setting
+			</li>
+		</ul>
+	<!-- Tab1 -->
+		<div id="tab1">
+		<!-- Menu Family -->
+			<ul class="sideMenu__menu--family">
+				<li class="sideMenu__menu__header">
+					<h6 class="sideMenu__menu__header__title">Family</h6>
+					<span class="sideMenu__menu__header__number bg-yellow padding2-6 font-border-30">3</span>
+				</li>
+				<li><a href="">
+						<figure class="has after-bg-green"><img src="img/1.png" alt=""></figure>
+						<div class="column">
+							<p class="name">name</p>
+							<p class="status">status</p>
+						</div>
+					</a></li>
+				<li><a href="">
+						<figure><img src="img/2.png" alt=""></figure>
+						<div class="column">
+							<p class="name">name</p>
+							<p class="status">status</p>
+						</div>
+					</a></li>
+				<li><a href="">
+						<figure class="has after-bg-blue"><img src="img/3.png" alt=""></figure>
+						<div class="column">
+							<p class="name">name</p>
+							<p class="status">status</p>
+						</div>
+					</a></li>
+				<li><a href="">
+						<figure><img src="img/4.png" alt=""></figure>
+						<div class="column">
+							<p class="name">name</p>
+							<p class="status">status</p>
+						</div>
+					</a></li>
+				<li><a href="">
+						<figure class="has after-bg-yellow"><img src="img/5.png" alt=""></figure>
+						<div class="column">
+							<p class="name">name</p>
+							<p class="status">status</p>
+						</div>
+					</a></li>
+				<li><a href="">
+						<figure class="has after-bg-red"><img src="img/6.png" alt=""></figure>
+						<div class="column">
+							<p class="name">name</p>
+							<p class="status">status</p>
+						</div>
+					</a></li>
+			</ul>
+		<!-- Menu Friend -->
+			<ul class="sideMenu__menu--friend">
+				<li class="sideMenu__menu__header">
+					<h6 class="sideMenu__menu__header__title">Family</h6>
+					<span class="sideMenu__menu__header__number">6</span>
+				</li>
+				<li><a href="">
+						<div class="cycle bg-red"></div>
+						<p class="name">Joey K.Greyson</p>
+					</a></li>
+				<li><a href="">
+						<div class="cycle bg-gree"></div>
+						<p class="name">Andrea Branden</p>
+					</a></li>
+				<li><a href="">
+						<div class="cycle bg-blue"></div>
+						<p class="name">Johny Juan</p>
+					</a></li>
+				<li><a href="">
+						<div class="cycle bg-gree"></div>
+						<p class="name">Susan Sun</p>
+					</a></li>
+			</ul>
+		<!-- Menu News -->
+			<ul class="sideMenu__menu--news">
+				<li class="sideMenu__menu__header">
+					<h6 class="sideMenu__menu__header__title">Family</h6>
+					<span class="sideMenu__menu__header__number bg-gree padding2-6 font-border-10p ">Offline</span>
+				</li>
+				<p>Lorem ipsum dolor sit amet, consectetuer <strong>adipiscing elit</strong>		 , sed diam nonummy nibh. Lorem ipsum dolor sit amet.</p>
+			</ul>
+		</div>
+	<!-- Tab2 -->
+		<div id="tab2">
+		<!-- Menu Billing & report -->
+			
+					<h6 class="title__billing color-main font-bold ">Billing & reports</h6>
+				<p class="p__billing">
+					Get $5.00 off your next bill by making sure your full payment reaches us before August 5, 2016.
+				</p>
+		<!-- Menu Amount -->
+			<div class="amount">
+				<h6 class="amount__title color-main font-bold">
+					Amount Due On
+				</h6>
+				<p class="amount__p">
+					August 17,2016
+				</p>
+				<strong class="amount__price color-main font-bold">
+					$83.09
+				</strong>
+				<a href="" class="btn amount__link bg-gree">
+					PayNow
+				</a>
+			</div>
+		<!-- Menu Additional Actions -->
+			<ul class="additional ">
+				<li class="additional__title color-main font-bold">Additional Actions</li>
+				<li class="additional__li"><a href=""><i class="fa fa-info-circle" aria-hidden="true"></i>Service Information</a></li>
+				<li class="additional__li"><a href=""><i class="fa fa-user" aria-hidden="true"></i>Usage Profile</a></li>
+				<li class="additional__li">
+				<a href=""><i class="fa fa-credit-card" aria-hidden="true"></i>Payment Options <span>New</span></a></li>
+				<li class="additional__li"><a href=""><i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+				Message Center</a></li>
+			</ul>
+		<!-- Menu Tel -->
+			<div class="Tel">
+			<i class="fa fa-mobile" aria-hidden="true"></i>
+				<p class="tel__title">
+					Questions?
+				</p>
+				<p class="tel__number color-main font-bold">
+					(415)234-53454
+				</p>
+				<p class="tel__footer">
+					We are here 24/7
+				</p>
+			</div>
+		</div>
+	<!-- Tab3 -->
+		<div id="tab3">
+			<!-- Menu Setting Account -->
+			<ul class="account-setting">
+				<li class="account-setting__title">
+					Account Settings
+				</li>
+				<li class="account-setting__list">
+					<p class="account-setting__list__title">
+						Show my personal status
+					</p>
+					<label class="account-setting__list__sw" for="Checksw1">
+						<input id="Checksw1" class="Checksw" type="checkbox">
+						<div class="switch"></div>
+					</label>
+					<p class="account-settting__list__content">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+					</p>
+				</li>
+				<li class="account-setting__list">
+					<p class="account-setting__list__title">
+						Show my personal status
+					</p>
+					<label class="account-setting__list__sw" for="Checksw2">
+						<input id="Checksw2" class="Checksw" type="checkbox">
+						<div class="switch"></div>
+					</label>
+					<p class="account-settting__list__content">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+					</p>
+				</li>
+				<li class="account-setting__list">
+					<p class="account-setting__list__title">
+						Show my personal status
+					</p>
+					<label class="account-setting__list__sw" for="Checksw3">
+						<input id="Checksw3" class="Checksw" type="checkbox">
+						<div class="switch"></div>
+					</label>
+					<p class="account-settting__list__content">
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+
+					</p>
+				</li>
+			</ul>
+			<!-- Menu Pubilc Setting -->
+				<ul class="pubile-setting">
+					<li class="pubile-setting__title">Public Setting</li>
+					<li class="pubile-setting__list">
+						<p>Online status</p>
+						<label class="account-setting__list__sw" for="Checksw4">
+							<input id="Checksw4" class="Checksw" type="checkbox">
+							<div class="switch"></div>
+						</label>
+					</li>
+					<li class="pubile-setting__list">
+						<p>Show offline contact</p>
+						<label class="account-setting__list__sw" for="Checksw5">
+							<input id="Checksw5" class="Checksw" type="checkbox">
+							<div class="switch"></div>
+						</label>
+					</li>
+					<li class="pubile-setting__list">
+						<p>Show my device icon</p>
+						<label class="account-setting__list__sw" for="Checksw6">
+							<input id="Checksw6" class="Checksw" type="checkbox">
+							<div class="switch"></div>
+						</label>
+					</li>
+				</ul>
+			<!-- Menu Task Progress -->
+			<ul class="task-progress">
+				<li class="task-progress__title">
+					Task Progress
+				</li>
+				<li class="task-progress__list">
+					<p class="task-progress__list__title">
+						Upgrade Progress
+					</p>
+					<div class="progress">
+						<div class="progress-width bg-gree width-15 ">
+							
+						</div>
+					</div>
+					<small class="task-progress__list__small">
+						15% Completed
+					</small>
+				</li>
+				<li class="task-progress__list">
+					<p class="task-progress__list__title">
+						Database
+					</p>
+					<div class="progress">
+						<div class="progress-width bg-red width-70 ">
+							
+						</div>
+					</div>
+					<small class="task-progress__list__small">
+						17/23 Database
+					</small>
+				</li>
+			</ul>
+		</div>
+	</div>	
+	</aside>
+
+
+<!-- Header Web -->
+<div class="header-web">
+	<div class="column">
+		<a href="" class="header-web__logo color-main">
+			mailbox
+		</a>
+	</div>
+	<div class="column">
+		<form action="index.html" class="header-web__form">
+			<div class="wrap-inputHeader">
+				<input type="text" placeholder="Search">
+				<button class="btn-header" value="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+			</div>
+			
+		</form>
+	</div>
+</div>
+
+<!-- Main Web -->
+<div class="main-web">
+	<div class="column menu-column">
+		<div class="menuEmail">
+			<div class="menuEmail__title">
+				<a href="" class="btn bg-gree">
+					Compose Mail
+				</a>
+			</div>
+			<ul class="menuFoder">
+				<li class="menuFoder__title">Folder</li>
+				<li class="menuFoder__list active"><a href="">
+					<i class="fa fa-inbox" aria-hidden="true"></i>inbox <span class="bg-gree">7</span>
+				</a></li>
+				<li class="menuFoder__list"><a href="">
+					<i class="fa fa-file-o" aria-hidden="true"></i>draff
+				</a></li>
+				<li class="menuFoder__list"><a href="">
+					<i class="fa fa-paper-plane-o" aria-hidden="true"></i>sent
+				</a></li>
+				<li class="menuFoder__list"><a href="">
+					<i class="fa fa-fire" aria-hidden="true"></i>Spam <span class="bg-red">3</span>
+				</a></li>
+				<li class="menuFoder__list"><a href="">
+					<i class="fa fa-trash" aria-hidden="true"></i>Trash
+				</a></li>
+				<li class="menuFoder__list"><a href="">
+					<i class="fa fa-users" aria-hidden="true"></i>Address Book
+				</a></li>
+				<li class="menuFoder__list"><a href="">
+					<i class="fa fa-folder-open-o" aria-hidden="true"></i>User Folders
+				</a></li>
+			</ul>
+			<ul class="menufriend">
+				<li class="menufriend__title">
+					Friend
+				</li>
+				<li class="menufriend__list"><a href=""><div class="cycle bg-gree"></div>Joey K. Greyson</a></li>
+				<li class="menufriend__list"><a href=""><div class="cycle bg-red"></div>Andrea Branden</a></li>
+				<li class="menufriend__list"><a href=""><div class="cycle bg-gree"></div>Lucy Moon</a></li>
+				<li class="menufriend__list"><a href=""><div class="cycle bg-gree"></div>Lucy Moon</a></li>
+				<li class="menufriend__list"><a href=""><div class="cycle bg-red"></div>Susan Sun</a></li>
+			</ul>
+			<ul class="menulabel">
+				<li class="menulabel__title">
+					Labels
+				</li>
+				<li class="menulabel__list"><a href=""><i class="fa fa-tag" aria-hidden="true"></i>family</a></li>
+				<li class="menulabel__list"><a href=""><i class="fa fa-tag" aria-hidden="true"></i>home</a></li>
+				<li class="menulabel__list"><a href=""><i class="fa fa-tag" aria-hidden="true"></i>work</a></li>
+				<li class="menulabel__list"><a href=""><i class="fa fa-tag" aria-hidden="true"></i>film</a></li>
+				<li class="menulabel__list"><a href=""><i class="fa fa-tag" aria-hidden="true"></i>music</a></li>
+				<li class="menulabel__list"><a href=""><i class="fa fa-tag" aria-hidden="true"></i>photography</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="column box-column">
+		<div class="box-email">
+			<h2 class="box-email__title color-main">
+				inbox (17)
+			</h2>
+			<div class="box-email-tool">
+				<div class="column">
+					<div class="checkAll">
+						<label class="wrap__checkAll">
+							<input id="checkbox-checkAll" type="checkbox">
+					
+						
+						<ul class="checkAll__dropdown">
+							<li><a href="">all</a></li>
+							<li><a href="">none</a></li>
+							<li><a href="">toggle</a></li>
+							<hr>
+							<li><a href="">read</a></li>
+							<li><a href="">unread</a></li>
+							<li><a href="">starred</a></li>
+						</ul>	
+						<i class="fa fa-caret-down" aria-hidden="true"></i>
+							
+							
+						</label>
+						
+						
+
+					</div>
+					<i class="fa fa-refresh icon-refresh" aria-hidden="true"></i>
+
+								<label class="wrap__checkAll">
+							<input id="checkbox-checkAll" type="checkbox">
+					
+						
+						<ul class="checkAll__dropdown">
+							<li><a href="">marks as read</a></li>
+							<li><a href="">mark as unread</a></li>
+							
+							<hr>
+							<li><a href="">start</a></li>
+							<li><a href="">clear star</a></li>
+						</ul>	
+						<i class="fa fa-caret-down" aria-hidden="true"></i>
+							
+							
+						</label>
+						
+				
+				</div>
+				<div class="column">
+					<span class="box-email__numberEmail">
+						1-50 of 160
+					</span>
+					<i class="fa fa-angle-left" aria-hidden="true"></i>
+
+					<i class="fa fa-angle-right" aria-hidden="true"></i>
+
+				</div>
+			</div>
+			<ul class="box-email__ul">
+				<li class="box-email__list">
+					<label for="box-email__list-checkbox">
+						<input type="checkbox">
+					</label>
+					<i class="fa fa-star start color-start" aria-hidden="true"></i>
+					<p class="name">
+						JamesTran
+					</p>
+					<p class="content">
+						Tracking Your Order - Shoes Store Online
+					</p>
+					<i class="fa fa-paperclip" aria-hidden="true"></i>
+					<p class="time">
+						05:55 PM
+					</p>
+				</li>
+				<li class="box-email__list">
+					<label for="box-email__list-checkbox">
+						<input type="checkbox">
+					</label>
+					<i class="fa fa-star start" aria-hidden="true"></i>
+					<p class="name">
+						Shopping Mail
+					</p>
+					<p class="content">
+						<span class="padding2-6 bg-blue">Parner</span>Tracking Your Order - Shoes Store Online
+					</p>
+					<i class="fa fa-paperclip papernone" aria-hidden="true"></i>
+					<p class="time">
+						05:55 PM
+					</p>
+				</li>
+				<li class="box-email__list">
+					<label for="box-email__list-checkbox">
+						<input type="checkbox">
+					</label>
+					<i class="fa fa-star start color-start" aria-hidden="true"></i>
+					<p class="name">
+						Dropbox
+					</p>
+					<p class="content">
+						Reset your account password
+					</p>
+					<i class="fa fa-paperclip papernone" aria-hidden="true"></i>
+					<p class="time">
+						07:18 AM
+					</p>
+				</li>
+				<li class="box-email__list">
+					<label for="box-email__list-checkbox">
+						<input type="checkbox">
+					</label>
+					<i class="fa fa-star start" aria-hidden="true"></i>
+					<p class="name">
+						Server Host
+					</p>
+					<p class="content">
+						Regarding to your website issues.
+					</p>
+					<i class="fa fa-paperclip papernone" aria-hidden="true"></i>
+					<p class="time">
+						01:22 PM
+					</p>
+				</li>
+				<li class="box-email__list">
+					<label for="box-email__list-checkbox">
+						<input type="checkbox">
+					</label>
+					<i class="fa fa-star start color-start" aria-hidden="true"></i>
+					<p class="name">
+						Lisa D. Smith
+					</p>
+					<p class="content">
+						Tracking Your Order - Shoes Store Online
+					</p>
+					<i class="fa fa-paperclip" aria-hidden="true"></i>
+					<p class="time">
+						Yesterday
+					</p>
+				</li>
+				<li class="box-email__list">
+					<label for="box-email__list-checkbox">
+						<input type="checkbox">
+					</label>
+					<i class="fa fa-star start" aria-hidden="true"></i>
+					<p class="name">
+						Johny Juan
+					</p>
+					<p class="content">
+						<span class="padding2-6 bg-red">Busines</span>Repair Status Unregistered User
+					</p>
+					<i class="fa fa-paperclip papernone" aria-hidden="true"></i>
+					<p class="time">
+						Yesterday
+					</p>
+				</li>
+				<li class="box-email__list">
+					<label for="box-email__list-checkbox">
+						<input type="checkbox">
+					</label>
+					<i class="fa fa-star start" aria-hidden="true"></i>
+					<p class="name">
+						Bobby Marz
+					</p>
+					<p class="content">
+						Bugs in your system
+					</p>
+					<i class="fa fa-paperclip papernone" aria-hidden="true"></i>
+					<p class="time">
+						Oct 10
+					</p>
+				</li>
+				<li class="box-email__list">
+					<label for="box-email__list-checkbox">
+						<input type="checkbox">
+					</label>
+					<i class="fa fa-star start" aria-hidden="true"></i>
+					<p class="name">
+						Lucy Moon
+					</p>
+					<p class="content">
+						We need to meet up soon
+					</p>
+					<i class="fa fa-paperclip papernone" aria-hidden="true"></i>
+					<p class="time">
+						Oct 10
+					</p>
+				</li>
+				<li class="box-email__list">
+					<label for="box-email__list-checkbox">
+						<input type="checkbox">
+					</label>
+					<i class="fa fa-star start" aria-hidden="true"></i>
+					<p class="name">
+						Shopping Mall
+					</p>
+					<p class="content">
+						<span class="padding2-6 bg-red">Busines</span>Tracking Your Order - Shoes Store Online
+					</p>
+					<i class="fa fa-paperclip" aria-hidden="true"></i>
+					<p class="time">
+						05:55 PM
+					</p>
+				</li>
+				<li class="box-email__list">
+					<label for="box-email__list-checkbox">
+						<input type="checkbox">
+					</label>
+					<i class="fa fa-star start color-start" aria-hidden="true"></i>
+					<p class="name">
+						Dropbox
+					</p>
+					<p class="content">
+						Reset your account password
+					</p>
+					<i class="fa fa-paperclip papernone" aria-hidden="true"></i>
+					<p class="time">
+						07:18 AM
+					</p>
+				</li>
+				<li class="box-email__list">
+					<label for="box-email__list-checkbox">
+						<input type="checkbox">
+					</label>
+					<i class="fa fa-star start" aria-hidden="true"></i>
+					<p class="name">
+						Server Host
+					</p>
+					<p class="content">
+						<span class="padding2-6 bg-blue">Partner</span>Regarding to your website issues.
+					</p>
+					<i class="fa fa-paperclip papernone" aria-hidden="true"></i>
+					<p class="time">
+						01:22 PM
+					</p>
+				</li>
+				<li class="box-email__list">
+					<label for="box-email__list-checkbox">
+						<input type="checkbox">
+					</label>
+					<i class="fa fa-star start color-start" aria-hidden="true"></i>
+					<p class="name">
+						Lisa D. Smith
+					</p>
+					<p class="content">
+						Tracking Your Order - Shoes Store Online
+					</p>
+					<i class="fa fa-paperclip" aria-hidden="true"></i>
+					<p class="time">
+						Yesterday
+					</p>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<footer class="footer">
+	Practice html&css&js
+</footer>
+
+
+
+
+
+
+
+
+<script
+src="https://code.jquery.com/jquery-2.2.4.min.js"
+integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+crossorigin="anonymous"></script>
+<script>
+
+
+	$(document).ready(function(){
+		
+		var arrayMenu = ["#bell--dropdown","#list--dropdown","#list--setting--dropdown"];
+		var arrayTab = ["#tab1","#tab2","#tab3"];
+		$('.sideMenu a').attr('href','#');
+		$.each(arrayMenu,function(i){
+			$(arrayMenu[i]).css("z-index","3");
+		});
+		function removeAllmenu(arrayMenuRemove) {
+			$.each(arrayMenuRemove,function(i){
+				$(arrayMenuRemove[i]).removeClass('open');
+			});
+		};
+	
+
+		function toggleMenu(dropdownMenu){
+			if(dropdownMenu.hasClass('open')){
+				dropdownMenu.removeClass('open');
+			}else {
+				removeAllmenu(arrayMenu);
+				dropdownMenu.toggleClass('open');
+			}
+		};
+		
+	$('.sideMenu__tab li').click(function(event){
+		event.stopPropagation()
+		$('.sideMenu__tab li').removeClass('active');
+		$(this).toggleClass('active');
+		 removeAllmenu(arrayTab);
+		 $('#tab'+$(this).val()).addClass('open');
+
+	});
+
+		$('#bell').click(function(event){
+			event.stopPropagation()
+			toggleMenu($(arrayMenu[0]));
+			
+		});
+		$('#list').click(function(event){
+			event.stopPropagation()
+			toggleMenu($(arrayMenu[1]));
+			
+		});
+		$('#list--setting').click(function(event){
+			event.stopPropagation()
+		 	toggleMenu($(arrayMenu[2]));
+		});
+		$('#menuside').click(function(event){
+			event.stopPropagation()
+			removeAllmenu(arrayMenu);
+			$('#SideMenu').toggleClass('open');
+			$("#tab1").addClass('open');
+		});
+
+		$('body').click(function(){
+			removeAllmenu(arrayMenu);
+		});
+	});
+
+
+	
+</script>
+</body>
+</html>
