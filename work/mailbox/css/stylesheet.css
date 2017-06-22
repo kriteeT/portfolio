@@ -731,14 +731,12 @@ strong {
 				z-index: 999;
 				display: none;
 			}
-			.Checksw:checked {
+			.Checksw:checked,
+			.checksw:focus,
+			.switch:focus {
 				outline: none;
 			}
-			.Checksw:focus {
-				outline: none;
-			}
-			.Checksw:hover {
-				outline: none;
+			
 			.switch {
 				position: absolute;
 				top: 0;
