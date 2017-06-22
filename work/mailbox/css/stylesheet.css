@@ -399,10 +399,9 @@ strong {
 		position: absolute;
 		right: 0;
 		bottom: 0;
-		width: 225px;
 		-webkit-transform: translate(0,100%);
 		        transform: translate(0,100%);
-		
+		width: 222px;
 		background: white;
 		padding: 7px 0;
 		-webkit-box-shadow: 0px 1px 5px 1px #c9c9c9;
