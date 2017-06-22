@@ -257,8 +257,7 @@ strong {
 	 }
 	 .list-list .dropdown {
 	 	color: #758697;
-	 	width: 276px;
-	 	margin-left: -15%;
+	 	width: 236px;
 	 	background: white;
 	 	position: absolute;
 	 	bottom: 0;
@@ -398,11 +397,11 @@ strong {
 	}
 	.nav__ul__list__dropdown {
 		position: absolute;
-		left: 0;
+		left: 27px;
 		bottom: 0;
 		-webkit-transform: translate(-61%,100%);
 		        transform: translate(-61%,100%);
-		width: 290px;
+		width: 224px;
 		background: white;
 		padding: 7px 0;
 		-webkit-box-shadow: 0px 1px 5px 1px #c9c9c9;
@@ -1240,11 +1239,14 @@ form.header-web__form {
 		.box-email__list .fa-paperclip {
 			margin-right: 3%;
 		}
+		.nav__ul__list__dropdown {
+			width: 290px;
+		}
 	}
 /*Media screen min 1024*/
 	@media screen and (min-width: 1024px) {
 		.list-list .dropdown  {
-			min-width: 938px;
+			min-width: 940px;
 		}
 		.header-web {
 			display: -webkit-box;
