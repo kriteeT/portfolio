@@ -30,5 +30,5 @@
  [11](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/lmpreaz/index.html),
  [12](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/shop/index.html),
  [13](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/practice/index.html),
- [14](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/uploadfile14/work/mailbox/index.html)
+ [14](http://htmlpreview.github.io/?https://github.com/kriteeT/portfolio/blob/master/work/mailbox/index.html)
 
