@@ -257,7 +257,7 @@ strong {
 	 }
 	 .list-list .dropdown {
 	 	color: #758697;
-	 	width: 236px;
+	 	width: 255px;
 	 	background: white;
 	 	position: absolute;
 	 	bottom: 0;
@@ -342,7 +342,7 @@ strong {
 	 	color: #758697;
 	 }
 	 .list-list .img {
-	 	width: 240px;
+	 	max-width: 240px;
 	 	height: 240px;
 	 	display: -webkit-box;
 	 	display: -ms-flexbox;
