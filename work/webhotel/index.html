@@ -3,11 +3,13 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta charset="utf-8">
-    <title>Html css js</title>
+    <title>Practice html css js by kritee</title>
     <link rel="stylesheet" href="css/reset.css" type="text/css">
-    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+    <link rel="stylesheet" href="css/stylesheet.min.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
+
 
   </head>
   <body>
@@ -20,21 +22,21 @@
          </div>
 
          <ul class="menu">
-           <li class="menu__list"><a href="">home</a></li>
-           <li class="menu__list"><a href="">about</a></li>
-           <li class="menu__list"><a href="">rooms</a></li>
-           <li class="menu__list"><a href="">pages</a></li>
-           <li class="menu__list"><a href="">news</a></li>
-           <li class="menu__list"><a href="">contact</a></li>
+           <li class="menu__list"><a href="#home">home</a></li>
+           <li class="menu__list"><a href="#about">about</a></li>
+           <li class="menu__list"><a href="#rooms">rooms</a></li>
+           <li class="menu__list"><a href="#pages">pages</a></li>
+           <li class="menu__list"><a href="#news">news</a></li>
+           <li class="menu__list"><a href="#contact">contact</a></li>
            <li class="menu__list menu__list--search"><a href=""><i class="fa fa-search" aria-hidden="true"></i>
             </a></li>
-           <li class="menu__list"><a class="btn btn-green" href="">book now</a></li>
+           <li class="menu__list"><a class="btn btn-green btn--inline " href="#booknow">book now</a></li>
          </ul>
        </nav>
 
 
     <!-- Welcome -->
-      <div class="welcome">
+      <div id="home" class="welcome">
         <div class="silde-welcome">
           <div class="item item1">
             <h1 class="welcome__title">
@@ -55,7 +57,7 @@
           </div>
           <div class="item item2">
             <h1 class="welcome__title">
-              title
+              title2
             </h1>
             <p class="welcome__p">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt laudantium illo saepe
@@ -72,7 +74,7 @@
           </div>
           <div class="item item3">
             <h1 class="welcome__title">
-              title
+              title3
             </h1>
             <p class="welcome__p">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt laudantium illo saepe
@@ -99,7 +101,7 @@
       </body>
 
     <!-- Form Header -->
-      <div class="check-in">
+      <div id="booknow" class="check-in">
         <div class="check-in__title">
           <strong>
             Book
@@ -108,27 +110,24 @@
           <i class="fa fa-check" aria-hidden="true"></i>
         </div>
         <form class="form--header" action="index.html">
-          <input type="date">
-          <input type="date">
-          <div class="dropdown-menu">
-            <button class="dropdown-menu__btn" type="button" aria-expanded="false">adults<i class="fa fa-caret-down" aria-hidden="true"></i></button>
-            <ul class="dropdown-menu__list">
-              <li><a href="">1</a></li>
-              <li><a href="">2</a></li>
-              <li><a href="">3</a></li>
-              <li><a href="">4</a></li>
-            </ul>
-          </div>
+          <input type="date" placeholder="mm/dd/yyyy">
+          <input type="date" placeholder="mm/dd/yyyy">
+          <select class="dropdown-menu" name="">
+            <option selected disabled>Audi</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
 
-          <div class="dropdown-menu">
-            <button class="dropdown-menu__btn" type="button" >children<i class="fa fa-caret-down" aria-hidden="true"></i></button>
-            <ul class="dropdown-menu__list">
-              <li><a href="">1</a></li>
-              <li><a href="">2</a></li>
-              <li><a href="">3</a></li>
-              <li><a href="">4</a></li>
-            </ul>
-          </div>
+          </select>
+          <select class="dropdown-menu" name="">
+            <option selected disabled>Children</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+
 
           <button class="btn btn--green" type="submit">check availabibity</button>
         </form>
@@ -137,7 +136,7 @@
 
 
     <!-- section About -->
-      <section class="about section-padding">
+      <section id="about" class="about section-padding">
         <div class="column text-column">
           <!-- title -->
             <div class="title">
@@ -173,34 +172,34 @@
     <!-- Number -->
       <ul class="number">
         <li class="number__list">
-          <strong>2500</strong>
+          <strong id="number__list-1"></strong>
           <hr>
           <p>customers</p>
 
         </li>
         <li class="number__list">
-          <strong>2500</strong>
+          <strong id="number__list-2"></strong>
           <hr>
-          <p>customers</p>
+          <p>Happy Coustomers</p>
 
         </li>
         <li class="number__list">
-          <strong>2500</strong>
+          <strong id="number__list-3"></strong>
           <hr>
-          <p>customers</p>
+          <p>Expert Technicians</p>
 
         </li>
         <li class="number__list">
-          <strong>2500</strong>
+          <strong id="number__list-4"></strong>
           <hr>
-          <p>customers</p>
+          <p>Desktop Repaired</p>
 
         </li>
       </ul>
 
 
     <!-- section OurRooms -->
-      <section class="our-rooms section-padding">
+      <section id="rooms" class="our-rooms section-padding">
         <div class="title">
           <div class="title__text">
             <div class="text-on-text">
@@ -230,7 +229,7 @@
 
 
     <!-- Our Gallery -->
-      <section class="gallery section-padding">
+      <section id="pages" class="gallery section-padding">
         <div class="title">
           <div class="title__text">
             <div class="text-on-text">
@@ -401,7 +400,7 @@
 
 
     <!-- Our News -->
-      <section class="news section-padding">
+      <section id="news" class="news section-padding">
         <div class="title">
           <div class="title__text">
             <div class="text-on-text">
@@ -521,7 +520,7 @@
 
 
     <!-- Footer -->
-      <footer class="footer">
+      <footer id="contact" class="footer">
         <!-- Sub email -->
         <form class="sub-email" action="">
           <label for="subemail">
@@ -577,7 +576,7 @@
             </ul>
 
             <div class="footer-right">
-              hotel &copy 2017 All Right Reserved
+              hotel &copy 2017 Practice html css js by kritee
             </div>
 
           </footer>
@@ -594,7 +593,9 @@
             crossorigin="anonymous"></script>
 
             <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-            <script src="js/main.js">
+            <script src="js/jquery.animateNumber.min.js">
+            </script>
+            <script src="js/mainjs.min.js">
             </script>
 
 
