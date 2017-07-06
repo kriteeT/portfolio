@@ -21,7 +21,7 @@
  [2](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/Gourmet/index.html),
  [3](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/social/index.html),
  [4](https://cdn.rawgit.com/kriteeT/portfolio/a5e1b722/work/mailbox/index.html),
- [5](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/Wedding/index.html),
+ [5](https://rawgit.com/kriteeT/portfolio/master/work/webhotel/index.html),
  [6](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/PHOTOLIO/index.html),
  [7](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/admin/index.html),
  [8](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/blog/index.html),
@@ -31,4 +31,5 @@
  [12](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/lmpreaz/index.html),
  [13](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/shop/index.html),
  [14](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/PHOTOLIO/index.html),
- [15](https://rawgit.com/kriteeT/portfolio/kritee-hotel/work/webhotel/index.html)
+ [15](https://rawgit.com/kriteeT/portfolio/kritee-hotel/work/webhotel/index.html),
+ [16](https://rawgit.com/kriteeT/portfolio/master/work/mobile/index.html)
