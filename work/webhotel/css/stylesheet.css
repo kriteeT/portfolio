@@ -2,6 +2,13 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+input[type="date"]::before{
+    color: #999;
+    content: attr(placeholder) ": ";
+}
+input[type="date"]:focus::before {
+    content: "" !important;
+}
 a {
   color: inherit;
   text-decoration: none;
