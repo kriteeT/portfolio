@@ -586,6 +586,7 @@ img {
 
 .team {
   background: #F1FAFF;
+  overflow: hidden;
 }
 
 .card-team {
