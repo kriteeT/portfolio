@@ -31,5 +31,5 @@
  [12](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/lmpreaz/index.html),
  [13](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/shop/index.html),
  [14](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/PHOTOLIO/index.html),
- [15](https://rawgit.com/kriteeT/portfolio/kritee-hotel/work/webhotel/index.html),
+ [15](https://rawgit.com/kriteeT/portfolio/master/work/webhotel/index.html),
  [16](https://rawgit.com/kriteeT/portfolio/master/work/mobile/index.html)
