@@ -18,7 +18,7 @@
 ## งานที่ต้องการ 
 - psd to app,web
 - work on git
-- modern js frameworks(angularjs ,react, vul) //พร้อมเรียนรู้ครับ เป็นคนเรียนรู้ได้ไว
+- modern js frameworks web component(angularjs ,react, vul) //พร้อมเรียนรู้ครับ เป็นคนเรียนรู้ได้ไว
 ## ผลงานที่เคยทำ ระหว่างทำงานที่ Egazine html,css,js ส่วนfontend
  [d-lite](http://www.d-lite.co.th/), 
  [gbprimepay](https://www.gbprimepay.com/),
