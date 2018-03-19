@@ -37,6 +37,5 @@
  [7](https://rawgit.com/kriteeT/portfolio/master/work/webhotel/index.html),
  [8](https://rawgit.com/kriteeT/portfolio/master/work/mobile/index.html)
 ## ฝึกตัด html, css, js จาก pinterest
- [1](), 
- [2](),
- [3](),
+ [1](https://cdn.rawgit.com/kriteeT/portfolio/73de9300/work/psd1/index.html), 
+ [2](https://cdn.rawgit.com/kriteeT/portfolio/73de9300/work/psd2/index.html)
