@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>psd2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<form action="">
+		
+			<i class="fa fa-times" aria-hidden="true"></i>
+		
+		
+		<h1>schedule meeting</h1>
+		<div class="wrap-inputGroup main-padding">
+			<div class="inputGroup">
+				<label for="">name</label>
+				<input type="text">
+			</div>
+		</div>
+		<div class="wrap-inputGroup wrap-inputGroup--2col main-padding">
+			<div class="inputGroup">
+				<label for="">when</label>
+				<select name="" id="">
+					<option value="">Wed- 18th September</option>
+					<option value="">Mon- 22th September</option>
+					<option value="">Fri- 30th September</option>
+				</select>
+			</div>
+			<div class="inputGroup">
+				<label for="">time</label>
+				<select name="" id="">
+					<option value="">11:00 am</option>
+					<option value="">13:00 am</option>
+					<option value="">16:00 pm</option>
+				</select>
+			</div>
+		</div>
+		<div class="wrap-inputGroup main-padding">
+			<div class="inputGroup inputGroup--search">
+				<label for="">people to invite</label>
+				<input type="text">
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</div>
+		</div>
+		<ul class="people main-padding">
+			<li>
+				<div class="people__list">
+					<figure>
+						<img src="img/p-1.jpg" alt="">
+						<span class="dot dot--green"></span>
+					</figure>
+				</div>
+				<p>Alexa</p>
+			</li>
+			<li>
+				<div class="people__list">
+					<figure>
+						<img src="img/p-2.jpg" alt="">
+						<span class="dot dot--green"></span>
+					</figure>
+				</div>
+				<p>James</p>
+			</li>
+			<li>
+				<div class="people__list">
+					<figure>
+						<img src="img/p-3.jpg" alt="">
+						<span class="dot dot--red"></span>
+					</figure>
+				</div>
+				<p>Brendan</p>
+			</li>
+		</ul>
+		<ul class="list">
+			<li>
+				<img src="img/p-1.jpg" alt="">
+				<p>alex heime</p>
+				<i class="fa fa-check-circle" aria-hidden="true"></i>
+				<span>@MatHelme</span>
+			</li>
+			<li class="active">
+				<img src="img/p-2.jpg" alt="">
+				<p>alexa andrzejewski</p>
+				<i class="fa fa-check-circle" aria-hidden="true"></i>
+				<span>@ladylexy</span>
+			</li>
+			<li>
+				<img src="img/p-3.jpg" alt="">
+				<p>jenny alexander</p>
+				<i class="fa fa-check-circle" aria-hidden="true"></i>
+				<span>@jennyalex</span>
+			</li>
+		</ul>
+		<div class="wrap-inputGroup wrap-inputGroup--checkbox main-padding">
+			<div class="wrapCheck">
+				<input id="have-slack" type="checkbox">
+			</div>
+			
+			<label for="have-slack">Notify people on Slack of this meeting?</label>
+			<img class="logoSlack" src="img/slack-img.png" alt="logo slack">
+		</div>
+		<div class="main-padding">
+			<button type="submit">create meeting</button>
+		</div>
+	</form>
+
+
+
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script>
+  	$(document).ready(function(){
+  		console.log('bro');
+  		var $list = $('.list >li');
+  		$list.click(function(){
+  			$list.removeClass('active');
+  			this.classList.add('active');
+  		});
+  	});
+  </script>
+</body>
+</html>
