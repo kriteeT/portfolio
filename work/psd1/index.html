@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>psd1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<section class="card">
+		<header>
+			<h1>shop</h1>
+			<ul>
+				<li>shopping bag</li>
+				<li class="active">checkout</li>
+				<li>confirmation</li>
+			</ul>
+		<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+
+
+		</header>
+		<form action="">
+			<div class="left">
+				<h2>personal information</h2>
+				<div class="wrap-inputGroup">
+					<div class="inputGroup">
+						<label for="">first name</label>
+						<input type="text">
+					</div>
+					<div class="inputGroup">
+						<label for="">last name</label>
+						<input type="text">
+					</div>
+				</div>
+				<div class="wrap-inputGroup">
+					<div class="inputGroup">
+						<label for="">email adress</label>
+						<input type="email">
+					</div>
+				</div>
+				<div class="wrap-inputGroup">
+					<div class="inputGroup">
+						<label for="">city</label>
+						<input type="text">
+					</div>
+					<div class="inputGroup">
+						<label for="">country</label>
+						<div>
+							<select class="select" name="" id="">
+								<option value="Thailand">Thailand</option>
+								<option value="Japan">Japan</option>
+								<option value="Russia">Russia</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="wrap-inputGroup">
+					<div class="inputGroup margin-b-none">
+						<label for="">phone number</label>
+						<div id="wrap-phone">
+							<input id="phone" maxlength = "10" type="tel">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right">
+				<div class="right__header">
+					<h2>delivery</h2>
+					<div class="wrap-inputGroup">
+					<div class="inputGroup margin-b-none">
+						<label for="">delivery free</label>
+						<div class="wrap-option">
+							<div data-option="0" class="option">
+								<h6>0 $</h6>
+								<p>3-4 weeks</p>
+							</div>
+							<div data-option="5" class="option active">
+								<h6>5 $</h6>
+								<p>2-5 days</p>
+							</div>
+						</div>
+					</div>
+					</div>
+					<p>Estimated delivery date:<strong id="date">August 4th.</strong></p>
+					<p>Every Package has a tracking number.</p>
+				</div>
+				<div class="wrap-subscribe">
+					<label for="sub-1">Subscribe to our newsletter
+						<div>
+							<input id="sub-1" type="checkbox">
+						</div>
+					</label>
+					<label for="sub-2">Create an account
+						<div>
+							<input id="sub-2" type="checkbox">
+						</div>
+					</label>
+				</div>
+				<button type="submit">confilrm my order</button>
+			</div>
+		</form>
+	</section>
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script>
+  	$(document).ready(function(){
+
+  		// date
+  		var month = [];
+			month[0] = "January";
+			month[1] = "February";
+			month[2] = "March";
+			month[3] = "April";
+			month[4] = "May";
+			month[5] = "June";
+			month[6] = "July";
+			month[7] = "August";
+			month[8] = "September";
+			month[9] = "October";
+			month[10] = "November";
+			month[11] = "December";
+  		var $strongDate = $('#date');
+  		var d = new Date();
+  		function orderDate(number){
+  			switch(number){
+  				case 1:
+  				return 'st';
+  				break;
+  				case 2:
+  				return 'nd';
+  				break;
+  				case 3:
+  				return 'rd';
+  				break;
+  				case 4:
+  				return 'st';
+  				break;
+  				case 5:
+  				return 'nd';
+  				break;
+  				case 6:
+  				return 'rd';
+  				break;
+  				case 7:
+  				return 'st';
+  				break;
+  				default: 
+  				return 'th';
+  			}
+  		}
+  		$strongDate.html(month[d.getMonth()]+' '+d.getDay()+orderDate(d.getDay()));
+  		
+
+  		// menu header
+  		var $menu = $('header ul li');
+  		$menu.click(function(){
+  			$menu.removeClass('active');
+  			$(this).addClass('active');
+  		});
+
+  		var $checksub = $('.wrap-subscribe input');
+  		$checksub.change(function(){
+  			if(this.checked){
+  				$(this).closest('div').addClass('active');
+  			}else {
+  				$(this).closest('div').removeClass('active');
+  			}
+  		});
+
+  		var $option = $('.option');
+  		var optionDelivery;
+  		$option.click(function(){
+  			$option.removeClass('active');
+  			$(this).addClass('active');
+  			optionDelivery = $(this).data().option;
+  		});
+
+  	});
+  </script>
+</body>
+</html>
