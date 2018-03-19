@@ -10,7 +10,7 @@
 - [Youtube](https://youtube.com/) ตลอด
 ##  ความสามารถ 
 - html5
-- css3 (flexbox layout, animation css3, other framework such as bootstrap, bulma)
+- css3 (scss,flexbox layout, animation css3, other framework such as bootstrap, bulma)
 - jquery for animation (greensock, scrollmagic)
 - version control (git)
 - cross browser
