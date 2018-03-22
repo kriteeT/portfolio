@@ -1,5 +1,6 @@
 # นาย กฤตธี ศรีดำรงค์  (kriteemail@gmail.com)
-อายุ 23 ปี เกิด 2 กรกฎาคม 2536
+อายุ 24 ปี เกิด 2 กรกฎาคม 2536
+ผ่านการเกณฑ์ทหารแล้ว
 ## ประสบการณ์
 - ฝึกงาน ร้านมิสเตอร์คิม หน้าที่รับผิดชอบ ซ่อม, อัพเกรด เครื่องคอมพิวเตอร์ 4เดือน ตามหลักสูตร **ปวส.**
 - ทำงานตำแหน่งFrontEnd ที่บริษัท Egazine 8เดือน
@@ -11,7 +12,7 @@
 ##  ความสามารถ 
 - html5
 - css3 (scss,flexbox layout, animation css3, other framework such as bootstrap, bulma)
-- jquery for animation (greensock, scrollmagic)
+- js (jqueryDOM,jquery animation such as greensock, scrollmagic)
 - version control (git)
 - cross browser
 - rsponsive design 
