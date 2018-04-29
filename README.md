@@ -40,3 +40,9 @@
 ## ฝึกตัด html, css, js จาก pinterest
  [1](https://cdn.rawgit.com/kriteeT/portfolio/73de9300/work/psd1/index.html), 
  [2](https://cdn.rawgit.com/kriteeT/portfolio/73de9300/work/psd2/index.html)
+## animation with greensouck
+ [1](https://rawgit.com/kriteeT/portfolio/master/work/psd1-animation/index.html), 
+
+
+
+ 
