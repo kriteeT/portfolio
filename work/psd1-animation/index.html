@@ -204,7 +204,8 @@
   			tl = new TimelineLite();
 
   		tl
-  			.from(card, .5, {y: 100, autoAlpha: 0, ease:Power1.easeOut, delay: 0.2})
+  			// .from(card, .5, {y: 100, autoAlpha: 0, ease:Power1.easeOut, delay: 0.2})
+  			.fromTo(card, .5, {y: 100, opacity: 0}, {y: 0, opacity: 1})
   			.add('slide',"-=.1")
   			.from(partHeader, .3, {y: -20, autoAlpha: 0, ease:Power1.easeIn}, 'slide')
   			.from(partLeft, .3, {x: -20, autoAlpha: 0, ease:Power1.easeIn}, 'slide')
