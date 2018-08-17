@@ -1,4 +1,4 @@
- # นาย กฤตธี ศรีดำรงค์  (kriteemail@gmail.com)
+ <!--  # นาย กฤตธี ศรีดำรงค์  (kriteemail@gmail.com)
 อายุ 24 ปี เกิด 2 กรกฎาคม 2536
 ผ่านการเกณฑ์ทหารแล้ว
 ## ประสบการณ์
@@ -43,6 +43,6 @@
 ## animation with greensouck
  [1](https://rawgit.com/kriteeT/portfolio/master/work/psd1-animation/index.html), 
 
-
+-->
 
  
