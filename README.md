@@ -27,25 +27,25 @@
 - work on git
 - modern js frameworks web component(angularjs ,react, vul)
 ## ผลงานที่เคยทำ ระหว่างทำงานที่ Egazine  ส่วนfontend
- -[d-lite](http://www.d-lite.co.th/)
- -[gbprimepay](https://www.gbprimepay.com/)
- -[bedo](http://www1.bedo.or.th/bedo/home.php)
- -dmice ตัดหน้าเพิ่ม 
+ - [d-lite](http://www.d-lite.co.th/)
+ - [gbprimepay](https://www.gbprimepay.com/)
+ - [bedo](http://www1.bedo.or.th/bedo/home.php)
+ - dmice ตัดหน้าเพิ่ม 
  [1](http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-c.php)
  [2](http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-e.php)
  [3](http://dmiceplanner.businesseventsthailand.com/dmice/copromotionwithtat.php)
 ## ผลงานที่เคยทำ ระหว่างทำงานที่ โกอิ้ง ดิจิทัล โซลูชั่นส์  ส่วนfontend
--[Cario](http://wordpress-155228-563366.cloudwaysapps.com/)
--[Ecolab](http://wordpress-155228-650421.cloudwaysapps.com/)
--[Kiz Baby](https://woocommerce-155228-821397.cloudwaysapps.com/)
--[Electrical engineering](http://ee.eng.su.ac.th/ )
--[RMS scale](http://rmsdigitalscale.com/home/shop/)
--[TCE](http://wordpress-155228-605457.cloudwaysapps.com/)
--[Thai Stock Society](http://wordpress-155228-536664.cloudwaysapps.com/)
--[Classy Clinic](http://wordpress-155228-630339.cloudwaysapps.com/)
--[Humen Ku](http://phpstack-155228-700635.cloudwaysapps.com/Exam)
--[Unkownpresent](https://unknownpresent.com/)
--[ItalThai](http://www.italthaiengineering.com/backupGoing/)
+- [Cario](http://wordpress-155228-563366.cloudwaysapps.com/)
+- [Ecolab](http://wordpress-155228-650421.cloudwaysapps.com/)
+- [Kiz Baby](https://woocommerce-155228-821397.cloudwaysapps.com/)
+- [Electrical engineering](http://ee.eng.su.ac.th/ )
+- [RMS scale](http://rmsdigitalscale.com/home/shop/)
+- [TCE](http://wordpress-155228-605457.cloudwaysapps.com/)
+- [Thai Stock Society](http://wordpress-155228-536664.cloudwaysapps.com/)
+- [Classy Clinic](http://wordpress-155228-630339.cloudwaysapps.com/)
+- [Humen Ku](http://phpstack-155228-700635.cloudwaysapps.com/Exam)
+- [Unkownpresent](https://unknownpresent.com/)
+- [ItalThai](http://www.italthaiengineering.com/backupGoing/)
  
 ## ฝึกตัด html, css, js จาก W3Schools
  [1](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/About-me/index.html), 
