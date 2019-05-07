@@ -28,40 +28,43 @@
 - modern js frameworks web component(angularjs ,react, vul)
 ## ผลงานที่เคยทำ ระหว่างทำงานที่ Egazine  ส่วนfontend
  - <a href="http://www.d-lite.co.th/" target="_blank">d-lite</a>
- - [d-lite](http://www.d-lite.co.th/){:target="_blank"}
- - [gbprimepay](https://www.gbprimepay.com/){:target="_blank"}
- - [bedo](http://www1.bedo.or.th/bedo/home.php){:target="_blank"}
- - dmice ตัดหน้าเพิ่ม 
- [1](http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-c.php){:target="_blank"}
- [2](http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-e.php){:target="_blank"}
- [3](http://dmiceplanner.businesseventsthailand.com/dmice/copromotionwithtat.php){:target="_blank"}
+ - <a href="https://www.gbprimepay.com/" target="_blank">gbprimepay</a>
+ - bedo ตัดหน้าเพิ่ม 
+   - <a href="http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-c.php" target="_blank">1</a>
+   - <a href="http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-e.php" target="_blank">2</a>
+   - <a href="http://dmiceplanner.businesseventsthailand.com/dmice/copromotionwithtat.php" target="_blank">3</a>
 ## ผลงานที่เคยทำ ระหว่างทำงานที่ โกอิ้ง ดิจิทัล โซลูชั่นส์  ส่วนfontend
-- [Cario](http://wordpress-155228-563366.cloudwaysapps.com/)
-- [Ecolab](http://ecolab-service.co.th/)
-- [Kiz Baby](https://woocommerce-155228-821397.cloudwaysapps.com/){:target="_blank"}
-- [Electrical engineering](http://ee.eng.su.ac.th/ ){:target="_blank"}
-- [RMS scale](http://rmsdigitalscale.com/home/shop/){:target="_blank"}
-- [TCE](http://tcesolutions.com/){:target="_blank"}
-- [Thai Stock Society](http://wordpress-155228-536664.cloudwaysapps.com/){:target="_blank"}
-- [Classy Clinic](http://classyclinic.com/){:target="_blank"}
-- [Humen Ku](http://phpstack-155228-700635.cloudwaysapps.com/Exam){:target="_blank"}
-- [Unkownpresent](https://unknownpresent.com/){:target="_blank"}
-- [ItalThai](http://www.italthaiengineering.com/backupGoing/){:target="_blank"}
+- <a href="http://wordpress-155228-563366.cloudwaysapps.com/" target="_blank">Cario</a>
+- <a href="http://ecolab-service.co.th/" target="_blank">Ecolab</a>
+- <a href="http://ee.eng.su.ac.th/" target="_blank">Electrical engineering</a>
+- <a href="http://rmsdigitalscale.com/home/shop/" target="_blank">RMS scale</a>
+- <a href="http://tcesolutions.com/" target="_blank">TCE</a>
+- <a href="http://wordpress-155228-536664.cloudwaysapps.com/" target="_blank">Thai Stock Society</a>
+- <a href="http://classyclinic.com/" target="_blank">Classy Clinic</a>
+- <a href="http://phpstack-155228-700635.cloudwaysapps.com/Exam" target="_blank">Humen Ku</a>
+- <a href="https://unknownpresent.com/" target="_blank">Unkownpresent</a>
+- <a href="http://www.italthaiengineering.com/backupGoing/" target="_blank">ItalThai</a>
+
  
 ## ฝึกตัด html, css, js จาก W3Schools
- [1](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/About-me/index.html), 
- [2](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/social/index.html),
- [3](https://cdn.rawgit.com/kriteeT/portfolio/a5e1b722/work/mailbox/index.html),
- [4](https://rawgit.com/kriteeT/portfolio/master/work/webhotel/index.html),
- [5](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/admin/index.html),
- [6](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/practice/index.html),
- [7](https://rawgit.com/kriteeT/portfolio/master/work/webhotel/index.html),
- [8](https://rawgit.com/kriteeT/portfolio/master/work/mobile/index.html)
+ - <a href="https://kriteet.github.io/portfolio/work/About-me/index.html" target="_blank">About-me</a>
+ - <a href="https://kriteet.github.io/portfolio/work/Gourmet/index.html" target="_blank">Gourmet</a>
+ - <a href="https://kriteet.github.io/portfolio/work/PHOTOLIO/index.html" target="_blank">PHOTOLIO</a>
+ - <a href="https://kriteet.github.io/portfolio/work/blog/index.html" target="_blank">blog</a>
+ - <a href="https://kriteet.github.io/portfolio/work/doe/index.html" target="_blank">doe</a>
+ - <a href="https://kriteet.github.io/portfolio/work/flatcolor/index.html" target="_blank">flatcolor</a>
+ - <a href="https://kriteet.github.io/portfolio/work/hotel/index.html" target="_blank">hotel</a>
+ - <a href="https://kriteet.github.io/portfolio/work/laptop/index.html" target="_blank">laptop</a>
+ - <a href="https://kriteet.github.io/portfolio/work/lmpreaz/index.html" target="_blank">lmpreaz</a>
+ - <a href="https://kriteet.github.io/portfolio/work/mobile/index.html" target="_blank">mobile</a>
+ - <a href="https://kriteet.github.io/portfolio/work/admin/index.html" target="_blank">admin</a>
+ - <a href="https://kriteet.github.io/portfolio/work/mailbox/index.html" target="_blank">mailbox</a>
+ 
 ## ฝึกตัด html, css, js จาก pinterest
- [1](https://cdn.rawgit.com/kriteeT/portfolio/73de9300/work/psd1/index.html), 
- [2](https://cdn.rawgit.com/kriteeT/portfolio/73de9300/work/psd2/index.html)
+ - <a href="https://kriteet.github.io/portfolio/work/psd1/index.html" target="_blank">1</a>
+ - <a href="https://kriteet.github.io/portfolio/work/psd2/index.html" target="_blank">2</a>
 ## animation with greensouck
- [1](https://rawgit.com/kriteeT/portfolio/master/work/psd1-animation/index.html), 
+ [1](https://kriteet.github.io/portfolio/work/psd1-animation/index.html), 
 
 
 
