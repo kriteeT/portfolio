@@ -27,9 +27,9 @@
 - work on git
 - modern js frameworks web component(angularjs ,react, vul)
 ## ผลงานที่เคยทำ ระหว่างทำงานที่ Egazine  ส่วนfontend
- - [d-lite](http://www.d-lite.co.th/)
- - [gbprimepay](https://www.gbprimepay.com/)
- - [bedo](http://www1.bedo.or.th/bedo/home.php)
+ - [d-lite](http://www.d-lite.co.th/){:target="_blank"}
+ - [gbprimepay](https://www.gbprimepay.com/){:target="_blank"}
+ - [bedo](http://www1.bedo.or.th/bedo/home.php){:target="_blank"}
  - dmice ตัดหน้าเพิ่ม 
  [1](http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-c.php)
  [2](http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-e.php)
