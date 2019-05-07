@@ -63,8 +63,9 @@
 ## ฝึกตัด html, css, js จาก pinterest
  - <a href="https://kriteet.github.io/portfolio/work/psd1/index.html" target="_blank">1</a>
  - <a href="https://kriteet.github.io/portfolio/work/psd2/index.html" target="_blank">2</a>
+ 
 ## animation with greensouck
- [1](https://kriteet.github.io/portfolio/work/psd1-animation/index.html), 
+ - <a href="https://kriteet.github.io/portfolio/work/psd1-animation/index.html" target="_blank">1</a>
 
 
 
