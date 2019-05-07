@@ -12,6 +12,7 @@
 - [CSS-Tricks](https://css-tricks.com/) ตลอด
 - [Youtube](https://youtube.com/) ตลอด
 - Course ออนไลน์ ต่างๆ
+
 ##  ความสามารถ 
 - html5
 - css3 (grid, flexbox, advanced selector, animation)
@@ -22,10 +23,12 @@
 - cross browser
 - rsponsive design (not just medai query)
   พร้อมเรียนรู้ครับ เป็นคนเรียนรู้ได้ไว
+  
 ## งานที่ต้องการ 
 - psd to code
 - work on git
 - modern js frameworks web component(angularjs ,react, vul)
+
 ## ผลงานที่เคยทำ ระหว่างทำงานที่ Egazine  ส่วนfontend
  - <a href="http://www.d-lite.co.th/" target="_blank">d-lite</a>
  - <a href="https://www.gbprimepay.com/" target="_blank">gbprimepay</a>
@@ -33,6 +36,7 @@
    - <a href="http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-c.php" target="_blank">1</a>
    - <a href="http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-e.php" target="_blank">2</a>
    - <a href="http://dmiceplanner.businesseventsthailand.com/dmice/copromotionwithtat.php" target="_blank">3</a>
+   
 ## ผลงานที่เคยทำ ระหว่างทำงานที่ โกอิ้ง ดิจิทัล โซลูชั่นส์  ส่วนfontend
 - <a href="http://wordpress-155228-563366.cloudwaysapps.com/" target="_blank">Cario</a>
 - <a href="http://ecolab-service.co.th/" target="_blank">Ecolab</a>
@@ -45,7 +49,6 @@
 - <a href="https://unknownpresent.com/" target="_blank">Unkownpresent</a>
 - <a href="http://www.italthaiengineering.com/backupGoing/" target="_blank">ItalThai</a>
 
- 
 ## ฝึกตัด html, css, js จาก W3Schools
  - <a href="https://kriteet.github.io/portfolio/work/About-me/index.html" target="_blank">About-me</a>
  - <a href="https://kriteet.github.io/portfolio/work/Gourmet/index.html" target="_blank">Gourmet</a>
