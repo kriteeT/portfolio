@@ -31,21 +31,21 @@
  - [gbprimepay](https://www.gbprimepay.com/){:target="_blank"}
  - [bedo](http://www1.bedo.or.th/bedo/home.php){:target="_blank"}
  - dmice ตัดหน้าเพิ่ม 
- [1](http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-c.php)
- [2](http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-e.php)
- [3](http://dmiceplanner.businesseventsthailand.com/dmice/copromotionwithtat.php)
+ [1](http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-c.php){:target="_blank"}
+ [2](http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-e.php){:target="_blank"}
+ [3](http://dmiceplanner.businesseventsthailand.com/dmice/copromotionwithtat.php){:target="_blank"}
 ## ผลงานที่เคยทำ ระหว่างทำงานที่ โกอิ้ง ดิจิทัล โซลูชั่นส์  ส่วนfontend
 - [Cario](http://wordpress-155228-563366.cloudwaysapps.com/)
 - [Ecolab](http://ecolab-service.co.th/)
-- [Kiz Baby](https://woocommerce-155228-821397.cloudwaysapps.com/)
-- [Electrical engineering](http://ee.eng.su.ac.th/ )
-- [RMS scale](http://rmsdigitalscale.com/home/shop/)
-- [TCE](http://tcesolutions.com/)
-- [Thai Stock Society](http://wordpress-155228-536664.cloudwaysapps.com/)
-- [Classy Clinic](http://classyclinic.com/)
-- [Humen Ku](http://phpstack-155228-700635.cloudwaysapps.com/Exam)
-- [Unkownpresent](https://unknownpresent.com/)
-- [ItalThai](http://www.italthaiengineering.com/backupGoing/)
+- [Kiz Baby](https://woocommerce-155228-821397.cloudwaysapps.com/){:target="_blank"}
+- [Electrical engineering](http://ee.eng.su.ac.th/ ){:target="_blank"}
+- [RMS scale](http://rmsdigitalscale.com/home/shop/){:target="_blank"}
+- [TCE](http://tcesolutions.com/){:target="_blank"}
+- [Thai Stock Society](http://wordpress-155228-536664.cloudwaysapps.com/){:target="_blank"}
+- [Classy Clinic](http://classyclinic.com/){:target="_blank"}
+- [Humen Ku](http://phpstack-155228-700635.cloudwaysapps.com/Exam){:target="_blank"}
+- [Unkownpresent](https://unknownpresent.com/){:target="_blank"}
+- [ItalThai](http://www.italthaiengineering.com/backupGoing/){:target="_blank"}
  
 ## ฝึกตัด html, css, js จาก W3Schools
  [1](https://cdn.rawgit.com/kriteeT/portfolio/ae1c6f1c/work/About-me/index.html), 
