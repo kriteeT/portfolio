@@ -17,10 +17,11 @@
 - html5
 - css3 (grid, flexbox, advanced selector, animation)
   - framework (bootstrap, bulma)
-- js (oop, es6)
+- js (oop, es6, RegEx)
   - framework (jquery, vueJs, reactJS, greensock, scrollmagic)
 - version control (git)
-- cross browser
+- cross browser(line browser).
+- RESTful API from server to display for customers.
 - rsponsive design (not just medai query)
   พร้อมเรียนรู้ครับ เป็นคนเรียนรู้ได้ไว
   
