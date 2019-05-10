@@ -14,7 +14,7 @@
 - [Youtube](https://youtube.com/) ตลอด
 - Course ออนไลน์ ต่างๆ
 
-##  ความสามารถ 
+##  Skills
 - html5
 - css3 (grid, flexbox, advanced selector, animation)
   - framework (bootstrap, bulma)
@@ -31,7 +31,7 @@
 - work on git
 - modern js frameworks web component(angularjs ,react, vul)
 
-## ผลงานที่เคยทำ ระหว่างทำงานที่ Egazine  ส่วนfontend
+## Portfolio examples / Works examples Egazine  ส่วน fontend
  - <a href="http://www.d-lite.co.th/" target="_blank">d-lite</a>
  - <a href="https://www.gbprimepay.com/" target="_blank">gbprimepay</a>
  - bedo ตัดหน้าเพิ่ม 
@@ -39,7 +39,7 @@
    - <a href="http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-e.php" target="_blank">2</a>
    - <a href="http://dmiceplanner.businesseventsthailand.com/dmice/copromotionwithtat.php" target="_blank">3</a>
    
-## ผลงานที่เคยทำ ระหว่างทำงานที่ โกอิ้ง ดิจิทัล โซลูชั่นส์  ส่วนfontend
+## Portfolio examples / Works examples ระหว่างทำงานที่ โกอิ้ง ดิจิทัล โซลูชั่นส์  ส่วนfontend
 - <a href="http://wordpress-155228-563366.cloudwaysapps.com/" target="_blank">Cario</a>
 - <a href="https://kriteet.github.io/portfolio/work/Uob/" target="_blank">UOB Trand</a>
 - <a href="http://ecolab-service.co.th/" target="_blank">Ecolab</a>
