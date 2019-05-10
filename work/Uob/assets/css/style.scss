@@ -1,0 +1,179 @@
+@charset 'UTF-8';
+//Variables
+// Color
+$color-pri:#333;
+$color-sec:#666;
+$color-border: #EEE;
+$color-link: #000;
+
+$color-p1:#2B59C3;
+$color-p2: #253C78;
+$color-p3: #D36582;
+$color-p4: #FFEECF;
+$color-p5: #C9A690;
+
+// Font
+$font-pri: 'Helvetica', 'Lato';
+html,
+body {
+    font-size: 1.35vh;
+    font-family: $font-pri; 
+}
+body {
+    font-display: optional;
+}
+.wrap-all-board {
+    overflow-y: hidden;
+}
+.table {
+    font-size: 1rem;
+}
+
+
+
+a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 2.3rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+a {
+    display: block;
+}
+h1,h2,h3,h4,h5,h6,ol,ul,p {
+    padding: 0;
+    margin: 0;
+}
+ol,ul {
+    list-style: none;
+}
+/* For Firefox */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+// Global 
+.c-white {
+    color: white;
+}
+.c-black {
+    color: black;
+}
+.bg-white {
+    background-color: white;
+}
+.w-10 {
+    width: 10%;
+}
+.bold-700 {
+    font-weight: 700;
+}
+.bold-900 {
+    font-weight: 900;
+}
+
+#main-loader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999999;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Font Face
+@font-face {
+    font-family: 'System';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+    local(".SFNSText-Light"), 
+    local(".HelveticaNeueDeskInterface-Light"), 
+    local(".LucidaGrandeUI"), 
+    local("Ubuntu Light"), 
+    local("Segoe UI Light"), 
+    local("Roboto-Light"), 
+    local("DroidSans"), 
+    local("Tahoma");
+}
+
+@font-face {
+    font-family: 'Chatthai UI';
+    src: url('../fonts/chatthaiui/cschatthaiui-webfont.eot');
+    src: url('../fonts/chatthaiui/cschatthaiui-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chatthaiui/cschatthaiui-webfont.woff2') format('woff2'),
+         url('../fonts/chatthaiui/cschatthaiui-webfont.woff') format('woff'),
+         url('../fonts/chatthaiui/cschatthaiui-webfont.ttf') format('truetype'),
+         url('../fonts/chatthaiui/cschatthaiui-webfont.svg#cs_chatthaiuiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'TF Srivichai';
+    src: url('../fonts/TFSrivichai/tf_srivichai-webfont.eot');
+    src: url('../fonts/TFSrivichai/tf_srivichai-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TFSrivichai/tf_srivichai-webfont.woff2') format('woff2'),
+         url('../fonts/TFSrivichai/tf_srivichai-webfont.woff') format('woff'),
+         url('../fonts/TFSrivichai/tf_srivichai-webfont.ttf') format('truetype'),
+         url('../fonts/TFSrivichai/tf_srivichai-webfont.svg#tf_srivichairegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'TF Srivichai';
+    src: url('../fonts/TFSrivichai/tf_srivichai_bol-webfont.eot');
+    src: url('../fonts/TFSrivichai/tf_srivichai_bol-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/TFSrivichai/tf_srivichai_bol-webfont.woff2') format('woff2'),
+         url('../fonts/TFSrivichai/tf_srivichai_bol-webfont.woff') format('woff'),
+         url('../fonts/TFSrivichai/tf_srivichai_bol-webfont.ttf') format('truetype'),
+         url('../fonts/TFSrivichai/tf_srivichai_bol-webfont.svg#tf_srivichaibold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+
+// Import
+@import 'bootstrap.min.css';
+@import 'fontawesome-all.min.css';
+@import 'animate.css';
+
+@import '_head';
+@import '_body';
+@import '_foot';
+@import '_custom';
+@import '_responsive';

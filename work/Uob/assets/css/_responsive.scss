@@ -1,0 +1,52 @@
+@charset 'UTF-8';
+@media only screen and (max-width:767px) {
+    html,body {
+        font-size: 1.1vh;
+    }
+   
+}
+@media only screen and (max-width: 1200px){
+
+}
+@media only screen and (min-width:767px) {}
+
+@media only screen and (min-width:768px) and (max-width:991px) {}
+
+
+
+@media only screen and (max-width: 1024px){
+    .main-form,
+    #btn-cound,
+    .form-control {
+        font-size: 1.25rem;
+    }
+    select.form-control {
+        font-size: 1.55rem;
+    }
+    .table-footer {
+        font-size: 1.15rem;
+    }
+    .table-date {
+        font-size: .85rem;
+    }
+  
+}
+@media only screen and (min-width:767px) {
+
+}
+
+@media only screen and (min-width: 1280px){
+  
+}
+
+@media only screen and (min-width: 1440px){
+
+   
+
+   
+}
+
+@media only screen and (min-width: 1600px){
+ 
+    
+}

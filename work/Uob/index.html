@@ -1,0 +1,2737 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>UOB Theme</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body>
+    <div id="main-loader">
+        <img src="assets/img/logo-loading.png" alt="">
+    </div>
+
+    <header class="main-header d-flex flex-column  text-uppercase ">
+        <div class="main-top d-flex justify-content-between">
+            <div class="d-flex">
+                <div class="main-logo d-flex align-items-center">
+                    <a href="">
+                        <img class="img-fluid" src="assets/img/logo.png" alt="">
+                    </a>
+                </div>
+                <ul class="main-tab d-flex justify-content-center align-items-stretch">
+                    <li data-board="favourite" class="list px-5">favourite</li>
+                    <li data-board="portfolio" class="list px-5">portfolio</li>
+                    <li data-board="quote" class="list px-5">quote</li>
+                </ul>
+            </div>
+            <div class="d-flex">
+                <div class="user-menu d-flex align-items-center c-white">
+                    <div class="user-account position-relative ">
+                        <p id="account" class="px-4">demo account
+                            <i class="fas fa-caret-down"></i>
+                        </p>
+                        <ul id="account-menu">
+                            <li>Logout</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div id="headerDate" class=" d-flex align-items-center px-4 c-white text-capitalize"></div>
+                <div id="headerTime" class=" d-flex align-items-center px-4 c-white text-capitalize"></div>
+            </div>
+        </div>
+        <div class="main-set d-flex flex-grow-1">
+            <div class="big-set d-flex justify-content-around align-items-center px-2">
+                <div class="big-set__title d-flex ">
+                    <strong class="title c-white mr-2">set</strong>
+                    <span class="number c-green bold-700">1767.38</span>
+                </div>
+                <div class="">
+                    <p class="c-green sub-title">+11.86</p>
+                    <small class="c-green sub-title-small">+0.68%</small>
+                </div>
+                <div class="">
+                    <div class="d-flex justify-content-between">
+                        <p class="c-white mr-2 sub-title">high</p>
+                        <span class="c-green sub-title">1768.52(+12.99)</span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="c-white mr-2 sub-title">low</p>
+                        <span class="c-green sub-title">60.75(+5.22)</span>
+                    </div>
+                </div>
+                <div>
+                    <div class="d-flex">
+                        <p class="c-white mr-3 sub-title">value</p>
+                        <span class="c-blue sub-title"> 13,722.03 mb</span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <span class="c-green up sub-title">759</span>
+                        <span class="c-red down sub-title">759</span>
+                        <span class="c-yellow equal sub-title">759</span>
+                    </div>
+                </div>
+            </div>
+            <div class="small-set d-flex  align-items-center px-2">
+                <div>
+                    <select class="select-set">
+                        <option>set 50</option>
+                        <option>set 100</option>
+                        <option>sSET</option>
+                        <option>SETHD</option>
+                        <option>mai</option>
+                    </select>
+                    <p class="c-green text-right">1,166.38</p>
+                </div>
+                <div>
+                    <p class="c-green sub-title d-flex align-items-center">+11.86</p>
+                    <small class="c-green">+0.66%</small>
+                </div>
+                <div>
+                    <div class="d-flex justify-content-between  align-items-center">
+                        <p class="mr-2 c-white ">height</p>
+                        <span class="c-green">1,167.50</span>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="mr-2 c-white">low</p>
+                        <span class="c-green">166.65</span>
+                    </div>
+
+                </div>
+                <div>
+                    <p>
+                        <strong class="title c-white d-block">set</strong>
+                        <span class="title-open c-brown">open1</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <section>
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="main-col p-0 wrap-all-board ">
+                    <div data-board="favourite" class="position-relative wrap-board wrap-favorites">
+                        <table class="table table-fixed table-bordered table-big">
+                            <thead>
+                                <tr>
+                                    <th>symblo</th>
+                                    <th>last</th>
+                                    <th>chg</th>
+                                    <th>%chg</th>
+                                    <th>vol b</th>
+                                    <th>bld</th>
+                                    <th>offer</th>
+                                    <th>vol o</th>
+                                    <th>close</th>
+                                    <th>total vol</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="c-green">
+                                        <input class="input-symblo" type="text" value="bbl">
+                                    </td>
+                                    <td class="c-green">204.00</td>
+                                    <td class="c-green">+3.00</td>
+                                    <td class="c-green">4.14%</td>
+                                    <td class="c-yellow">323.80</td>
+                                    <td class="c-green">203.80</td>
+                                    <td class="c-green">204.50</td>
+                                    <td class="c-yellow">689</td>
+                                    <td>201.00</td>
+                                    <td>689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input class="input-symblo" type="text" value="bbl">
+                                    </td>
+                                    <td>204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td>689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input class="input-symblo" type="text" value="bbl">
+                                    </td>
+                                    <td>204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td>689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input class="input-symblo" type="text" value="bbl">
+                                    </td>
+                                    <td>204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td>689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input class="input-symblo" type="text" value="bbl">
+                                    </td>
+                                    <td>204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td>689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input class="input-symblo" type="text" value="bbl">
+                                    </td>
+                                    <td>204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td>689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input class="input-symblo" type="text" value="bbl">
+                                    </td>
+                                    <td>204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td>689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input class="input-symblo" type="text" value="bbl">
+                                    </td>
+                                    <td>204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td>689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input class="input-symblo" type="text" value="bbl">
+                                    </td>
+                                    <td>204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td>689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input class="input-symblo" type="text" value="bbl">
+                                    </td>
+                                    <td>204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td>689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input class="input-symblo" type="text" value="bbl">
+                                    </td>
+                                    <td>204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td>689,000</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+                        <ul class="pagination">
+                            <li class="active">
+                                <a href="">1</a>
+                            </li>
+                            <li>
+                                <a href="">2</a>
+                            </li>
+                            <li>
+                                <a href="">3</a>
+                            </li>
+                            <li>
+                                <a href="">4</a>
+                            </li>
+                            <li>
+                                <a href="">5</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div data-board="portfolio" class=" wrap-board wrap-home">
+                        <table class="table table-big table-fixed table-porfolio table-bordered bold-700">
+                            <thead>
+                                <tr>
+                                    <th>symblo</th>
+                                    <th>vol</th>
+                                    <th>sellable</th>
+                                    <th>average</th>
+                                    <th>price</th>
+                                    <th>cost</th>
+                                    <th>value</th>
+                                    <th>gain/loss</th>
+                                    <th>%</th>
+                                    <th>realized</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="c-green text-left">
+                                        <p>bbl</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>bbl</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>bbl</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>bbl</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>bbl</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>bbl</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>bbl</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="c-green text-left">
+                                        <p>bbl</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>bbl</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>bbl</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>bbl</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>last</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>last</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>last</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>last</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>last88</p>
+                                    </td>
+                                    <td class="c-gold">204.00</td>
+                                    <td>+3.00</td>
+                                    <td>4.14%</td>
+                                    <td>323.80</td>
+                                    <td>203.80</td>
+                                    <td>204.50</td>
+                                    <td>689,000</td>
+                                    <td>201.00</td>
+                                    <td class="c-red">689,000</td>
+                                </tr>
+
+
+
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div data-board="quote" class="wrap-board wrap-qoute container-fluid p-0 scroll-back">
+
+                        <div class="row no-gutters c-black pt-2">
+                            <div class="quote-left">
+                                <div class="header-gray bold-700 text-uppercase d-flex justify-content-between align-items-center px-3 bg-white">
+                                    <div class="w-50">
+                                        <input class="c-green form-control input-quote bold-700" type="text" value="true">
+                                    </div>
+
+
+                                    <p class="mr-2 c-green">5.85</p>
+                                    <div class="d-flex align-items-center c-green">
+                                        <p>+0.05</p>
+                                        <p>(+0.70%)</p>
+                                    </div>
+                                </div>
+                                <table class="table table-borderless table-qoute table-quote-bid text-capitalize text-right mt-1">
+                                    <thead>
+                                        <tr>
+                                            <th>volume</th>
+                                            <th>bids</th>
+                                            <th>offers</th>
+                                            <th>volume</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="c-yellow">7,207,200</td>
+                                            <td class="c-yellow">7.10</td>
+                                            <td class="c-yellow">7.15</td>
+                                            <td class="c-yellow">5,628,200</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="c-yellow">7,207,200</td>
+                                            <td class="c-red">7.10</td>
+                                            <td class="c-red">7.15</td>
+                                            <td class="c-red">5,628,200</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="c-red">7,207,200</td>
+                                            <td class="c-blue">7.10</td>
+                                            <td class="c-blue">7.15</td>
+                                            <td class="c-blue">5,628,200</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="c-green">7,207,200</td>
+                                            <td class="c-green">7.10</td>
+                                            <td class="c-green">7.15</td>
+                                            <td class="c-green">5,628,200</td>
+                                        </tr>
+                                        <tr>
+                                            <td>7,207,200</td>
+                                            <td>7.10</td>
+                                            <td>7.15</td>
+                                            <td>5,628,200</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="quote-right pl-3">
+                                <div class="header-gray header-gray--yellow text-uppercase d-flex align-items-center bold-700">
+                                    <p>true Corporation Pubile Company Limited</p>
+                                </div>
+                                <div class="container-fluid p-0">
+                                    <div class="row no-gutters detail-qoute text-capitalize">
+                                        <div class="col">
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">high/low</p>
+                                                <p>
+                                                    <span class="c-green">7.15</span>
+                                                    <span class="c-gray">/</span>
+                                                    <span class="c-yellow">7.10</span>
+                                                </p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">ceiling/flow</p>
+                                                <p>
+                                                    <span>9.20</span>/
+                                                    <span>4.98</span>
+                                                </p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">previous close</p>
+                                                <p>7.10</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">average price</p>
+                                                <p>7.00</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">average buy</p>
+                                                <p>7.15</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">average sell</p>
+                                                <p>7.12</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">volume</p>
+                                                <p class="c-gray">44,288,700</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">volume(k)</p>
+                                                <p class="c-gray">315,397</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">open2</p>
+                                                <p class="c-yellow">7.10</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">open1(morning)</p>
+                                                <p class="c-green">7.15</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">open2(afternoon)</p>
+                                                <p class="c-yellow">7.10</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">52W height/low</p>
+                                                <p>
+                                                    <span class="c-green">7.60 </span>/
+                                                    <span class="c-red"> 5.00</span>
+                                                </p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">% change 1w</p>
+                                                <p class="c-yellow">7.10</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">% change 2w</p>
+                                                <p class="c-red">7.10</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">% change 3w</p>
+                                                <p class="c-green">+7.10%</p>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">EPS</p>
+                                                <p>7.60 </p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">P/E</p>
+                                                <p class="c-yellow">7.10</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">P/BV</p>
+                                                <p class="c-yellow">1.76</p>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <p class="bold-700">%YIELD</p>
+                                                <p>0.00</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-grow-1 row justify-content-center no-gutters wrap-mini-option">
+                            <div class="quote-left pl-3 d-flex flex-column flex-nowrap bold-700">
+
+                                <div class="wrap-box-range-header d-flex justify-content-end">
+                                    <div class="w-75 d-flex justify-content-between align-items-center">
+                                        <p>Vol.Buy</p>
+                                        <div class="d-flex align-items-center wrap-box-range-header-group">
+                                            <p>Vol.Sell</p>
+                                            <i data-type="detail" class="far fa-list-ul icon icon-dataType"></i>
+                                            <i data-type="chart" class="far fa-chart-line icon icon-dataType"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-type="detail" class="dataType">
+                                    <div class="wrap-box-range flex-grow-1 d-flex flex-column flex-nowrap justify-content-around">
+                                        <div class="box-range d-flex justify-content-between align-items-end">
+                                            <h5 class="title w-40 bold-900">TRUE</h5>
+                                            <div class="w-75">
+                                                <div class="d-flex justify-content-between mb-1 range-value px-3">
+                                                    <p>23,580,700</p>
+                                                    <p>18,657,300</p>
+                                                </div>
+                                                <div class="wrap-progress--range">
+                                                    <div class="wrap-input-range bold-900">
+                                                        <input class="input-range" type="range" min="0" max="100" step="1" value="30">
+                                                        <div class="input-range-des buy">
+                                                            <p>Buy</p>
+                                                            <span>0</span>%
+                                                        </div>
+                                                        <div class="input-range-des sell">
+                                                            <p>Sell</p>
+                                                            <span>0</span>%
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="box-range d-flex justify-content-between align-items-end">
+                                            <h5 class="title-small w-40 bold-900">information & Communication Teachnology</h5>
+                                            <div class="w-75">
+                                                <div class="d-flex justify-content-between mb-1 range-value px-3">
+                                                    <p>23,580,700</p>
+                                                    <p>18,657,300</p>
+                                                </div>
+                                                <div class="wrap-progress--range">
+                                                    <div class="wrap-input-range bold-900">
+                                                        <input class="input-range" type="range" min="0" max="100" step="1" value="85">
+                                                        <div class="input-range-des buy">
+                                                            <p>Buy</p>
+                                                            <span>0</span>%
+                                                        </div>
+                                                        <div class="input-range-des sell">
+                                                            <p>Sell</p>
+                                                            <span>0</span>%
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="box-range d-flex justify-content-between align-items-end">
+                                            <h5 class="title w-40 bold-900">Market</h5>
+                                            <div class="w-75">
+                                                <div class="d-flex justify-content-between mb-1 range-value px-3">
+                                                    <p>23,580,700</p>
+                                                    <p>18,657,300</p>
+                                                </div>
+                                                <div class="wrap-progress--range">
+                                                    <div class="wrap-input-range bold-900">
+                                                        <input class="input-range" type="range" min="0" max="100" step="1" value="12">
+                                                        <div class="input-range-des buy">
+                                                            <p>Buy</p>
+                                                            <span>0</span>%
+                                                        </div>
+                                                        <div class="input-range-des sell">
+                                                            <p>Sell</p>
+                                                            <span>0</span>%
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-type="chart" class="dataType">
+                                    <div style="height: 100%;background-color: #d9d9d9; color: black;">
+                                        Graph
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="quote-right pl-3">
+                                <div class="mini-option d-block">
+                                    <ul class="mini-option-header d-flex text-capitalize">
+                                        <li data-mini-option="ticker" class="active">ticker</li>
+                                        <li data-mini-option="date">by date</li>
+                                        <li data-mini-option="chart">chart</li>
+                                        <li data-mini-option="news">news</li>
+                                        <li data-mini-option="margin">magin rate</li>
+                                        <li data-mini-option="oddlot">odd lot</li>
+                                    </ul>
+
+                                    <div data-mini-option="ticker" class="mini-option-type">
+                                        <div class="ticker-body text-center d-flex">
+                                            <div class="container-fluid p-0">
+                                                <div class="row no-gutters m-0">
+                                                    <div class="col-4">
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span>B</span>
+                                                            <p>2,400</p>
+                                                            <p>7.15</p>
+                                                            <p class="icon down"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span class="c-red">S</span>
+                                                            <p class="c-red">2,400</p>
+                                                            <p class="c-yellow">7.15</p>
+                                                            <p class="icon down"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between align-items-center ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span class="c-blue">B</span>
+                                                            <p class="c-blue">2,400</p>
+                                                            <p class="c-green">7.15</p>
+                                                            <p class="icon up"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span>B</span>
+                                                            <p>2,400</p>
+                                                            <p>7.15</p>
+                                                            <p class="icon up"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span>B</span>
+                                                            <p>2,400</p>
+                                                            <p>7.15</p>
+                                                            <p class="icon down"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span class="c-red">S</span>
+                                                            <p class="c-red">2,400</p>
+                                                            <p class="c-yellow">7.15</p>
+                                                            <p class="icon down"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between align-items-center ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span class="c-blue">B</span>
+                                                            <p class="c-blue">2,400</p>
+                                                            <p class="c-green">7.15</p>
+                                                            <p class="icon up"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span>B</span>
+                                                            <p>2,400</p>
+                                                            <p>7.15</p>
+                                                            <p class="icon up"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span>B</span>
+                                                            <p>2,400</p>
+                                                            <p>7.15</p>
+                                                            <p class="icon down"></p>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="d-flex justify-content-between align-items-center ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span class="c-blue">B</span>
+                                                            <p class="c-blue">2,400</p>
+                                                            <p class="c-green">7.15</p>
+                                                            <p class="icon up"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span>B</span>
+                                                            <p>2,400</p>
+                                                            <p>7.15</p>
+                                                            <p class="icon up"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span>B</span>
+                                                            <p>2,400</p>
+                                                            <p>7.15</p>
+                                                            <p class="icon down"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span class="c-red">S</span>
+                                                            <p class="c-red">2,400</p>
+                                                            <p class="c-yellow">7.15</p>
+                                                            <p class="icon down"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between align-items-center ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span class="c-blue">B</span>
+                                                            <p class="c-blue">2,400</p>
+                                                            <p class="c-green">7.15</p>
+                                                            <p class="icon up"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span>B</span>
+                                                            <p>2,400</p>
+                                                            <p>7.15</p>
+                                                            <p class="icon up"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span>B</span>
+                                                            <p>2,400</p>
+                                                            <p>7.15</p>
+                                                            <p class="icon down"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span class="c-red">S</span>
+                                                            <p class="c-red">2,400</p>
+                                                            <p class="c-yellow">7.15</p>
+                                                            <p class="icon down"></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <div class="d-flex justify-content-between align-items-center ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span class="c-blue">B</span>
+                                                            <p class="c-blue">2,400</p>
+                                                            <p class="c-green">7.15</p>
+                                                            <p class="icon up"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span>B</span>
+                                                            <p>2,400</p>
+                                                            <p>7.15</p>
+                                                            <p class="icon up"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span>B</span>
+                                                            <p>2,400</p>
+                                                            <p>7.15</p>
+                                                            <p class="icon down"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span class="c-red">S</span>
+                                                            <p class="c-red">2,400</p>
+                                                            <p class="c-yellow">7.15</p>
+                                                            <p class="icon down"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between align-items-center ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span class="c-blue">B</span>
+                                                            <p class="c-blue">2,400</p>
+                                                            <p class="c-green">7.15</p>
+                                                            <p class="icon up"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span>B</span>
+                                                            <p>2,400</p>
+                                                            <p>7.15</p>
+                                                            <p class="icon up"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span>B</span>
+                                                            <p>2,400</p>
+                                                            <p>7.15</p>
+                                                            <p class="icon down"></p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between ticker-list">
+                                                            <p class="time">15:01:35</p>
+                                                            <span class="c-red">S</span>
+                                                            <p class="c-red">2,400</p>
+                                                            <p class="c-yellow">7.15</p>
+                                                            <p class="icon down"></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div data-mini-option="date" class="mini-option-type">
+                                        <table class="table table-date text-capitalize">
+                                            <thead>
+                                                <tr>
+                                                    <th>date</th>
+                                                    <th>open</th>
+                                                    <th>close</th>
+                                                    <th>change</th>
+                                                    <th>%chg</th>
+                                                    <th>volume</th>
+                                                    <th>value(K)</th>
+                                                    <th>Hight</th>
+                                                    <th>Low</th>
+                                                    <th>Market Cap(MB)</th>
+                                                    <th>P/E</th>
+                                                    <th>%YIELD</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="scroll-back">
+                                                <tr>
+                                                    <td>10/06/2018</td>
+                                                    <td>6.65</td>
+                                                    <td>6.60</td>
+                                                    <td class="c-green">-0.10</td>
+                                                    <td class="c-red">-1.49%</td>
+                                                    <td class="c-yellow">787,755,000</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/06/2018</td>
+                                                    <td>6.65</td>
+                                                    <td>6.60</td>
+                                                    <td>-0.10</td>
+                                                    <td>-1.49%</td>
+                                                    <td>87,757,860</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/06/2018</td>
+                                                    <td>6.65</td>
+                                                    <td>6.60</td>
+                                                    <td>-0.10</td>
+                                                    <td>-1.49%</td>
+                                                    <td>87,757,860</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/06/2018</td>
+                                                    <td>6.65</td>
+                                                    <td>6.60</td>
+                                                    <td>-0.10</td>
+                                                    <td>-1.49%</td>
+                                                    <td>87,757,860</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/06/2018</td>
+                                                    <td>6.65</td>
+                                                    <td>6.60</td>
+                                                    <td>-0.10</td>
+                                                    <td>-1.49%</td>
+                                                    <td>87,757,860</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/06/2018</td>
+                                                    <td>6.65</td>
+                                                    <td>6.60</td>
+                                                    <td>-0.10</td>
+                                                    <td>-1.49%</td>
+                                                    <td>87,757,860</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/06/2018</td>
+                                                    <td>6.65</td>
+                                                    <td>6.60</td>
+                                                    <td>-0.10</td>
+                                                    <td>-1.49%</td>
+                                                    <td>87,757,860</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/06/2018</td>
+                                                    <td>6.65</td>
+                                                    <td>6.60</td>
+                                                    <td class="c-green">-0.10</td>
+                                                    <td class="c-red">-1.49%</td>
+                                                    <td class="c-yellow">787,755,000</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/06/2018</td>
+                                                    <td>6.65</td>
+                                                    <td>6.60</td>
+                                                    <td>-0.10</td>
+                                                    <td>-1.49%</td>
+                                                    <td>87,757,860</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/06/2018</td>
+                                                    <td>6.65</td>
+                                                    <td>6.60</td>
+                                                    <td>-0.10</td>
+                                                    <td>-1.49%</td>
+                                                    <td>87,757,860</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/06/2018</td>
+                                                    <td>6.65</td>
+                                                    <td>6.60</td>
+                                                    <td>-0.10</td>
+                                                    <td>-1.49%</td>
+                                                    <td>87,757,860</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/06/2018</td>
+                                                    <td>6.65</td>
+                                                    <td>6.60</td>
+                                                    <td>-0.10</td>
+                                                    <td>-1.49%</td>
+                                                    <td>87,757,860</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/06/2018</td>
+                                                    <td>6.65</td>
+                                                    <td>6.60</td>
+                                                    <td>-0.10</td>
+                                                    <td>-1.49%</td>
+                                                    <td>87,757,860</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>10/06/2018</td>
+                                                    <td>6.65</td>
+                                                    <td>6.60</td>
+                                                    <td>-0.10</td>
+                                                    <td>-1.49%</td>
+                                                    <td>87,757,860</td>
+                                                    <td>7</td>
+                                                    <td>8</td>
+                                                    <td>9</td>
+                                                    <td>10</td>
+                                                    <td>11</td>
+                                                    <td>12</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div data-mini-option="chart" class="mini-option-type">
+                                        <div>
+                                            chart
+                                        </div>
+                                    </div>
+                                    <div data-mini-option="news" class="mini-option-type scroll-back">
+                                        <div>
+                                            <a class="news-list" href="">
+                                                <h6 class="title bold-700">การไม่เข้าร่วมประมูลใบอนุญาติให้ใช้คบื่นความถี่ สำหรับกิจการโทรคมนาคม ย่าน
+                                                    1800 MHz</h6>
+                                                <div class="d-flex des">
+                                                    <p>07 June 2018</p>
+                                                    <p class="ml-1">08:37:20</p>
+                                                </div>
+                                            </a>
+                                            <a class="news-list" href="">
+                                                <h6 class="title bold-700">การไม่เข้าร่วมประมูลใบอนุญาติให้ใช้คบื่นความถี่ สำหรับกิจการโทรคมนาคม ย่าน
+                                                    1800 MHz</h6>
+                                                <div class="d-flex des">
+                                                    <p>07 June 2018</p>
+                                                    <p class="ml-1">08:37:20</p>
+                                                </div>
+                                            </a>
+                                            <a class="news-list" href="">
+                                                <h6 class="title bold-700">การไม่เข้าร่วมประมูลใบอนุญาติให้ใช้คบื่นความถี่ สำหรับกิจการโทรคมนาคม ย่าน
+                                                    1800 MHz</h6>
+                                                <div class="d-flex des">
+                                                    <p>07 June 2018</p>
+                                                    <p class="ml-1">08:37:20</p>
+                                                </div>
+                                            </a>
+                                            <a class="news-list" href="">
+                                                <h6 class="title bold-700">การไม่เข้าร่วมประมูลใบอนุญาติให้ใช้คบื่นความถี่ สำหรับกิจการโทรคมนาคม ย่าน
+                                                    1800 MHz</h6>
+                                                <div class="d-flex des">
+                                                    <p>07 June 2018</p>
+                                                    <p class="ml-1">08:37:20</p>
+                                                </div>
+                                            </a>
+                                            <a class="news-list" href="">
+                                                <h6 class="title bold-700">การไม่เข้าร่วมประมูลใบอนุญาติให้ใช้คบื่นความถี่ สำหรับกิจการโทรคมนาคม ย่าน
+                                                    1800 MHz</h6>
+                                                <div class="d-flex des">
+                                                    <p>07 June 2018</p>
+                                                    <p class="ml-1">08:37:20</p>
+                                                </div>
+                                            </a>
+                                            <a class="news-list" href="">
+                                                <h6 class="title bold-700">การไม่เข้าร่วมประมูลใบอนุญาติให้ใช้คบื่นความถี่ สำหรับกิจการโทรคมนาคม ย่าน
+                                                    1800 MHz</h6>
+                                                <div class="d-flex des">
+                                                    <p>07 June 2018</p>
+                                                    <p class="ml-1">08:37:20</p>
+                                                </div>
+                                            </a>
+                                            <a class="news-list" href="">
+                                                <h6 class="title bold-700">การไม่เข้าร่วมประมูลใบอนุญาติให้ใช้คบื่นความถี่ สำหรับกิจการโทรคมนาคม ย่าน
+                                                    1800 MHz</h6>
+                                                <div class="d-flex des">
+                                                    <p>07 June 2018</p>
+                                                    <p class="ml-1">08:37:20</p>
+                                                </div>
+                                            </a>
+                                            <a class="news-list" href="">
+                                                <h6 class="title bold-700">การไม่เข้าร่วมประมูลใบอนุญาติให้ใช้คบื่นความถี่ สำหรับกิจการโทรคมนาคม ย่าน
+                                                    1800 MHz</h6>
+                                                <div class="d-flex des">
+                                                    <p>07 June 2018</p>
+                                                    <p class="ml-1">08:37:20</p>
+                                                </div>
+                                            </a>
+                                            <a class="news-list" href="">
+                                                <h6 class="title bold-700">การไม่เข้าร่วมประมูลใบอนุญาติให้ใช้คบื่นความถี่ สำหรับกิจการโทรคมนาคม ย่าน
+                                                    1800 MHz</h6>
+                                                <div class="d-flex des">
+                                                    <p>07 June 2018</p>
+                                                    <p class="ml-1">08:37:20</p>
+                                                </div>
+                                            </a>
+                                            <a class="news-list" href="">
+                                                <h6 class="title bold-700">การไม่เข้าร่วมประมูลใบอนุญาติให้ใช้คบื่นความถี่ สำหรับกิจการโทรคมนาคม ย่าน
+                                                    1800 MHz</h6>
+                                                <div class="d-flex des">
+                                                    <p>07 June 2018</p>
+                                                    <p class="ml-1">08:37:20</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div data-mini-option="margin" class="mini-option-type">
+                                        <table class="table table-margin table-borderless text-center">
+                                            <thead>
+                                                <tr>
+                                                    <th>Margin Info</th>
+                                                    <th>Broker</th>
+                                                    <th>TSFC</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Initial Margin(IM)</td>
+                                                    <td>-</td>
+                                                    <td>-</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Grade</td>
+                                                    <td>N/A</td>
+                                                    <td>N/A</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div data-mini-option="oddlot" class="mini-option-type">
+                                        <div class="container-fluid p-0">
+                                            <div class="row no-gutters">
+                                                <div class="col-5">
+                                                    <div class="box-odd d-flex justify-content-between">
+                                                        <div class="flex-grow-1 mr-2">
+                                                            <div class="d-flex align-items-center mb-2">
+                                                                <h6>Odd Lot:</h6>
+                                                                <h6 class="title bold-700 ml-auto">0.00</h6>
+                                                                <p class="wrap-sync">
+                                                                    <i class="far fa-sync-alt"></i>
+                                                                </p>
+                                                            </div>
+                                                            <div class="d-flex justify-content-between">
+                                                                <p>Last Update 14:01:27</p>
+                                                                <p>0.00(0.00%)</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="col-7">
+                                                    <div class="d-flex">
+                                                        <div class="flex-grow-1 text-right box-odd-mini">
+                                                            <h6>Vol/Value(K)</h6>
+                                                            <p>0</p>
+                                                            <p>0</p>
+                                                        </div>
+                                                        <div class="flex-grow-1 text-right box-odd-mini">
+                                                            <h6>Hight/Low</h6>
+                                                            <p>0</p>
+                                                            <p>0</p>
+                                                        </div>
+                                                        <div class="flex-grow-1 text-right box-odd-mini">
+                                                            <h6>Ceil/Floor</h6>
+                                                            <p>8.75</p>
+                                                            <p>4.74</p>
+                                                        </div>
+                                                        <div class="flex-grow-1 text-right box-odd-mini">
+                                                            <h6>Avg/Close</h6>
+                                                            <p>0.00</p>
+                                                            <p>7.60</p>
+                                                        </div>
+                                                        <div class="flex-grow-1 text-right box-odd-mini">
+                                                            <h6>Open 1</h6>
+                                                            <p>0.00</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row no-gutters mt-3">
+                                                <div class="col-5">
+                                                    <table class="table table-odd-lot table-borderless text-right table-header-gray">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>
+                                                                    Volume
+                                                                </th>
+                                                                <th>
+                                                                    Bids
+                                                                </th>
+                                                                <th>
+                                                                    Offers
+                                                                </th>
+                                                                <th>
+                                                                    Volume
+                                                                </th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>0</td>
+                                                                <td>0.00</td>
+                                                                <td>0.00</td>
+                                                                <td>0</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>0</td>
+                                                                <td>0.00</td>
+                                                                <td>0.00</td>
+                                                                <td>0</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>0</td>
+                                                                <td>0.00</td>
+                                                                <td>0.00</td>
+                                                                <td>0</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>0</td>
+                                                                <td>0.00</td>
+                                                                <td>0.00</td>
+                                                                <td>0</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <div class="wrap-progress--range mt-5">
+                                                        <div class="wrap-input-range bold-900">
+                                                            <input class="input-range" type="range" min="0" max="100" step="1" value="10">
+                                                            <div class="input-range-des buy">
+                                                                <p>Buy</p>
+                                                                <span>0</span>%
+                                                            </div>
+                                                            <div class="input-range-des sell">
+                                                                <p>Sell</p>
+                                                                <span>0</span>%
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7">
+                                                    <table class="table table-odd-time table-borderless text-right table-header-gray">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>
+                                                                    Volume
+                                                                </th>
+                                                                <th>
+                                                                    Bids
+                                                                </th>
+                                                                <th>
+                                                                    Offers
+                                                                </th>
+                                                                <th>
+                                                                    Volume
+                                                                </th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="c-yellow">0</td>
+                                                                <td>0.00</td>
+                                                                <td>0.00</td>
+                                                                <td>0</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>0</td>
+                                                                <td>0.00</td>
+                                                                <td>0.00</td>
+                                                                <td>0</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>0</td>
+                                                                <td>0.00</td>
+                                                                <td>0.00</td>
+                                                                <td>0</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>0</td>
+                                                                <td>0.00</td>
+                                                                <td>0.00</td>
+                                                                <td>0</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+                    <div class="footer py-1 px-3 bold-700 scroll-back">
+                        <div class="row c-white m-0 mx-auto justify-content-between bold-700 text-right wrap-bid">
+                            <div class="d-flex align-items-center">
+                                <input class="input-bid bold-700" type="text">
+                            </div>
+                            <div class="text-bid">
+                                <h3 class="big-title c-green bold-700">194.50</h3>
+                                <h4 class="sub-title c-green bold-700">+8.50(4.19%)</h4>
+                            </div>
+                            <div class="text-bid">
+                                <p class="title">Vol/Value(K)</p>
+                                <p>600</p>
+                                <p>116</p>
+                            </div>
+                            <div class="text-bid">
+                                <p class="title">Height/Low</p>
+                                <p class="c-green">194.50</p>
+                                <p class="c-green">194.50</p>
+                            </div>
+                            <div class="text-bid">
+                                <p class="title">Ceil/Floor</p>
+                                <p class="c-green">285.00</p>
+                                <p class="c-red">139.00</p>
+                            </div>
+                            <div class="text-bid">
+                                <p class="title">Avg/Close</p>
+                                <p class="c-green">194.50</p>
+                                <p>203.00</p>
+                            </div>
+                            <div class="text-bid">
+                                <p class="title">Open1</p>
+                                <p class="c-green">194.50</p>
+                                <p class="c-yellow">137,119</p>
+                            </div>
+                        </div>
+                        <div class="row m-0 wrap-table-bid">
+                            <div class="col-8 pl-0 d-flex flex-column">
+                                <table class="table table-footer table-vol text-capitalize">
+                                    <thead>
+                                        <tr>
+                                            <th>volume</th>
+                                            <th class="c-blue">bid</th>
+                                            <th class="c-purple">offer</th>
+                                            <th>volume</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>19,18d,300</td>
+                                            <td>7.2</td>
+                                            <td class="c-red">7.2</td>
+                                            <td>19,189,300</td>
+                                        </tr>
+                                        <tr>
+                                            <td>19,18d,300</td>
+                                            <td>7.2</td>
+                                            <td class="c-red">7.2</td>
+                                            <td>19,189,300</td>
+                                        </tr>
+                                        <tr>
+                                            <td>19,18d,300</td>
+                                            <td>7.2</td>
+                                            <td class="c-red">7.2</td>
+                                            <td>19,189,300</td>
+                                        </tr>
+                                        <tr>
+                                            <td>19,18d,300</td>
+                                            <td>7.2</td>
+                                            <td class="c-red">7.2</td>
+                                            <td>19,189,300</td>
+                                        </tr>
+                                        <tr>
+                                            <td>19,18d,300</td>
+                                            <td>7.2</td>
+                                            <td class="c-red">7.2</td>
+                                            <td>19,189,300</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                                <div class="wrap-progress mt-auto">
+                                    <div class="progress">
+                                        <div class="progress-bar bg-success" role="progressbar" style="width: 62.50%" aria-valuenow="62.50" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 38.50%" aria-valuenow="38.50" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 p-0">
+                                <table class="table  table-footer table-time text-capitalize">
+                                    <thead>
+                                        <tr>
+                                            <th>time</th>
+                                            <th class="c-blue">b/s</th>
+                                            <th>volume</th>
+                                            <th>price</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>11:07:10</td>
+                                            <td>b</td>
+                                            <td>2,000</td>
+                                            <td>7,15</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:07:10</td>
+                                            <td>b</td>
+                                            <td>2,000</td>
+                                            <td>7,15</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:07:10</td>
+                                            <td>b</td>
+                                            <td>2,000</td>
+                                            <td>7,15</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:07:10</td>
+                                            <td>b</td>
+                                            <td>2,000</td>
+                                            <td>7,15</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:07:10</td>
+                                            <td>b</td>
+                                            <td>2,000</td>
+                                            <td>7,15</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:07:10</td>
+                                            <td>b</td>
+                                            <td>2,000</td>
+                                            <td>7,15</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+                <div class="secound-col  p-0">
+                    <table class="table table-fixed table-black h-100 bold-700">
+                        <thead>
+                            <tr>
+                                <th>symbol</th>
+                                <th>b/s</th>
+                                <th>volume</th>
+                                <th>price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-purple">s</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-purple">s</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-purple">s</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                            <tr>
+                                <td>bdms01c1806b</td>
+                                <td class="c-blue">b</td>
+                                <td>1,000</td>
+                                <td class="c-green up">0.32</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="w-100">
+                    <form class="main-form bg-gray px-4" action="">
+                        <div class="d-flex justify-content-between align-items-center text-uppercase">
+
+                            <div class="form-group d-flex">
+                                <select class="form-control form-group-list " id="">
+                                    <option>0091597</option>
+                                    <option>0091597</option>
+                                    <option>0091597</option>
+                                    <option>0091597</option>
+                                    <option>0091597</option>
+                                </select>
+                                <button class="btn btn-cancel">
+                                    <i class="far fa-times"></i>
+                                    Cancel
+                                </button>
+                            </div>
+                            <div>
+                                <p>buy limit:
+                                    <span>-55.00</span>
+                                </p>
+                            </div>
+                            <div>
+                                <p>credit line :
+                                    <span>-55.00</span>
+                                </p>
+                            </div>
+                            <div>
+                                <p>Cash Balance:
+                                    <span>-55.00</span>
+                                </p>
+                            </div>
+                            <div>
+                                <p>can buy :
+                                    <span>yes</span>
+                                </p>
+                            </div>
+                            <div>
+                                <p>can sell :
+                                    <span>yes</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="wrap-form-secound d-flex justify-content-between text-capitalize mt-2">
+                            <div class="wrap-check">
+                            <div class="form-check w-5vw">
+                                <input class="form-check-input checkboxOption" type="radio" value="option1" name="main-order" id="buy">
+                                <label class="form-check-label ml-1" for="buy">
+                                    buy
+                                </label>
+                            </div>
+                            <div class="form-check w-5vw">
+                                <input class="form-check-input checkboxOption" type="radio" value="option1" name="main-order" id="sell">
+                                <label class="form-check-label ml-1" for="sell">
+                                    sell
+                                </label>
+                            </div>
+                        </div>
+                            <div class="form-group position-relative wrap-option-symblo">
+                                <input class="px-3 form-control option-symblo" type="text" name="" id="">
+                                <ul class="option-symblo-list">
+                                    <li value="menu1">menu 1</li>
+                                    <li value="menu2">menu 2</li>
+                                    <li value="menu3">menu 3</li>
+                                    <li value="menu4">menu 4</li>
+                                    <li value="menu5">menu 5</li>
+                                    <li value="menu6">menu 6</li>
+                                    <li value="menu7">menu 7</li>
+                                    <li value="menu8">menu 8</li>
+                                    <li value="menu9">menu 9</li>
+                                    <li value="menu10">menu 10</li>
+                                    <li value="menu11">menu 11</li>
+                                    <li value="menu12">menu 12</li>
+                                    <li value="menu13">menu 13</li>
+                                    <li value="menu14">menu 14</li>
+                                    <li value="menu15">menu 15</li>
+                                </ul>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                <label class="form-check-label" for="defaultCheck1">
+                                    nvdr
+                                </label>
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex">
+                                <div class="form-group d-flex align-items-center mr-3">
+                                    <label class="w-4vw" for="">qty.</label>
+                                    <div class="wrap-inputNumber">
+                                        <input type="number" class="form-control" id="" placeholder="">
+                                        <div data-calnum="plus" class="plus calnum">
+                                            <i class="fal fa-plus"></i>
+                                        </div>
+                                        <div data-calnum="minus" class="minus calnum">
+                                            <i class="fal fa-minus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group d-flex align-items-center">
+                                    <label for="">price</label>
+                                    <div class="wrap-inputNumber">
+                                        <input type="number" class="form-control" id="" placeholder="">
+                                        <div data-calnum="plus" class="plus calnum">
+                                            <i class="fal fa-plus"></i>
+                                        </div>
+                                        <div data-calnum="minus" class="minus calnum">
+                                            <i class="fal fa-minus"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                </div>
+                                <div>
+                                        <div class="component-cond mt-2">
+                                                <div class="d-flex">
+                                                    <div class="d-flex align-items-center mr-3">
+                                                        <label class="mb-0 w-4vw" for="">Iceberg: </label>
+                                                        <input class="form-control form-group-list" type="text">
+                                                    </div>
+                                                    <div class="d-flex align-items-center flex-grow-1">
+                                                        <label class="mb-0" for="">Validity: </label>
+                                                        <select class="form-control flex-grow-1">
+                                                            <option>Day</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control width-input-mini w-7vw" id="">
+                                    <option>Limit</option>
+                                    <option>ATO</option>
+                                    <option>ATC</option>
+                                    <option>MP</option>
+                                    <option>MKT</option>
+                                    <option>MKL</option>
+                                </select>
+                            </div>
+
+                            <p id="btn-cound" class="btn bg-white c-black "> cound</p>
+                            <p data-model="key" class="lock-open open-model">
+                                <i class="far fa-lock-open"></i>
+                            </p>
+                            <button type="button" class="btn">Empty</button>
+                            <div class="d-flex">
+                                <button data-model="order" type="button" class="mr-2 btn bg-green btn-submit open-model">submit</button>
+                                <button type="reset" class="btn">Clear</button>
+                            </div>
+                            <div class="wrap-icon-refresh">
+                                <i id="btn-refresh" class="far fa-sync-alt"></i>
+                            </div>
+                        </div>
+
+
+                        
+                    </form>
+
+                    <ul class="mini-tab d-flex align-items-end bold-700">
+                        <li data-listminitab="order" class="active">Order</li>
+                        <li data-listminitab="dealsum">Deal Sum</li>
+                        <li data-listminitab="deal">Deal</li>
+                    </ul>
+                    <div class="wrap-all-table-mini scroll-back">
+                        <div data-wraptablemini="order" class="wrap-table-mini wrap-table-mini-order">
+
+                            <table data-tablemini="order" class="table  table-mini table-borderless text-right bold-700">
+                                <thead>
+                                    <tr class="text-center">
+                                        <th></th>
+                                        <th>#</th>
+                                        <th>B/S</th>
+                                        <th>Stock</th>
+                                        <th>T</th>
+                                        <th>Volume</th>
+                                        <th>Price</th>
+                                        <th>Matched</th>
+                                        <th></th>
+                                        <th>Public</th>
+                                        <th>ST</th>
+                                        <th>Time</th>
+                                        <th>QT</th>
+                                        <th>Cond.</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="table-mini-order--td1">
+                                            <input class="table-mini-order-check" type="checkbox">
+                                        </td>
+                                        <td class="table-mini-order--td2">1</td>
+                                        <td class="table-mini-order--td3 c-red">S</td>
+                                        <td class="table-mini-order--td4">ATM</td>
+                                        <td class="table-mini-order--td5">
+                                            <input class="table-mini-order-nvdr" type="checkbox" name="" id="">
+                                        </td>
+                                        <td class="table-mini-order--td6">
+                                            <p class="table-mini-order-volume">1500</p>
+                                        </td>
+                                        <td class="table-mini-order--td7">
+                                            <p class="table-mini-order-price">ATO Price</p>
+                                        </td>
+                                        <td class="table-mini-order--td8">1234</td>
+                                        <td class="table-mini-order--td9 d-flex align-items-center">
+                                            <div class="wrap-icon bg-check mr-1">
+                                                <i class="fal fa-check icon table-mini-order-save-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-close-volume"></i>
+                                            </div>
+                                        </td>
+                                        <td class="table-mini-order--td10">100</td>
+                                        <td class="table-mini-order--td11">0</td>
+                                        <td class="table-mini-order--td12">10:51:50</td>
+                                        <td class="table-mini-order--td13">Y</td>
+                                        <td class="table-mini-order--td14"></td>
+                                        <td class="table-mini-order--td15">
+                                            <div class="wrap-icon bg-pen">
+                                                <i class="fal fa-pen icon table-mini-order-edit-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-delete-column"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-mini-order--td1">
+                                            <input class="table-mini-order-check" type="checkbox">
+                                        </td>
+                                        <td class="table-mini-order--td2">1</td>
+                                        <td class="table-mini-order--td3 c-red">S</td>
+                                        <td class="table-mini-order--td4">ATM</td>
+                                        <td class="table-mini-order--td5">
+                                            <input class="table-mini-order-nvdr" type="checkbox" name="" id="">
+                                        </td>
+                                        <td class="table-mini-order--td6">
+                                            <p class="table-mini-order-volume">1500</p>
+                                        </td>
+                                        <td class="table-mini-order--td7">
+                                            <p class="table-mini-order-price">ATO Price</p>
+                                        </td>
+                                        <td class="table-mini-order--td8"></td>
+                                        <td class="table-mini-order--td9 d-flex align-items-center">
+                                            <div class="wrap-icon bg-check mr-1">
+                                                <i class="fal fa-check icon table-mini-order-save-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-close-volume"></i>
+                                            </div>
+                                        </td>
+                                        <td class="table-mini-order--td10">100</td>
+                                        <td class="table-mini-order--td11">0</td>
+                                        <td class="table-mini-order--td12">10:51:50</td>
+                                        <td class="table-mini-order--td13">Y</td>
+                                        <td class="table-mini-order--td14"></td>
+                                        <td class="table-mini-order--td15">
+                                            <div class="wrap-icon bg-pen">
+                                                <i class="fal fa-pen icon table-mini-order-edit-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-delete-column"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-mini-order--td1">
+                                            <input class="table-mini-order-check" type="checkbox">
+                                        </td>
+                                        <td class="table-mini-order--td2">1</td>
+                                        <td class="table-mini-order--td3 c-red">S</td>
+                                        <td class="table-mini-order--td4">ATM</td>
+                                        <td class="table-mini-order--td5">
+                                            <input class="table-mini-order-nvdr" type="checkbox" name="" id="">
+                                        </td>
+                                        <td class="table-mini-order--td6">
+                                            <p class="table-mini-order-volume">1500</p>
+                                        </td>
+                                        <td class="table-mini-order--td7">
+                                            <p class="table-mini-order-price">ATO Price</p>
+                                        </td>
+                                        <td class="table-mini-order--td8"></td>
+                                        <td class="table-mini-order--td9 d-flex align-items-center">
+                                            <div class="wrap-icon bg-check mr-1">
+                                                <i class="fal fa-check icon table-mini-order-save-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-close-volume"></i>
+                                            </div>
+                                        </td>
+                                        <td class="table-mini-order--td10">100</td>
+                                        <td class="table-mini-order--td11">0</td>
+                                        <td class="table-mini-order--td12">10:51:50</td>
+                                        <td class="table-mini-order--td13">Y</td>
+                                        <td class="table-mini-order--td14"></td>
+                                        <td class="table-mini-order--td15">
+                                            <div class="wrap-icon bg-pen">
+                                                <i class="fal fa-pen icon table-mini-order-edit-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-delete-column"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-mini-order--td1">
+                                            <input class="table-mini-order-check" type="checkbox">
+                                        </td>
+                                        <td class="table-mini-order--td2">1</td>
+                                        <td class="table-mini-order--td3 c-red">S</td>
+                                        <td class="table-mini-order--td4">ATM</td>
+                                        <td class="table-mini-order--td5">
+                                            <input class="table-mini-order-nvdr" type="checkbox" name="" id="">
+                                        </td>
+                                        <td class="table-mini-order--td6">
+                                            <p class="table-mini-order-volume">1500</p>
+                                        </td>
+                                        <td class="table-mini-order--td7">
+                                            <p class="table-mini-order-price">ATO Price</p>
+                                        </td>
+                                        <td class="table-mini-order--td8"></td>
+                                        <td class="table-mini-order--td9 d-flex align-items-center">
+                                            <div class="wrap-icon bg-check mr-1">
+                                                <i class="fal fa-check icon table-mini-order-save-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-close-volume"></i>
+                                            </div>
+                                        </td>
+                                        <td class="table-mini-order--td10">100</td>
+                                        <td class="table-mini-order--td11">0</td>
+                                        <td class="table-mini-order--td12">10:51:50</td>
+                                        <td class="table-mini-order--td13">Y</td>
+                                        <td class="table-mini-order--td14"></td>
+                                        <td class="table-mini-order--td15">
+                                            <div class="wrap-icon bg-pen">
+                                                <i class="fal fa-pen icon table-mini-order-edit-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-delete-column"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-mini-order--td1">
+                                            <input class="table-mini-order-check" type="checkbox">
+                                        </td>
+                                        <td class="table-mini-order--td2">2</td>
+                                        <td class="table-mini-order--td3 c-red">S</td>
+                                        <td class="table-mini-order--td4">ATM</td>
+                                        <td class="table-mini-order--td5">
+                                            <input class="table-mini-order-nvdr" type="checkbox" name="" id="">
+                                        </td>
+                                        <td class="table-mini-order--td6">
+                                            <p class="table-mini-order-volume">1500</p>
+                                        </td>
+                                        <td class="table-mini-order--td7">
+                                            <p class="table-mini-order-price">ATO Price</p>
+                                        </td>
+                                        <td class="table-mini-order--td8"></td>
+                                        <td class="table-mini-order--td9 d-flex align-items-center">
+                                            <div class="wrap-icon bg-check mr-1">
+                                                <i class="fal fa-check icon table-mini-order-save-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-close-volume"></i>
+                                            </div>
+                                        </td>
+                                        <td class="table-mini-order--td10">100</td>
+                                        <td class="table-mini-order--td11">0</td>
+                                        <td class="table-mini-order--td12">10:51:50</td>
+                                        <td class="table-mini-order--td13">Y</td>
+                                        <td class="table-mini-order--td14"></td>
+                                        <td class="table-mini-order--td15">
+                                            <div class="wrap-icon bg-pen">
+                                                <i class="fal fa-pen icon table-mini-order-edit-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-delete-column"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-mini-order--td1">
+                                            <input class="table-mini-order-check" type="checkbox">
+                                        </td>
+                                        <td class="table-mini-order--td2">2</td>
+                                        <td class="table-mini-order--td3 c-red">S</td>
+                                        <td class="table-mini-order--td4">ATM</td>
+                                        <td class="table-mini-order--td5">
+                                            <input class="table-mini-order-nvdr" type="checkbox" name="" id="">
+                                        </td>
+                                        <td class="table-mini-order--td6">
+                                            <p class="table-mini-order-volume">1500</p>
+                                        </td>
+                                        <td class="table-mini-order--td7">
+                                            <p class="table-mini-order-price">ATO Price</p>
+                                        </td>
+                                        <td class="table-mini-order--td8"></td>
+                                        <td class="table-mini-order--td9 d-flex align-items-center">
+                                            <div class="wrap-icon bg-check mr-1">
+                                                <i class="fal fa-check icon table-mini-order-save-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-close-volume"></i>
+                                            </div>
+                                        </td>
+                                        <td class="table-mini-order--td10">100</td>
+                                        <td class="table-mini-order--td11">0</td>
+                                        <td class="table-mini-order--td12">10:51:50</td>
+                                        <td class="table-mini-order--td13">Y</td>
+                                        <td class="table-mini-order--td14"></td>
+                                        <td class="table-mini-order--td15">
+                                            <div class="wrap-icon bg-pen">
+                                                <i class="fal fa-pen icon table-mini-order-edit-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-delete-column"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-mini-order--td1">
+                                            <input class="table-mini-order-check" type="checkbox">
+                                        </td>
+                                        <td class="table-mini-order--td2">2</td>
+                                        <td class="table-mini-order--td3 c-red">S</td>
+                                        <td class="table-mini-order--td4">ATM</td>
+                                        <td class="table-mini-order--td5">
+                                            <input class="table-mini-order-nvdr" type="checkbox" name="" id="">
+                                        </td>
+                                        <td class="table-mini-order--td6">
+                                            <p class="table-mini-order-volume">1500</p>
+                                        </td>
+                                        <td class="table-mini-order--td7">
+                                            <p class="table-mini-order-price">ATO Price</p>
+                                        </td>
+                                        <td class="table-mini-order--td8"></td>
+                                        <td class="table-mini-order--td9 d-flex align-items-center">
+                                            <div class="wrap-icon bg-check mr-1">
+                                                <i class="fal fa-check icon table-mini-order-save-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-close-volume"></i>
+                                            </div>
+                                        </td>
+                                        <td class="table-mini-order--td10">100</td>
+                                        <td class="table-mini-order--td11">0</td>
+                                        <td class="table-mini-order--td12">10:51:50</td>
+                                        <td class="table-mini-order--td13">Y</td>
+                                        <td class="table-mini-order--td14"></td>
+                                        <td class="table-mini-order--td15">
+                                            <div class="wrap-icon bg-pen">
+                                                <i class="fal fa-pen icon table-mini-order-edit-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-delete-column"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-mini-order--td1">
+                                            <input class="table-mini-order-check" type="checkbox">
+                                        </td>
+                                        <td class="table-mini-order--td2">2</td>
+                                        <td class="table-mini-order--td3 c-red">S</td>
+                                        <td class="table-mini-order--td4">ATM</td>
+                                        <td class="table-mini-order--td5">
+                                            <input class="table-mini-order-nvdr" type="checkbox" name="" id="">
+                                        </td>
+                                        <td class="table-mini-order--td6">
+                                            <p class="table-mini-order-volume">1500</p>
+                                        </td>
+                                        <td class="table-mini-order--td7">
+                                            <p class="table-mini-order-price">ATO Price</p>
+                                        </td>
+                                        <td class="table-mini-order--td8"></td>
+                                        <td class="table-mini-order--td9 d-flex align-items-center">
+                                            <div class="wrap-icon bg-check mr-1">
+                                                <i class="fal fa-check icon table-mini-order-save-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-close-volume"></i>
+                                            </div>
+                                        </td>
+                                        <td class="table-mini-order--td10">100</td>
+                                        <td class="table-mini-order--td11">0</td>
+                                        <td class="table-mini-order--td12">10:51:50</td>
+                                        <td class="table-mini-order--td13">Y</td>
+                                        <td class="table-mini-order--td14"></td>
+                                        <td class="table-mini-order--td15">
+                                            <div class="wrap-icon bg-pen">
+                                                <i class="fal fa-pen icon table-mini-order-edit-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-delete-column"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="table-mini-order--td1">
+                                            <input class="table-mini-order-check" type="checkbox">
+                                        </td>
+                                        <td class="table-mini-order--td2">2</td>
+                                        <td class="table-mini-order--td3 c-red">S</td>
+                                        <td class="table-mini-order--td4">ATM</td>
+                                        <td class="table-mini-order--td5">
+                                            <input class="table-mini-order-nvdr" type="checkbox" name="" id="">
+                                        </td>
+                                        <td class="table-mini-order--td6">
+                                            <p class="table-mini-order-volume">1500</p>
+                                        </td>
+                                        <td class="table-mini-order--td7">
+                                            <p class="table-mini-order-price">ATO Price</p>
+                                        </td>
+                                        <td class="table-mini-order--td8"></td>
+                                        <td class="table-mini-order--td9 d-flex align-items-center">
+                                            <div class="wrap-icon bg-check mr-1">
+                                                <i class="fal fa-check icon table-mini-order-save-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-close-volume"></i>
+                                            </div>
+                                        </td>
+                                        <td class="table-mini-order--td10">100</td>
+                                        <td class="table-mini-order--td11">0</td>
+                                        <td class="table-mini-order--td12">10:51:50</td>
+                                        <td class="table-mini-order--td13">Y</td>
+                                        <td class="table-mini-order--td14"></td>
+                                        <td class="table-mini-order--td15">
+                                            <div class="wrap-icon bg-pen">
+                                                <i class="fal fa-pen icon table-mini-order-edit-volume"></i>
+                                            </div>
+                                            <div class="wrap-icon bg-times">
+                                                <i class="fal fa-times icon table-mini-order-delete-column"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+
+
+
+
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div data-wraptablemini="dealsum" class="wrap-table-mini wrap-table-mini-dealsum">
+
+                            <table data-tablemini="dealsum" class="table table-mini table-borderless bold-700">
+                                <thead>
+                                    <tr class="text-center">
+                                        <th>Stock
+                                            <i class="fas fa-caret-down"></i>
+                                        </th>
+                                        <th>B/S</th>
+                                        <th>Volume</th>
+                                        <th>Price</th>
+                                        <th>Amount</th>
+                                        <th>Fee</th>
+                                        <th>VAT</th>
+                                        <th>Net</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-uppercase">tmb</td>
+                                        <td class="text-uppercase c-red">S</td>
+                                        <td>11,200</td>
+                                        <td>2.46</td>
+                                        <td>27,552.00</td>
+                                        <td>70.81</td>
+                                        <td>4.96</td>
+                                        <td>+27,476.23</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-uppercase">tmb</td>
+                                        <td class="text-uppercase c-red">S</td>
+                                        <td>11,200</td>
+                                        <td>2.46</td>
+                                        <td>27,552.00</td>
+                                        <td>70.81</td>
+                                        <td>4.96</td>
+                                        <td>+27,476.23</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-uppercase">tmb</td>
+                                        <td class="text-uppercase c-green">S</td>
+                                        <td>11,200</td>
+                                        <td>2.46</td>
+                                        <td>27,552.00</td>
+                                        <td>70.81</td>
+                                        <td>4.96</td>
+                                        <td>+27,476.23</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-uppercase">tmb</td>
+                                        <td class="text-uppercase">S</td>
+                                        <td>11,200</td>
+                                        <td>2.46</td>
+                                        <td>27,552.00</td>
+                                        <td>70.81</td>
+                                        <td>4.96</td>
+                                        <td>+27,476.23</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-uppercase">tmb</td>
+                                        <td class="text-uppercase">S</td>
+                                        <td>11,200</td>
+                                        <td>2.46</td>
+                                        <td>27,552.00</td>
+                                        <td>70.81</td>
+                                        <td>4.96</td>
+                                        <td>+27,476.23</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-uppercase">tmb</td>
+                                        <td class="text-uppercase">S</td>
+                                        <td>11,200</td>
+                                        <td>2.46</td>
+                                        <td>27,552.00</td>
+                                        <td>70.81</td>
+                                        <td>4.96</td>
+                                        <td>+27,476.23</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-uppercase">tmb</td>
+                                        <td class="text-uppercase">S</td>
+                                        <td>11,200</td>
+                                        <td>2.46</td>
+                                        <td>27,552.00</td>
+                                        <td>70.81</td>
+                                        <td>4.96</td>
+                                        <td>+27,476.23</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="text-uppercase">tmb</td>
+                                        <td class="text-uppercase">S</td>
+                                        <td>11,200</td>
+                                        <td>2.46</td>
+                                        <td>27,552.00</td>
+                                        <td>70.81</td>
+                                        <td>4.96</td>
+                                        <td>+27,476.23</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div data-wraptablemini="deal" class="wrap-table-mini wrap-table-mini-deal">
+
+                            <table data-tablemini="deal" class="table table-mini table-borderless bold-700">
+                                <thead>
+                                    <tr class="text-center">
+                                        <th>#</th>
+                                        <th>B/S</th>
+                                        <th>Stock</th>
+                                        <th>Volume</th>
+                                        <th>Price</th>
+                                        <th>Amount</th>
+                                        <th>Time</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>2</td>
+                                        <td class="c-red">S</td>
+                                        <td>PTT</td>
+                                        <td>100</td>
+                                        <td>520.00</td>
+                                        <td>52,000</td>
+                                        <td>52,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td class="c-red">S</td>
+                                        <td>PTT</td>
+                                        <td>100</td>
+                                        <td>520.00</td>
+                                        <td>52,000</td>
+                                        <td>52,000</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2</td>
+                                        <td class="c-red">S</td>
+                                        <td>PTT</td>
+                                        <td>100</td>
+                                        <td>520.00</td>
+                                        <td>52,000</td>
+                                        <td>52,000</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2</td>
+                                        <td class="c-red">S</td>
+                                        <td>PTT</td>
+                                        <td>100</td>
+                                        <td>520.00</td>
+                                        <td>52,000</td>
+                                        <td>52,000</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2</td>
+                                        <td class="c-red">S</td>
+                                        <td>PTT</td>
+                                        <td>100</td>
+                                        <td>520.00</td>
+                                        <td>52,000</td>
+                                        <td>52,000</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2</td>
+                                        <td class="c-red">S</td>
+                                        <td>PTT</td>
+                                        <td>100</td>
+                                        <td>520.00</td>
+                                        <td>52,000</td>
+                                        <td>52,000</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2</td>
+                                        <td class="c-red">S</td>
+                                        <td>PTT</td>
+                                        <td>100</td>
+                                        <td>520.00</td>
+                                        <td>52,000</td>
+                                        <td>52,000</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2</td>
+                                        <td class="c-red">S</td>
+                                        <td>PTT</td>
+                                        <td>100</td>
+                                        <td>520.00</td>
+                                        <td>52,000</td>
+                                        <td>52,000</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2</td>
+                                        <td class="c-red">S</td>
+                                        <td>PTT</td>
+                                        <td>100</td>
+                                        <td>520.00</td>
+                                        <td>52,000</td>
+                                        <td>52,000</td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>2</td>
+                                        <td class="c-red">S</td>
+                                        <td>PTT</td>
+                                        <td>100</td>
+                                        <td>520.00</td>
+                                        <td>52,000</td>
+                                        <td>52,000</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>2</td>
+                                        <td class="c-red">S</td>
+                                        <td>PTT</td>
+                                        <td>100</td>
+                                        <td>520.00</td>
+                                        <td>52,000</td>
+                                        <td>52,000</td>
+                                    </tr>
+
+
+
+
+                                </tbody>
+                            </table>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- All Model -->
+    <div data-wrapmodel="key" class="wrap-model wrap-model-key">
+        <div class="box-model model-key">
+            <i class="far fa-times close-model"></i>
+
+            <h3 class="d-block title mb-3">UOBTrade : Save Pin</h3>
+
+
+            <p class="des mb-2">
+                Save PIN function allows you to save your Pin until
+                <br> logout or session explred. During this period, re-enter
+                <br> PIN is not required for any transaction performed in
+                <br> this trading program only.
+            </p>
+            <p class="des">
+                Therefore, you understand and accept the risk of
+                <br> using this save pin function. We will take no
+                <br> responsibility on any loss or damage from any error
+                <br> occured.
+            </p>
+            <div class="d-flex justify-content-end mt-3">
+                <button class="mr-3">
+                    Submit
+                </button>
+                <button class="close-model">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div data-wrapmodel="order" class="wrap-model wrap-model-order">
+        <div class="box-model model-order">
+            <i class="far fa-times close-model"></i>
+            <h3 class="d-block title mb-3">UtradePlus : Confirmation of Placing Order</h3>
+            <div class="d-flex">
+                <div class="px-0">
+                    <button class="buy text-uppercase">buy</button>
+                </div>
+                <div class="pl-5">
+                    <div class="d-flex justify-content-between">
+                        <p class="pl-5">Buy :</p>
+                        <p>WAVE</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="pl-5">Volume :</p>
+                        <p>200</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p class="pl-5">Price :</p>
+                        <p>3.50</p>
+                    </div>
+                    <div class="border my-2"></div>
+                    <div class="d-flex flex-column">
+                        <p class="pl-5 c-yellow">Total Amount: 700.00</p>
+                        <p class="pl-5 c-yellow des">(Commision and VAT not included)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-end mt-3">
+                <button class="mr-3">
+                    Submit
+                </button>
+                <button class="close-model">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div data-wrapmodel="deleteOrder" class="wrap-model wrap-model-deleteOrder">
+        <div class="box-model model-deleteOrder">
+            <i class="far fa-times close-model"></i>
+            <h3 class="d-block title mb-3">UtradePlus : Confirmation of Order Canceation</h3>
+            <p id="deleteOrder-count" class="mb-2"></p>
+            <div class="d-flex flex-column">
+                <table class="table table-bordered table-model-deleteOrder mb-3">
+                    <thead>
+                        <tr>
+                            <th>Orderno</th>
+                            <th>Nvdr</th>
+                            <th>Symbol</th>
+                            <th>Side</th>
+                            <th>Price</th>
+                            <th>Volumn</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <div class="d-flex align-items-center w-25">
+                    <span class="mr-3">Pincode :</span>
+                    <input id="pinCode" class="form-control w-50" type="number">
+                </div>
+            </div>
+            <div class="d-flex justify-content-end mt-3">
+                <button class="mr-3">
+                    Submit
+                </button>
+                <button class="close-model">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
