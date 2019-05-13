@@ -1,7 +1,10 @@
- # Mr.Kritee Sridamrong  (kriteemail@gmail.com) 
- ## (081-4179502) 8.00- 17.00
-  Email Address:	kriteemail@gmail.com
-  Birth Date:		2 July 1993
+# Mr.Kritee Sridamrong  (kriteemail@gmail.com)  
+-Birth Date : 2 July 1993
+-26 years
+
+## Contact 
+-(081-4179502) 8.00- 17.00
+- Email Address: kriteemail@gmail.com
 
 ## Experiences FrontEnd Dev 2 years
 - FrontEnd at Egazine 9 months
@@ -72,3 +75,7 @@
  
 ## animation with greensouck
  - <a href="https://kriteet.github.io/portfolio/work/psd1-animation/index.html" target="_blank">1</a>
+
+
+
+ 
