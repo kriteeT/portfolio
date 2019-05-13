@@ -1,6 +1,6 @@
-# Mr.Kritee Sridamrong  (kriteemail@gmail.com)  
--Birth Date : 2 July 1993
--26 years
+# Mr.Kritee Sridamrong  (kriteemail@gmail.com)
+- Birth Date : 2 July 1993
+- 26 years
 
 ## Contact 
 - (081-4179502) 8.00- 17.00
@@ -11,7 +11,7 @@
 - FrontEnd at Gogin Studio a year
 
 ## Education
--High Vocational Certificate, Lopburi Technical Callege Major: Computer Software    GPA 3.00
+- High Vocational Certificate, Lopburi Technical Callege Major: Computer Software    GPA 3.00
 - [W3Schools](https://www.w3schools.com/) always
 - [CSS-Tricks](https://css-tricks.com/) always
 - [Youtube](https://youtube.com/) always
