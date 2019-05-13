@@ -26,7 +26,7 @@
 - rsponsive design (not just medai query)
   
   
-##  
+##  I am looking for
 - psd to code
 - work on git
 - modern js frameworks web component(angularjs ,react, vul)
@@ -72,7 +72,3 @@
  
 ## animation with greensouck
  - <a href="https://kriteet.github.io/portfolio/work/psd1-animation/index.html" target="_blank">1</a>
-
-
-
- 
