@@ -26,7 +26,7 @@
 - version control (git)
 - cross browser(line browser).
 - RESTful API from server to display for customers.
-- rsponsive design (not just medai query)
+- responsive design (not just media query)
   
   
 ##  I am looking for
