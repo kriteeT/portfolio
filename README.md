@@ -3,7 +3,7 @@
 -26 years
 
 ## Contact 
--(081-4179502) 8.00- 17.00
+- (081-4179502) 8.00- 17.00
 - Email Address: kriteemail@gmail.com
 
 ## Experiences FrontEnd Dev 2 years
