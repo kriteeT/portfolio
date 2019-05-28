@@ -12,10 +12,12 @@
 
 ## Education
 - High Vocational Certificate, Lopburi Technical Callege Major: Computer Software    GPA 3.00
-- [W3Schools](https://www.w3schools.com/) always
-- [CSS-Tricks](https://css-tricks.com/) always
-- [Youtube](https://youtube.com/) always
+
 - Course online always
+  - [W3Schools](https://www.w3schools.com/)
+  - [CSS-Tricks](https://css-tricks.com/)
+  - [mastering-react](https://codewithmosh.com/p/mastering-react)
+  - [freecodecamp](https://www.freecodecamp.org/) etc..
 
 ##  Skills
 - html5
