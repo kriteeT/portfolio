@@ -5,14 +5,14 @@
 
 ## Contact
 
-- (081-417-9502) 8:00 - 17:00
+- Tel: 081-417-9502 (8:00 - 17:00)
 - Email Address: kriteemail@gmail.com
 
 ## Experiences FrontEnd Dev 3 years
 
 - FrontEnd at Egazine 15 months
 - FrontEnd at Gogin Studio a year
-- FrontEnd at morphosis a year
+- FrontEnd at Morphosis a year
 
 ## Education
 
