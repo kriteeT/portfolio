@@ -5,7 +5,7 @@
 
 ## Contact
 
-- (081-4179502) 8.00 - 17.00
+- (081-417-9502) 8:00 - 17:00
 - Email Address: kriteemail@gmail.com
 
 ## Experiences FrontEnd Dev 3 years
@@ -26,16 +26,16 @@
 
 ## Skills
 
-- html5
-- css3 (grid, flexbox, advanced selector, animation)
+- HTML5
+- CSS3 (grid, flexbox, advanced selector, animation)
   - framework (bootstrap, bulma)
-- js (oop, es6, RegEx)
+- JS (oop, es6, RegEx)
   - framework (jquery, vueJs, reactJS)
-  - Js animation (greensock)
-- version control (git)
-- cross browser.
+  - animation (greensock)
+- Version control (git)
+- Cross browser.
 - RESTful API from server to display for customers.
-- responsive design (not just media query)
+- Responsive design (not just media query)
 
 ## I am looking for
 
