@@ -54,28 +54,24 @@
 
 ## Portfolio examples / Works examples Going Studio
 
-- <a href="http://wordpress-155228-563366.cloudwaysapps.com/" target="_blank">Cario</a>
 - <a href="https://kriteet.github.io/portfolio/work/Uob/" target="_blank">UOB Trand</a>
 - <a href="http://ecolab-service.co.th/" target="_blank">Ecolab</a>
 - <a href="http://ee.eng.su.ac.th/" target="_blank">Electrical engineering</a>
-- <a href="http://rmsdigitalscale.com/home/shop/" target="_blank">RMS scale</a>
 - <a href="http://tcesolutions.com/" target="_blank">TCE</a>
-- <a href="http://wordpress-155228-536664.cloudwaysapps.com/" target="_blank">Thai Stock Society</a>
 - <a href="http://classyclinic.com/" target="_blank">Classy Clinic</a>
-- <a href="http://phpstack-155228-700635.cloudwaysapps.com/Exam" target="_blank">Humen Ku</a>
 - <a href="https://unknownpresent.com/" target="_blank">Unkownpresent</a>
 - <a href="http://www.italthaiengineering.com/backupGoing/" target="_blank">ItalThai</a>
 
-## train html, css, js from W3Schools
+## ForFun html, css, js from W3Schools
 
 - <a href="https://kriteet.github.io/portfolio/work/admin/index.html" target="_blank">admin</a>
 - <a href="https://kriteet.github.io/portfolio/work/mailbox/index.html" target="_blank">mailbox</a>
 
-## code html, css, js from pinterest
+## ForFun html, css, js from Pinterest
 
 - <a href="https://kriteet.github.io/portfolio/work/psd1/index.html" target="_blank">1</a>
 - <a href="https://kriteet.github.io/portfolio/work/psd2/index.html" target="_blank">2</a>
 
-## animation with greensouck
+## ForFun animation
 
 - <a href="https://kriteet.github.io/portfolio/work/psd1-animation/index.html" target="_blank">1</a>
