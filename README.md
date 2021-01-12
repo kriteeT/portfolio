@@ -27,7 +27,7 @@
 ## Skills
 
 - HTML5
-- CSS3 (grid, flexbox, advanced selector, animation)
+- CSS3 (grid, flexbox, animation)
   - framework (bootstrap, bulma)
 - JS (oop, es6, RegEx)
   - framework (jquery, vueJs, reactJS)
