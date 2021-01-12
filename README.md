@@ -1,4 +1,4 @@
-# Mr.Kritee Sridamrong (kriteemail@gmail.com)
+# Mr.Kritee Sridamrong. (kriteemail@gmail.com)
 
 - Birth Date : 2 July 1993
 - 27 years
