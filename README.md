@@ -6,7 +6,7 @@
 ## Contact
 
 - Tel: 081-417-9502 (8:00 - 17:00)
-- Email Address: kriteemail@gmail.com
+- Email: kriteemail@gmail.com
 
 ## Experiences FrontEnd Dev 3 years
 
@@ -53,7 +53,6 @@
   - <a href="http://dmiceplanner.businesseventsthailand.com/dmice/copromotionwithtat.php" target="_blank">3</a>
 
 ## Portfolio examples / Works examples Going Studio
-
 
 - <a href="https://cariogolfcart.com/" target="_blank">cario</a>
 - <a href="https://kriteet.github.io/portfolio/work/Uob/" target="_blank">UOB Trand</a>
