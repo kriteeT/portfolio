@@ -1,4 +1,4 @@
-# Mr.Kritee Sridamrong. (kriteemail@gmail.com)
+# Mr.Kritee Sridamrong. (Tee)
 
 - Birth Date : 2 July 1993
 - 27 years
@@ -18,7 +18,7 @@
 
 - High Vocational Certificate, Lopburi Technical Callege Major: Computer Software GPA 3.00
 
-- Course online always
+- always course online
   - [stackoverflow](https://stackoverflow.com/)
   - [W3Schools](https://www.w3schools.com/)
   - [CSS-Tricks](https://css-tricks.com/)
@@ -29,6 +29,7 @@
 - HTML5
 - CSS3 (grid, flexbox, animation)
   - framework (bootstrap, bulma)
+  - preprocessor (scss)
 - JS (oop, es6, RegEx)
   - framework (jquery, vueJs, reactJS)
   - animation (greensock)
@@ -37,9 +38,10 @@
 - RESTful API from server to display for customers.
 - Responsive design (not just media query)
 
-## I am looking for
+## jobs, I am looking for
 
 - psd to code
+- make sure ui beautiful like design
 - work on git
 - modern js frameworks web component(angularjs ,react, vul)
 
