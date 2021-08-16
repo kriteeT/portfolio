@@ -26,15 +26,18 @@
 
 - HTML5
 - CSS3 (grid, flexbox, animation)
-  - framework (bootstrap, bulma)
-  - preprocessor (scss)
-- JS (oop, es6, RegEx)
-  - framework (jquery, vueJs, reactJS)
-  - animation (greensock)
+    - framework (bootstrap, tailwindcss)
+    - preprocessor (scss)
+- JS (typescript, es6)
+    - framework (jquery, vueJs, reactJS)
+    - animation (greensock)
 - Version control (git)
 - Cross browser.
 - RESTful API from server to display for customers.
 - Responsive design (not just media query)
+- Automate Test(unit test, end to end test)
+    - Framework (cypress.io)
+- Basic Understand Docker for frontend.
 
 ## Portfolio examples / Works examples Egazine (only frontend part)
 
