@@ -1,4 +1,4 @@
-# Mr.Kritee Sridamrong. (Tee)
+# Mr.Kritee Sridamrong (Tee)
 
 - Birth Date : 2 July 1993
 - 28 years
