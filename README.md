@@ -1,18 +1,16 @@
 # Mr.Kritee Sridamrong. (Tee)
 
 - Birth Date : 2 July 1993
-- 27 years
+- 28 years
 
 ## Contact
 
 - Tel: 081-417-9502 (8:00 - 17:00)
 - Email: kriteemail@gmail.com
 
-## Experiences FrontEnd Dev 3 years
+## Experiences FrontEnd Dev 4  years
 
-- FrontEnd at Egazine 15 months
-- FrontEnd at Gogin Studio a year
-- FrontEnd at Morphosis a year
+- Work with many Agency and one corporation as Egazine, Going Studio, Morphosis, Gungul
 
 ## Education
 
@@ -38,14 +36,7 @@
 - RESTful API from server to display for customers.
 - Responsive design (not just media query)
 
-## jobs, I am looking for
-
-- psd to code
-- make sure ui beautiful like design
-- work on git
-- modern js frameworks web component(angularjs ,react, vul)
-
-## Portfolio examples / Works examples Egazine
+## Portfolio examples / Works examples Egazine (only frontend part)
 
 - <a href="http://www.d-lite.co.th/" target="_blank">d-lite</a>
 - <a href="https://www.gbprimepay.com/" target="_blank">gbprimepay</a>
@@ -54,7 +45,7 @@
   - <a href="http://dmiceplanner.businesseventsthailand.com/dmice/campaign-d-e.php" target="_blank">2</a>
   - <a href="http://dmiceplanner.businesseventsthailand.com/dmice/copromotionwithtat.php" target="_blank">3</a>
 
-## Portfolio examples / Works examples Going Studio
+## Portfolio examples / Works examples Going Studio (only frontend part)
 
 - <a href="https://cariogolfcart.com/" target="_blank">cario</a>
 - <a href="https://kriteet.github.io/portfolio/work/Uob/" target="_blank">UOB Trand</a>
@@ -65,7 +56,15 @@
 - <a href="https://unknownpresent.com/" target="_blank">Unkownpresent</a>
 - <a href="http://www.italthaiengineering.com/backupGoing/" target="_blank">ItalThai</a>
 
-## ForFun html, css, js from W3Schools
+## jobs, I am looking for
+
+- Pdf to Code
+- Make sure ui beautiful like design
+- Work on git
+- Modern JS frameworks web component (angular, react, vue) * It is very important because it makes the work quality and easy to maintain.
+- Engage with the designer for good looking design for customer and save time to write code 
+
+## ForFun html, css, js from W3Schools 
 
 - <a href="https://kriteet.github.io/portfolio/work/admin/index.html" target="_blank">admin</a>
 - <a href="https://kriteet.github.io/portfolio/work/mailbox/index.html" target="_blank">mailbox</a>
