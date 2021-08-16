@@ -8,9 +8,13 @@
 - Tel: 081-417-9502 (8:00 - 17:00)
 - Email: kriteemail@gmail.com
 
-## Experiences FrontEnd Dev 4  years
+## Experiences FrontEnd Dev 4 years
 
 - Work with many Agency and one corporation as Egazine, Going Studio, Morphosis, Gungul
+
+## Current workplace
+
+- GUNKUL Engineering
 
 ## Education
 
@@ -80,3 +84,7 @@
 ## ForFun animation
 
 - <a href="https://kriteet.github.io/portfolio/work/psd1-animation/index.html" target="_blank">1</a>
+
+## Date can start work
+
+- I can start work after signing the contract in 30 days.
