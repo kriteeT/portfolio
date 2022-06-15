@@ -14,7 +14,7 @@
 
 ## Current workplace
 
-- GUNKUL Engineering
+- Shipnity
 
 ## Education
 
