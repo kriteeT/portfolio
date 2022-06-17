@@ -59,7 +59,6 @@
 - <a href="http://ecolab-service.co.th/" target="_blank">Ecolab</a>
 - <a href="http://ee.eng.su.ac.th/" target="_blank">Electrical engineering</a>
 - <a href="http://tcesolutions.com/" target="_blank">TCE</a>
-- <a href="http://classyclinic.com/" target="_blank">Classy Clinic</a>
 - <a href="https://unknownpresent.com/" target="_blank">Unkownpresent</a>
 - <a href="http://www.italthaiengineering.com/backupGoing/" target="_blank">ItalThai</a>
 
