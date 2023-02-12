@@ -8,7 +8,7 @@
 - Tel: 061-870-3344 (8:00 - 17:00)
 - Email: kriteemail@gmail.com
 
-## Experiences FrontEnd Dev 4 years
+## Experiences FrontEnd Dev 5 years
 
 - Work with many Agency and one corporation as Egazine, Going Studio, Morphosis, Gungul
 
@@ -67,7 +67,7 @@
 - Pdf to Code
 - Make sure ui beautiful like design
 - Work on git
-- Modern JS frameworks web component (angular, react, vue) * It is very important because it makes the work quality and easy to maintain.
+- Modern JS frameworks web component (angular, vue) * It is very important because it makes the work quality and easy to maintain.
 - Engage with the designer for good looking design for customer and save time to write code 
 
 ## ForFun html, css, js from W3Schools 
