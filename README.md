@@ -1,11 +1,11 @@
 # Mr.Kritee Sridamrong (Tee)
 
 - Birth Date : 2 July 1993
-- 28 years
+- 29 years
 
 ## Contact
 
-- Tel: 081-417-9502 (8:00 - 17:00)
+- Tel: 061-870-3344 (8:00 - 17:00)
 - Email: kriteemail@gmail.com
 
 ## Experiences FrontEnd Dev 4 years
@@ -14,7 +14,7 @@
 
 ## Current workplace
 
-- Shipnity
+- Shipnity (1year and 6 months)
 
 ## Education
 
