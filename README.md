@@ -11,6 +11,10 @@
 ## Experiences FrontEnd Dev 5 years
 
 - Work with many Agency and one corporation as Egazine, Going Studio, Morphosis, Gungul
+- 2021 - Present Shipnity (vuejs, vuetify, vuex, nextjs, tailwindcss) 1 year 8 month
+- 2020 - 2021 Gunkul Engineering Public Company Limited (next js, scss) 7 month
+- 2020 - 2020 Morphosis (angular, ionic, scss, rest api, mobile app) 1 year
+- 2018-2020 Egazine (php,jquery,css,responsive) 2 years
 
 ## Current workplace
 
@@ -84,6 +88,4 @@
 
 - <a href="https://kriteet.github.io/portfolio/work/psd1-animation/index.html" target="_blank">1</a>
 
-## Date can start work
 
-- I can start work after signing the contract in 30 days.
