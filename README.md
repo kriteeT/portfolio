@@ -15,11 +15,11 @@
 - 2021 - Present Shipnity (vuejs, vuetify, vuex, nextjs, tailwindcss) 1 year 8 month
 - 2020 - 2021 Gunkul Engineering Public Company Limited (next js, scss) 7 month
 - 2020 - 2020 Morphosis (angular, ionic, scss, rest api, mobile app) 1 year
-- 2018-2020 Egazine (php,jquery,css,responsive) 2 years
+- 2018-2020 Egazine (php, jquery, css, responsive) 2 years
 
 ## Current workplace
 
-- Shipnity (1year and 6 months)
+- Shipnity (1year and 8 months)
 
 ## Education
 
