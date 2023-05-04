@@ -1,4 +1,5 @@
 # Mr.Kritee Sridamrong (Tee)
+![kritee_img](https://user-images.githubusercontent.com/29396086/236159684-de0e89c4-5427-42c8-8390-e3d63391c068.jpeg)
 
 - Birth Date : 2 July 1993
 - 29 years
